@@ -1,40 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Dawn Delatte</title>
+    <description>This is the portfolio and journal site for an Austin-based designer, Dawn Delatte.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 13:35:56 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 13:35:56 -0600</lastBuildDate>
+    <link>dawndelatte.github.io/</link>
+    <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 11 Feb 2015 14:21:05 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 14:21:05 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Week Two</title>
+        <description>&lt;h3 id=&quot;on-middle-ground&quot;&gt;On &lt;em&gt;Middle&lt;/em&gt; Ground&lt;/h3&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;I’m starting to feel like I get it.. sort of.. I think. There are no big lows, thank goodness, and no big highs, besides still being here. &lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;We were assigned a video to watch in our weekend homework that really put some things into perspective. &lt;a href=&quot;https://www.youtube.com/watch?v=1i8ylq4j_EY&quot;&gt;It’s Dangerous to go Alone&lt;/a&gt; talks about &lt;em&gt;Imposter Syndrome&lt;/em&gt; and ways to help yourself or your coworkers overcome some of the hurdles people with insecurities about their skills face (eg. &lt;em&gt;me&lt;/em&gt;).&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;My mind is in a continual state of &lt;strong&gt;blown&lt;/strong&gt;. I’m starting to feel like myself, except that there’s this weird state you get in when you code for too long without a break called HYSTERIA. That’s where the singing happens, and puns happen (get it – git it?), and it’s also where your mind shuts down and everything you know to be true is not working.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That’s when you need a break, sun shine and/or food. It’s amazing the amount of time you can spend on one itty bitty problem only to take a quick shower and discover mid-rinse that you put the right information in THE WRONG PLACE!&lt;/p&gt;
 
+&lt;p&gt;Lesson learned, Week Two, lesson learned. &lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Feb 2015 07:03:47 -0600</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/02/11/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/02/11/welcome-to-jekyll.html</guid>
+        <link>dawndelatte.github.io/the-iron-yard/2015/02/11/week-two.html</link>
+        <guid isPermaLink="true">dawndelatte.github.io/the-iron-yard/2015/02/11/week-two.html</guid>
         
         
-        <category>jekyll</category>
+        <category>the-iron-yard</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>Week One</title>
+        <description>&lt;h3 id=&quot;floating-left-in-a-sea-of-unfamiliarity&quot;&gt;Floating &lt;em&gt;(Left)&lt;/em&gt; in a Sea of Unfamiliarity&lt;/h3&gt;
+
+&lt;p&gt;The day is finally here! I have started my journey at The Iron Yard. After months of wavering between feelings of excitment and slight terror, I jumped in … sort of blindly. I had already attended a week of the Front End Engineering class, so I felt like I had a good “practice round” in. But nothing really prepared me for the sheer amount of information and exercise my brain was getting. &lt;/p&gt;
+
+&lt;p&gt;Many of my classmates and fellow iron yarders were so willing to share their experiences and insights. I found myself learning a lot more than &lt;strong&gt;HTML&lt;/strong&gt; and &lt;strong&gt;CSS&lt;/strong&gt;. I was (and still am) trying to learn about myself and how I work and what kind of attitudes hold me back or help me to move forward.  I am learning to trust. To trust my instructors, my peers, and myself. &lt;/p&gt;
+
+&lt;p&gt;The first week was overwhelming, but not in the way that I expected. I was overwhelmed with feelings of self-doubt and anxiety, and that was matched by encouragment from Sam and the other Iron Yard team leaders. This is a community of people who were in the same &lt;em&gt;sea&lt;/em&gt;, on their own boats. &lt;/p&gt;
+
+&lt;p&gt;I never considered myself a great student in college. So I felt like this was my second chance. This was a challenge though when I began to feel inadequite because the ever illusive “click” was not happening. I know, I know, nothing’s going to click in the first week, but quieting those thoughts are a lot harder for me. The more I worked, and the further we got in class, the more I realized that the clicking was there, but it came in what I like to call a “gentle whisper”.&lt;/p&gt;
+
+&lt;p&gt;Week One left me &lt;strike&gt;feeling&lt;/strike&gt; knowing that I was, in fact, in the right place and had made the right decision to leave it all behind, and join The Iron Yard in song and pun into a &lt;em&gt;whole new world&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 07:03:47 -0600</pubDate>
+        <link>dawndelatte.github.io/the-iron-yard/2015/02/11/week-one.html</link>
+        <guid isPermaLink="true">dawndelatte.github.io/the-iron-yard/2015/02/11/week-one.html</guid>
+        
+        
+        <category>the-iron-yard</category>
         
       </item>
     
