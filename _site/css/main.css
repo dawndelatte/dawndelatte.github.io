@@ -69,8 +69,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #111; }
 
 /**
  * Blockquotes
@@ -330,7 +329,8 @@ pre {
 
 .photo {
   float: left;
-  width: 30%; }
+  width: 30%;
+  margin-top: 30px; }
   .photo img {
     max-width: 100%;
     border-radius: 50%; }

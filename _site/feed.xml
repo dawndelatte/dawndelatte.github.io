@@ -6,12 +6,39 @@
 </description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 18:28:06 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 18:28:06 -0600</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 21:03:19 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 21:03:19 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Week Two</title>
+        <title>Grids</title>
+        <description>&lt;h3 id=&quot;dawn--1&quot;&gt;Dawn : 1&lt;/h3&gt;
+
+&lt;h3 id=&quot;grides--0&quot;&gt;Grides : 0&lt;/h3&gt;
+
+&lt;p&gt;We are learning about grids y&#39;all. It seems like an easy enough concept. Make a grid with columns and gutters, do a little math, and voil&amp;agrave;! Yeah.. easy as pie.&lt;/p&gt;
+&lt;div class=&quot;row1&quot;&gt;&lt;img src=&quot;/assets/grid7.jpg&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;row2&quot;&gt;
+	&lt;img src=&quot;/assets/grid1.jpg&quot; /&gt;&lt;!--
+	--&gt;&lt;img src=&quot;/assets/grid2.jpg&quot; /&gt;&lt;!--
+	--&gt;&lt;img src=&quot;/assets/grid3.jpg&quot; /&gt;&lt;!--
+	--&gt;&lt;img src=&quot;/assets/grid4.jpg&quot; /&gt;&lt;!--
+	--&gt;&lt;img src=&quot;/assets/grid5.jpg&quot; /&gt;&lt;!--
+	--&gt;&lt;img src=&quot;/assets/grid6.jpg&quot; /&gt;
+&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 11 Feb 2015 07:03:47 -0600</pubDate>
+        <link>dawndelatte.github.io/grids/</link>
+        <guid isPermaLink="true">dawndelatte.github.io/grids/</guid>
+        
+        
+        <category>the-iron-yard</category>
+        
+      </item>
+    
+      <item>
+        <title>On Middle Ground</title>
         <description>&lt;h3 id=&quot;on-middle-ground&quot;&gt;On &lt;em&gt;Middle&lt;/em&gt; Ground&lt;/h3&gt;
 
 &lt;p&gt;I’m starting to feel like I get it.. sort of.. I think. There are no big lows, thank goodness, and no big highs, besides still being here. &lt;/p&gt;
@@ -25,8 +52,8 @@
 &lt;p&gt;Lesson learned, Week Two, lesson learned. &lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Feb 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/the-iron-yard/2015/02/06/week-two.html</link>
-        <guid isPermaLink="true">dawndelatte.github.io/the-iron-yard/2015/02/06/week-two.html</guid>
+        <link>dawndelatte.github.io/middle_ground/</link>
+        <guid isPermaLink="true">dawndelatte.github.io/middle_ground/</guid>
         
         
         <category>the-iron-yard</category>
@@ -34,7 +61,7 @@
       </item>
     
       <item>
-        <title>Week One</title>
+        <title>Floating</title>
         <description>&lt;h3 id=&quot;floating-left-in-a-sea-of-unfamiliarity&quot;&gt;Floating &lt;em&gt;(Left)&lt;/em&gt; in a Sea of Unfamiliarity&lt;/h3&gt;
 
 &lt;p&gt;The day is finally here! I have started my journey at The Iron Yard. After months of wavering between feelings of excitment and slight terror, I jumped in … sort of blindly. I had already attended a week of the Front End Engineering class, so I felt like I had a good “practice round” in. But nothing really prepared me for the sheer amount of information and exercise my brain was getting. &lt;/p&gt;
@@ -48,8 +75,8 @@
 &lt;p&gt;Week One left me &lt;strike&gt;feeling&lt;/strike&gt; knowing that I was, in fact, in the right place and had made the right decision to leave it all behind, and join The Iron Yard in song and pun into a &lt;em&gt;whole new world&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 30 Jan 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/the-iron-yard/2015/01/30/week-one.html</link>
-        <guid isPermaLink="true">dawndelatte.github.io/the-iron-yard/2015/01/30/week-one.html</guid>
+        <link>dawndelatte.github.io/floating_left/</link>
+        <guid isPermaLink="true">dawndelatte.github.io/floating_left/</guid>
         
         
         <category>the-iron-yard</category>
