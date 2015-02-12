@@ -150,18 +150,18 @@ pre {
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   position: relative; }
+  .site-header .wrapper {
+    text-align: center; }
 
 .site-title {
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
+  margin-bottom: 0; }
   .site-title, .site-title:visited {
     color: #424242; }
 
 .site-nav {
-  float: right;
   line-height: 56px; }
   .site-nav .menu-icon {
     display: none; }
@@ -169,7 +169,7 @@ pre {
     color: #111;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
-      margin-left: 20px; }
+      margin-left: 200px; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -201,6 +201,19 @@ pre {
       .site-nav .page-link {
         display: block;
         padding: 5px 10px; } }
+
+/* Body */
+.home_page {
+  max-width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.main_photo {
+  height: 360px;
+  background-image: url(/assets/joni.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
 
 /**
  * Site footer
@@ -261,7 +274,7 @@ pre {
   padding: 30px 0; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 30px; }
 
 .post-list {
   margin-left: 0;
@@ -308,6 +321,19 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+
+/* about */
+.about {
+  width: 60%;
+  margin-right: 10%;
+  float: left; }
+
+.photo {
+  float: left;
+  width: 30%; }
+  .photo img {
+    max-width: 100%;
+    border-radius: 50%; }
 
 /**
  * Syntax highlighting styles

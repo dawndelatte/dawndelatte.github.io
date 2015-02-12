@@ -8,6 +8,9 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+        .wrapper {
+            text-align: center;
+        }
 }
 
 .site-title {
@@ -15,7 +18,7 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    // float: left;
 
     &,
     &:visited {
@@ -24,7 +27,7 @@
 }
 
 .site-nav {
-    float: right;
+    // float: right;
     line-height: 56px;
 
     .menu-icon {
@@ -37,7 +40,7 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 200px;
         }
     }
 
@@ -85,7 +88,19 @@
         }
     }
 }
-
+/* Body */
+.home_page {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main_photo {
+    height: 360px;
+    background-image: url(/assets/joni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 
 /**
@@ -166,7 +181,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .post-list {
@@ -232,5 +247,21 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+/* about */
+.about {
+    width: 60%; 
+    margin-right: 10%;
+    float: left;
+}
+.photo{
+    float: left;
+    width: 30%;
+
+    & img{
+        max-width: 100%;
+        border-radius: 50%;
     }
 }
