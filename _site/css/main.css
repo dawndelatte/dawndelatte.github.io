@@ -294,10 +294,6 @@ pre {
 .page-heading {
   font-size: 30px; }
 
-.post-list {
-  margin-left: 0;
-  list-style: none; }
-
 .post-meta {
   font-size: 14px;
   color: #828282; }
@@ -309,6 +305,11 @@ pre {
 /**
  * Posts
  */
+.post_snippet {
+  margin-left: 0;
+  list-style: none;
+  margin-bottom: 20px; }
+
 .post-header {
   margin-bottom: 30px; }
 
