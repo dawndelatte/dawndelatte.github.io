@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #111;
+  color: #444;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
 
@@ -83,12 +83,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #9CBBB3;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #1e1e1e; }
   a:hover {
-    color: #111; }
+    font-weight: 400; }
 
 /**
  * Blockquotes
@@ -184,7 +184,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #444;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 200px; }
@@ -289,10 +289,17 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background: #F1EBEB; }
 
 .page-heading {
   font-size: 30px; }
+
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list > li {
+    margin-bottom: 30px; }
 
 .post-meta {
   font-size: 14px;
@@ -305,10 +312,10 @@ pre {
 /**
  * Posts
  */
-.post_snippet {
-  margin-left: 0;
-  list-style: none;
-  margin-bottom: 20px; }
+.post-box li {
+  width: 70%;
+  height: 260px;
+  background: #fff; }
 
 .post-header {
   margin-bottom: 30px; }
