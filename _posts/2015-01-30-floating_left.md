@@ -2,7 +2,7 @@
 layout: post
 title:  "Floating"
 date:   2015-01-30 13:03:47
-categories: the-iron-yard
+tags: tiy
 permalink: /floating_left/
 ---
 

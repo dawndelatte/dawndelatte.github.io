@@ -2,7 +2,7 @@
 layout: post
 title:  "On Middle Ground"
 date:   2015-02-06 13:03:47
-categories: the-iron-yard
+tags: tiy, imposter-syndrome, breaks
 permalink: /middle_ground/
 ---
 

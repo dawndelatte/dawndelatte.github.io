@@ -6,34 +6,48 @@
 </description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 21:03:19 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 21:03:19 -0600</lastBuildDate>
+    <pubDate>Thu, 12 Feb 2015 18:03:46 -0600</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2015 18:03:46 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Grids</title>
         <description>&lt;h3 id=&quot;dawn--1&quot;&gt;Dawn : 1&lt;/h3&gt;
 
-&lt;h3 id=&quot;grides--0&quot;&gt;Grides : 0&lt;/h3&gt;
+&lt;h3 id=&quot;grids--0&quot;&gt;Grids : 0&lt;/h3&gt;
 
-&lt;p&gt;We are learning about grids y&#39;all. It seems like an easy enough concept. Make a grid with columns and gutters, do a little math, and voil&amp;agrave;! Yeah.. easy as pie.&lt;/p&gt;
-&lt;div class=&quot;row1&quot;&gt;&lt;img src=&quot;/assets/grid7.jpg&quot; /&gt;&lt;/div&gt;
-&lt;div class=&quot;row2&quot;&gt;
-	&lt;img src=&quot;/assets/grid1.jpg&quot; /&gt;&lt;!--
-	--&gt;&lt;img src=&quot;/assets/grid2.jpg&quot; /&gt;&lt;!--
-	--&gt;&lt;img src=&quot;/assets/grid3.jpg&quot; /&gt;&lt;!--
-	--&gt;&lt;img src=&quot;/assets/grid4.jpg&quot; /&gt;&lt;!--
-	--&gt;&lt;img src=&quot;/assets/grid5.jpg&quot; /&gt;&lt;!--
-	--&gt;&lt;img src=&quot;/assets/grid6.jpg&quot; /&gt;
+&lt;p&gt;We are learning about grids y’all. It seems like an simple enough concept. Make a grid with columns and gutters, do a little math, and voilà! We had a great lecture, devised a genius formula, and I was feeling pretty good about it.&lt;/p&gt;
+
+&lt;div class=&quot;grid_embed&quot;&gt;&lt;p data-height=&quot;214&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;OPzWvL&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/OPzWvL/&quot;&gt;12 column grid with col-num formula&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;p&gt;But then we were given ten sites to look at, decide their grid layouts, and draw them in our moleskines (thanks TIY!) I eased into the first few sites like &lt;a href=&quot;https://nest.com/&quot;&gt;Nest&lt;/a&gt; and &lt;a href=&quot;http://mashable.com/&quot;&gt;Mashable&lt;/a&gt; with fairly straight forward layouts, then Sam hit us with things like her &lt;a href=&quot;http://www.amazon.com/gp/product/B005GK3IVW/ref=ox_sc_act_title_1?ie=UTF8&amp;amp;psc=1&amp;amp;smid=ATVPDKIKX0DER&quot;&gt;Roomba product page on Amazon&lt;/a&gt; … What is that?!&lt;/p&gt;
+
+&lt;section class=&quot;grid_imgs&quot;&gt;
+&lt;div class=&quot;grids_row1&quot;&gt;&lt;img src=&quot;/assets/grid7.jpg&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;grids_row2&quot;&gt;
+	&lt;img src=&quot;/assets/grid2.jpg&quot; /&gt;&lt;!--
+	--&gt;&lt;img src=&quot;/assets/grid3.jpg&quot; /&gt;
 &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;p&gt;I started “coloring outside the lines” if you will. I wouldn’t say I’m a perfectionist by any stretch of the imagination but this was &lt;strong&gt;hard&lt;/strong&gt;. What should have taken about 2 hours, took me 6 and it was the first time I was rushing to “complete” an assignment minutes before class started. Commiting to &lt;em&gt;those&lt;/em&gt; lines with &lt;em&gt;that&lt;/em&gt; pen made html look like strawberry cupcakes. &lt;/p&gt;
+
+&lt;p&gt;Mmmm cupcakes. &lt;/p&gt;
 
 </description>
         <pubDate>Wed, 11 Feb 2015 07:03:47 -0600</pubDate>
         <link>dawndelatte.github.io/grids/</link>
         <guid isPermaLink="true">dawndelatte.github.io/grids/</guid>
         
+        <category>tiy,</category>
         
-        <category>the-iron-yard</category>
+        <category>grids,</category>
+        
+        <category>layouts,</category>
+        
+        <category>cupcakes</category>
+        
         
       </item>
     
@@ -55,8 +69,12 @@
         <link>dawndelatte.github.io/middle_ground/</link>
         <guid isPermaLink="true">dawndelatte.github.io/middle_ground/</guid>
         
+        <category>tiy,</category>
         
-        <category>the-iron-yard</category>
+        <category>imposter-syndrome,</category>
+        
+        <category>breaks</category>
+        
         
       </item>
     
@@ -78,8 +96,8 @@
         <link>dawndelatte.github.io/floating_left/</link>
         <guid isPermaLink="true">dawndelatte.github.io/floating_left/</guid>
         
+        <category>tiy</category>
         
-        <category>the-iron-yard</category>
         
       </item>
     

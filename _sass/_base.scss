@@ -44,7 +44,25 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
+/**** Post Images --Grids 02/11/2015 ***/ 
+.grid_imgs {
+    clear: both;
+    overflow: hidden;
+}
+.grids_row1 img, .grids_row2 img{
+    float: left;
+}
+.grids_row1 img {
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.grids_row2 img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.grid_embed {
+    margin-bottom: 10px;
+}
 
 
 /**

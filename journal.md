@@ -3,22 +3,17 @@ layout: page
 title: journal
 permalink: /journal/
 ---
-
 <div class="home">
-<h1 class="page-heading">My Journey at The Iron Yard</h1>
-
-  <ul class="post-list">
+<div class="post_snippet">
+<div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {{ post.excerpt }}
     {% endfor %}
-  </ul>
-
+  </div>
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </div>
 </div>
