@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: journal
 title: journal
 permalink: /journal/
 ---
@@ -16,4 +16,3 @@ permalink: /journal/
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   </div>
 </div>
-
