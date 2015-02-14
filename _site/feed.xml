@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dawn Delatte</title>
-    <description>This is the portfolio and journal site for an Austin-based designer, Dawn Delatte.
-</description>
+    <description></description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Feb 2015 13:23:10 -0600</pubDate>
-    <lastBuildDate>Fri, 13 Feb 2015 13:23:10 -0600</lastBuildDate>
+    <pubDate>Sat, 14 Feb 2015 15:58:53 -0600</pubDate>
+    <lastBuildDate>Sat, 14 Feb 2015 15:58:53 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
