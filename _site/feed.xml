@@ -5,9 +5,50 @@
     <description></description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Feb 2015 15:58:53 -0600</pubDate>
-    <lastBuildDate>Sat, 14 Feb 2015 15:58:53 -0600</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2015 16:46:31 -0600</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2015 16:46:31 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Basic Responsive CodePens</title>
+        <description>&lt;p&gt;I have to be honest, as simple as this assignment seems, I’m not entirely sure I did it correctly. You’ll have to see them on CodePen to view the differences in breakpoints.
+Here is a basic one-breakpoint layout, where global is 100% width and small is 50% width:&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;yyvqVy&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/yyvqVy/&quot;&gt;RWD one&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;This is a two-breakpoint layout with a third div, making the second breakpoint 33%:&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;WbMKpq&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/WbMKpq/&quot;&gt;RWD two&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;And this one is three breakpoints, with all three divs:&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;WbMKEV&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/WbMKEV/&quot;&gt;RWD three&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Lastly, a “wrapper” that scales with the page and has a max-width of 1000px:&lt;/p&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;yyvqqO&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/yyvqqO/&quot;&gt;RWD wrapper&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 15 Feb 2015 07:03:47 -0600</pubDate>
+        <link>dawndelatte.github.io/rwd/</link>
+        <guid isPermaLink="true">dawndelatte.github.io/rwd/</guid>
+        
+        <category>tiy,</category>
+        
+        <category>layouts,</category>
+        
+        <category>responsive,</category>
+        
+        <category>design,</category>
+        
+        <category>rwd</category>
+        
+        
+      </item>
     
       <item>
         <title>Grids</title>
