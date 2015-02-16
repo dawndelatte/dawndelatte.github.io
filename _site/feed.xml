@@ -5,14 +5,14 @@
     <description></description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Feb 2015 16:46:31 -0600</pubDate>
-    <lastBuildDate>Sun, 15 Feb 2015 16:46:31 -0600</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2015 18:55:45 -0600</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2015 18:55:45 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Basic Responsive CodePens</title>
         <description>&lt;p&gt;I have to be honest, as simple as this assignment seems, I’m not entirely sure I did it correctly. You’ll have to see them on CodePen to view the differences in breakpoints.
-Here is a basic one-breakpoint layout, where global is 100% width and small is 50% width:&lt;/p&gt;
+Here is a basic one-breakpoint layout, where global is 200px width and breakpoint is 50% width:&lt;/p&gt;
 
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;yyvqVy&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/yyvqVy/&quot;&gt;RWD one&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
