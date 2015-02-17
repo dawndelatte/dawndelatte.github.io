@@ -129,7 +129,8 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: 9em;
+    // margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
@@ -159,11 +160,11 @@
 // }
 
 @include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        // width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        // width:         calc(50% - (#{$spacing-unit} / 2));
-    }
+    // .footer-col-1,
+    // .footer-col-2 {
+    //     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    //     width:         calc(50% - (#{$spacing-unit} / 2));
+    // }
 
     // .footer-col-3 {
     //     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -177,6 +178,11 @@
         // width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         // width:         calc(100% - (#{$spacing-unit} / 2));
     }
+
+    .footer-col-wrapper {
+        float: right;
+        text-align: right;
+    }
 }
 
 
@@ -184,6 +190,7 @@
 /**
  * Page content
  */
+
 .page-content {
     padding: $spacing-unit 0;
     background: #F1EBEB;
@@ -218,10 +225,13 @@
  * Posts
  */
 .post-box li {
-    width: 60%;
     padding: 50px 50px;
     background: #fff;
     border-radius: 5px;
+}
+.post-box {
+    width: 50%;
+    margin: 0 auto;
 }
 .post-header {
     margin-bottom: $spacing-unit;

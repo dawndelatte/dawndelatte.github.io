@@ -255,7 +255,7 @@ pre {
 .footer-col-wrapper {
   font-size: 15px;
   color: #828282;
-  margin-left: -15px; }
+  margin-left: 9em; }
 
 .footer-col {
   float: left;
@@ -266,7 +266,11 @@ pre {
 
 @media screen and (max-width: 600px) {
   .footer-col {
-    float: none; } }
+    float: none; }
+
+  .footer-col-wrapper {
+    float: right;
+    text-align: right; } }
 /**
  * Page content
  */
@@ -295,10 +299,13 @@ pre {
  * Posts
  */
 .post-box li {
-  width: 60%;
   padding: 50px 50px;
   background: #fff;
   border-radius: 5px; }
+
+.post-box {
+  width: 50%;
+  margin: 0 auto; }
 
 .post-header {
   margin-bottom: 30px; }

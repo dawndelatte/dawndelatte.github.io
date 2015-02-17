@@ -5,19 +5,20 @@
     <description></description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Feb 2015 08:53:11 -0600</pubDate>
-    <lastBuildDate>Mon, 16 Feb 2015 08:53:11 -0600</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2015 16:23:08 -0600</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2015 16:23:08 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Basic Responsive CodePens</title>
-        <description>&lt;p&gt;I have to be honest, as simple as this assignment seems, I’m not entirely sure I did it correctly. You’ll have to see them on CodePen to view the differences in breakpoints.
-Here is a basic one-breakpoint layout, where global is 200px width and breakpoint is 50% width:&lt;/p&gt;
+        <description>&lt;p&gt;In class today, we were assigned a few basic responsive CodePens to make playing around with different meida queries and seeing how we can make content reflow. If you want to see them at work, you’ll have to “edit on CodePen”. Check em out!&lt;/p&gt;
+
+&lt;p&gt;Here is a basic one-breakpoint layout, where global is 200px width and 50% after breakpoint:&lt;/p&gt;
 
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;yyvqVy&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/yyvqVy/&quot;&gt;RWD one&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;This is a two-breakpoint layout with a third div, making the second breakpoint 33%:&lt;/p&gt;
+&lt;p&gt;This is a two-breakpoint layout with a third div, making them 33% at the second breakpoint:&lt;/p&gt;
 
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;WbMKpq&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/WbMKpq/&quot;&gt;RWD two&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
@@ -32,6 +33,7 @@ Here is a basic one-breakpoint layout, where global is 200px width and breakpoin
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;yyvqqO&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/yyvqqO/&quot;&gt;RWD wrapper&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
+&lt;p&gt;Looks like plain ole’ primary color boxes I know.. but for me learning RWD is a whole new great big world. I’m looking foward to diving in and becoming a responsible-responsive-designer.&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Feb 2015 07:03:47 -0600</pubDate>
         <link>dawndelatte.github.io/rwd/</link>
