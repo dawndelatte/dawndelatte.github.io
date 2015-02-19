@@ -193,7 +193,7 @@
 
 .page-content {
     padding: $spacing-unit 0;
-    background: #F1EBEB;
+    background: #E6E6E6;
 }
 
 .page-heading {
@@ -230,9 +230,20 @@
     border-radius: 5px;
 }
 .post-box {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
+@include media-query($on-laptop) {
+    .post-box {
+    width: 70%;
+    }
+}
+@include media-query($on-palm) {
+    .post-box {
+    width: 90%;
+    }
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }

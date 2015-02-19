@@ -83,10 +83,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #9CBBB3;
+  color: #C74499;
   text-decoration: none; }
   a:visited {
-    color: #1e1e1e; }
+    color: #932c6f; }
   a:hover {
     font-weight: 400; }
 
@@ -276,7 +276,7 @@ pre {
  */
 .page-content {
   padding: 30px 0;
-  background: #F1EBEB; }
+  background: #E6E6E6; }
 
 .page-heading {
   font-size: 30px; }
@@ -304,9 +304,15 @@ pre {
   border-radius: 5px; }
 
 .post-box {
-  width: 50%;
+  width: 60%;
   margin: 0 auto; }
 
+@media screen and (max-width: 800px) {
+  .post-box {
+    width: 70%; } }
+@media screen and (max-width: 600px) {
+  .post-box {
+    width: 90%; } }
 .post-header {
   margin-bottom: 30px; }
 
