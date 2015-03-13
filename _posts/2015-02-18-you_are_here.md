@@ -7,7 +7,7 @@ permalink: /you_are_here/
 excerpt: We are talking design now. I feel like Sam retrofit me back into art school. From critiques to design philosophy, I'm starting to feel like all this coding, all this cramming, and all this left brain action is taking form. They have meaning and purpose when I shift into a design perspective/mindset...
 ---
 
-Week. Four. 
+###Week. Four. 
 
 I'm having **all the feelings**. I've been coding and coding, and sketching, and reading, and refactoring, and repositioning, and rethinking, and re... everything. Truthfully, when we are assigned a coding project, my initial reaction is _overwhelmed_ and a little _confused_. And then things slooowwwwly start to happen on the page, and confidence is regained, and eventually the assignment is complete. It's a total rollercoaster, but I love it. It's really important for me to refocus and stay positive.  
 

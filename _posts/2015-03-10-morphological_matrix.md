@@ -4,17 +4,23 @@ title:  "Morphological Matrix"
 date:   2015-03-10 13:03:47
 tags: tiy, typography, exploring, design
 permalink: /morphological/
-excerpt:
+excerpt: All the things have happened/been learned. Let me list a few before jumping into what I like to call the morphological mind maze of logo design...
 ---
+###Wowza!
 
-Wowza! It's been 3.5 weeks since I've written a blog post. In Iron Yard time that likes 2 light years? All the things have happened/been learned. Let me list a few before jumping into what I like to call the morphological mind maze of logo design.
+It's been 3.5 weeks since I've written a blog post. In Iron Yard time that likes 2 light years? All the things have happened/been learned. Let me list a few before jumping into what I like to call the morphological mind maze of logo design.
 
-We did a weekend hackathon where one designer teamed up with a front end student and a back end student. That was an huge rush of emotions and energy and I made it out alive with an amazing project, new friends and role models, and a big ole medal for "best overall app" in all the land AKA TIY. You can check out my teams app [here](https://women-power.herokuapp.com/#/dashboard).
+We did a weekend hackathon where one designer teamed up with a front end student and a back end student. That was an huge rush of emotions and energy and I made it out alive with an amazing project, new friends and role models, and a big ole medal for "best overall app" in all the land AKA The Iron Yard. You can check out my teams app [here](https://women-power.herokuapp.com/#/dashboard).
 
-We then dove right into coding our restaurant redesign projects that we have been reseraching and prototyping for the past few weeks. It was a challenge to get back into coding after spending time focusing on design theory, but it was good to jump right back it. Practice makes perfect! You can check out the progress of that project [here](http://dawndelatte.github.io/tiy_assignments/day_30/).
+I'd like to take some time in a later post to reflect on that eperience as well as some of my ideas for expanding on the design when I have a little more time.
+
+We then dove right into coding our restaurant redesign projects that we have been reseraching and prototyping for the past few weeks. It was a challenge to get back into coding after spending time focusing on design theory, but it's great to see things come full circle. Practice makes perfect! You can check out the progress of that project [here](http://dawndelatte.github.io/tiy_assignments/day_30/).
+
+Now we are tackling logo design for our restaurants. I've been spending a lot of time in my sketchbook this week, which is a lovely and nostalgic feeling. While doing some  research for another project, I came across [this article](http://www.juxtapoz.com/design/design-process-analog-vs-digital) on digital vs analog design processes.
+
 
 Now – Would you like to take the red pill or the blue pill? 
-Just kidding, you don't have a choice. Welcome to the morphological matrix....
+Just kidding, you don't have a choice. Welcome to the morphological matrix...
 
 <div class="img_container">
 <img src="/assets/morph_chart.jpg">
@@ -35,4 +41,7 @@ So we critiqued and narrowed it down to a few logos to explore even further. Now
 <img src="/assets/abgb_logos3.jpg">
 </div>
 
-I'm so excited to start using Illustrator and see what these sketches can really do.
+A fantastic bonus about this process was the fact that I was able to listen to music while working. I haven't been able to do that since a lot of my work has been reading and coding. Music is good for the soul.
+
+
+I'm so excited to start using Illustrator and see what these sketches can really do. 
