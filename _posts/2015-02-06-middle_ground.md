@@ -4,10 +4,10 @@ title:  "On Middle Ground"
 date:   2015-02-06 13:03:47
 tags: tiy, imposter-syndrome, breaks
 permalink: /middle_ground/
-excerpt: I'm starting to feel like I get it.. sort of.. I think. There are no big lows, thank goodness, and no big highs, besides still being here. We were assigned a video to watch in our weekend homework that really put some things into perspective...
+excerpt: I'm starting to feel like I get it.. sort of.. I think. There are no big lows, thank goodness, and no big highs, besides still being here...
 ---
 
-###On _Middle_ Ground 
+### On _Middle_ Ground 
 
 I'm starting to feel like I get it.. sort of.. I think. There are no big lows, thank goodness, and no big highs, besides still being here. 
 

@@ -1,0 +1,35 @@
+/*==========medium==========*/
+@media screen and (min-width: 650px) {
+/*======JOURNAL=====*/
+.post-list li {
+	height: 200px;
+	width: 45%;
+	float: left;
+	margin-right: 10%;
+
+	&:nth-of-type(2n+3) {
+		margin-right: 0;
+	}
+}
+
+}
+/*==========large==========*/
+
+@media screen and (min-width: 900px) {
+/*======JOURNAL=====*/
+
+.post-list li:nth-of-type(2n+3), li {
+	margin-right: 5%;
+}
+.post-list li {
+	height: 200px;
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+
+	&:nth-of-type(3n+4) {
+		margin-right: 0;
+	}
+}
+
+}

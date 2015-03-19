@@ -4,7 +4,7 @@ title:  "Floating"
 date:   2015-01-30 13:03:47
 tags: tiy
 permalink: /floating_left/
-excerpt: The day is finally here! I have started my journey at The Iron Yard. After months of wavering between feelings of excitment and slight terror, I jumped in ... sort of blindly. I had already attended a week of the Front End Engineering class, so I felt like I had a good "practice round" in. But nothing really prepared me for the sheer amount of information and exercise my brain was getting...
+excerpt: The day is finally here! I have started my journey at The Iron Yard. After months of wavering between feelings of excitment and slight terror, I jumped in ... 
 ---
 
 ###Floating _(Left)_ in a Sea of Unfamiliarity

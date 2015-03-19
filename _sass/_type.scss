@@ -11,16 +11,56 @@ h1, h2 {
 	font-family: $head;
 }
 
-h3, h4, nav a{
+h3, h4, nav a, p, span {
 
 	font-family: $primary;
 }
 
 /*=====font size=====*/
+h1 {
+	font-size: 5em;
+	font-weight: bold;
+}
 
+h2 {
+	font-size: 3.5em;
+	font-weight: bold;
+}
 h3 {
 	font-size: 2em;
 }
 h4, nav a {
 	font-size: 1.5em;
 }
+
+p {
+	font-size: 1.25em;
+	line-height: 1.4;
+}
+
+.post-list {
+		p {
+		font-size: 1em;
+		}
+
+		h3 {
+			font-size: 1.5em;
+			margin: .5em 0;
+		}
+
+}
+
+.post-list li:first-of-type {
+		p {
+		font-size: 1.5em;
+		}
+
+		h3 {
+			font-size: 2em;
+		}
+
+}
+
+
+
+
