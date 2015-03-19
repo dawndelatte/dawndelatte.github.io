@@ -1,16 +1,17 @@
 ---
-layout: no_wrapper
+layout: default
 ---
-<div class=" page_snippet">
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ post.title }}</h1> <!--change to post title -->
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-</div>
-</div>
+<div class="post-box">
+	<ul class="post-list">
+    {% for post in site.posts %}
+    	<li>
+        	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        	<h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+          {{ post.excerpt }}
+        </li>
+    {% endfor %}
+  </div>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

@@ -1,0 +1,26 @@
+
+/*Variables*/
+
+$primary: "adelle", serif;
+$head: "effra", sans-serif;
+
+/*=====font families=====*/
+
+h1, h2 {
+
+	font-family: $head;
+}
+
+h3, h4, nav a{
+
+	font-family: $primary;
+}
+
+/*=====font size=====*/
+
+h3 {
+	font-size: 2em;
+}
+h4, nav a {
+	font-size: 1.5em;
+}
