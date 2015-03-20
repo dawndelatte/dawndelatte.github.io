@@ -1,5 +1,10 @@
 /*==========medium==========*/
 @media screen and (min-width: 650px) {
+
+    .foot_mama ul {
+                float: left;
+        width: 50%;
+    }
     /*======JOURNAL=====*/
     .post-list li {
         height: 200px;
@@ -49,7 +54,7 @@
 
 @media screen and (min-width: 900px) {
     /*======JOURNAL=====*/
-    .post-list li:nth-of-type(2n+3), li {
+    .post-list li:nth-of-type(2n+3){
         margin-right: 5%;
     }
     .post-list li {

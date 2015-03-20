@@ -94,6 +94,10 @@ body img {
   margin: 0 auto;
   max-width: 1000px; }
 
+.post_wrap {
+  margin: 0 auto;
+  max-width: 800px; }
+
 .wrapper {
   width: 90%;
   max-width: 900px;
@@ -105,63 +109,53 @@ body img {
   padding: 2em 0; }
   .head_mama .logo {
     margin-bottom: 2em; }
-  .head_mama .head_nav li {
-    display: inline-block; }
-    .head_mama .head_nav li:last-of-type {
-      margin-right: 0; }
-    .head_mama .head_nav li a {
-      text-decoration: none; }
-  .head_mama .head_nav li:nth-of-type(3)::after {
-    display: none; }
+  .head_mama .head_nav {
+    width: 325px; }
+    .head_mama .head_nav li {
+      display: inline-block; }
+      .head_mama .head_nav li:last-of-type {
+        margin-right: 0; }
+      .head_mama .head_nav li a {
+        text-decoration: none; }
+    .head_mama .head_nav li:nth-of-type(3)::after {
+      display: none; }
 
 /*========== footer ==========*/
 footer {
-  clear: both; }
+  clear: both;
+  overflow: hidden; }
+  footer p {
+    padding-bottom: 3em; }
 
 .foot_mama {
   overflow: hidden;
-  padding: 2em 0; }
+  padding: 2em 0;
+  margin-top: 3em; }
   .foot_mama li {
-    display: inline-block; }
+    display: inline-block;
+    margin-right: 15px; }
   .foot_mama h4 {
     margin-top: 1em; }
   .foot_mama ul {
     margin-top: 1em; }
   .foot_mama .social {
-    height: 2.25em;
-    margin-right: .5em; }
+    height: 2.25em; }
 
 /*==================== JOURNAL ====================*/
+.about {
+  max-width: 700px;
+  width: 99%;
+  margin: 0 auto;
+  margin-bottom: 4em; }
+  .about h1 {
+    text-align: center; }
+
 .post_mama {
   clear: both;
   padding-bottom: 2em; }
   .post_mama h2 {
     clear: both;
     padding: 1em 0; }
-
-.about_bubble {
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding: 1.5em;
-  background: #0fbba3;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin-bottom: 2em; }
-
-.about_bubble:after {
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-width: 0 15px 15px;
-  border-color: #0fbba3 transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-  margin-left: -15px;
-  top: -15px;
-  left: 20%; }
 
 .post-list li {
   color: #e3e1e1;
@@ -340,6 +334,10 @@ footer {
 
 /*==========medium==========*/
 @media screen and (min-width: 650px) {
+  .foot_mama ul {
+    float: left;
+    width: 50%; }
+
   /*======JOURNAL=====*/
   .post-list li {
     height: 200px;
@@ -381,7 +379,7 @@ footer {
 /*==========large==========*/
 @media screen and (min-width: 900px) {
   /*======JOURNAL=====*/
-  .post-list li:nth-of-type(2n+3), li {
+  .post-list li:nth-of-type(2n+3) {
     margin-right: 5%; }
 
   .post-list li {
@@ -403,8 +401,11 @@ footer {
     .snippets:nth-of-type(3n+3) {
       margin-right: 0; } }
 /*Variables*/
-h1, h2, h3, h4, p, a {
+h1, h2, h3, p, a {
   color: #4d4c4c; }
+
+h4 {
+  color: #828282; }
 
 /*Variables*/
 /*=====font families=====*/
@@ -420,9 +421,8 @@ h1 {
   font-weight: bold; }
 
 h2 {
-  font-size: 3.5em;
-  font-weight: bold;
-  text-align: center; }
+  font-size: 3em;
+  font-weight: bold; }
 
 h3 {
   font-size: 2em; }
@@ -445,5 +445,8 @@ p {
 .post-list li:first-of-type h3 {
   font-size: 2em; }
 
-h1 {
+.portfolio h1 {
   text-transform: uppercase; }
+
+.about h1 {
+  margin-bottom: .75em; }

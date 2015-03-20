@@ -9,6 +9,10 @@ $primary_text: rgb(77, 76, 76);
 $secondary_text: rgb(227, 225, 225);
 
 
-h1, h2, h3, h4, p, a {
+h1, h2, h3, p, a {
 	color: $primary_text;
+}
+
+h4 {
+	color: rgb(130, 130, 130);
 }

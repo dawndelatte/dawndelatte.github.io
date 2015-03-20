@@ -23,9 +23,8 @@ h1 {
 }
 
 h2 {
-	font-size: 3.5em;
+	font-size: 3em;
 	font-weight: bold;
-	text-align: center;
 }
 h3 {
 	font-size: 2em;
@@ -62,8 +61,11 @@ p {
 
 }
 
-h1 {
+.portfolio h1 {
 	text-transform: uppercase;
 }
 
+.about h1 {
+	margin-bottom: .75em;
+}
 
