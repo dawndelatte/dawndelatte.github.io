@@ -133,21 +133,11 @@ footer {
 
 /*==================== JOURNAL ====================*/
 .post_mama {
-  overflow: hidden;
   clear: both;
   padding-bottom: 2em; }
-
-.about {
-  overflow: hidden; }
-  .about img {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: .25em; }
-
-h2 {
-  clear: both;
-  padding: 1em 0; }
+  .post_mama h2 {
+    clear: both;
+    padding: 1em 0; }
 
 .about_bubble {
   position: relative;
@@ -221,7 +211,7 @@ h2 {
     color: #4d4c4c;
     text-decoration: none; }
 
-/*==================== previous entries ====================*/
+/*============== previous entries ==============*/
 .post-list li:nth-of-type(4n+2) {
   color: #4d4c4c;
   background-color: #f5f68d; }
@@ -288,6 +278,66 @@ h2 {
     left: -20px;
     top: 75%; }
 
+/*==================== portfolio ====================*/
+.snippets {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  height: 300px;
+  padding: 0px;
+  background: #ccc;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 3em; }
+  .snippets::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #ccc transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -15px;
+    left: 183px; }
+
+.snippets:hover {
+  background-color: rgba(76, 76, 76, 0.5); }
+
+/*==================== about ====================*/
+.about_face img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: .25em; }
+
+.skills, .story, .side_projects {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  padding: 2em;
+  position: relative;
+  background: #f5f68d;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin-bottom: 3em; }
+
+.skills:after, .story:after, .side_projects:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 15px 37px;
+  border-color: #f5f68d transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-left: -15px;
+  top: -37px;
+  left: 83%; }
+
 /*==========medium==========*/
 @media screen and (min-width: 650px) {
   /*======JOURNAL=====*/
@@ -319,7 +369,15 @@ h2 {
   .about_bubble {
     width: 45%;
     float: left;
-    margin-left: 10%; } }
+    margin-left: 10%; }
+
+  /*======PORTFOLIO=====*/
+  .snippets {
+    width: 45%;
+    float: left;
+    margin-right: 10%; }
+    .snippets:nth-of-type(2n+2) {
+      margin-right: 0; } }
 /*==========large==========*/
 @media screen and (min-width: 900px) {
   /*======JOURNAL=====*/
@@ -332,6 +390,17 @@ h2 {
     float: left;
     margin-right: 5%; }
     .post-list li:nth-of-type(3n+4) {
+      margin-right: 0; }
+
+  /*======PORTFOLIO=====*/
+  .snippets:nth-of-type(2n+2) {
+    margin-right: 5%; }
+
+  .snippets {
+    width: 30%;
+    float: left;
+    margin-right: 5%; }
+    .snippets:nth-of-type(3n+3) {
       margin-right: 0; } }
 /*Variables*/
 h1, h2, h3, h4, p, a {
@@ -347,7 +416,7 @@ h3, h4, nav a, p, span {
 
 /*=====font size=====*/
 h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: bold; }
 
 h2 {
@@ -375,3 +444,6 @@ p {
   font-size: 1.5em; }
 .post-list li:first-of-type h3 {
   font-size: 2em; }
+
+h1 {
+  text-transform: uppercase; }

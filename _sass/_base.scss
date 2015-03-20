@@ -3,7 +3,6 @@ body {
     img {
         max-width: 100%;
     }
-
 }
 
 .journal nav li::after {
@@ -67,7 +66,6 @@ body {
 .head_mama {
     overflow: hidden;
     padding: 2em 0;
-
     .logo {
         margin-bottom: 2em;
     }
@@ -95,7 +93,6 @@ footer {
 .foot_mama {
     overflow: hidden;
     padding: 2em 0;
-
     li {
         display: inline-block;
     }
@@ -113,25 +110,13 @@ footer {
 
 /*==================== JOURNAL ====================*/
 .post_mama {
-    overflow: hidden;
     clear: both;
     padding-bottom: 2em;
-}
-.about {
-    overflow: hidden;
-
-    img {
-        display: block;
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: .25em;
-    }
-}
-
     h2 {
         clear: both;
         padding: 1em 0;
     }
+}
 
 .about_bubble {
     position: relative;
@@ -177,7 +162,9 @@ footer {
         text-decoration: none;
     }
 }
+
 /*==================== latest entry ====================*/
+
 .post-list li:first-of-type {
     color: rgb(77, 76, 76);
     width: 100%;
@@ -211,7 +198,9 @@ footer {
         text-decoration: none;
     }
 }
-/*==================== previous entries ====================*/
+
+/*============== previous entries ==============*/
+
 .post-list li:nth-of-type(4n+2) {
     color: rgb(77, 76, 76);
     background-color: rgb(245, 246, 141);
@@ -288,12 +277,72 @@ footer {
     }
 }
 
+/*==================== portfolio ====================*/
 
+.snippets {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    height: 300px;
+    padding: 0px;
+    background: #ccc;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-bottom: 3em;
+    &::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 15px 15px 0;
+        border-color: #ccc transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        bottom: -15px;
+        left: 183px;
+    }
+}
 
+.snippets:hover {
+    background-color: rgba(76, 76, 76, 0.5);
+}
 
+/*==================== about ====================*/
 
+.about_face {
+    img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: .25em;
+    }
+}
 
+.skills, .story, .side_projects {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 2em;
+    position: relative;
+    background: rgb(245, 246, 141);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-bottom: 3em;
+}
 
-
-
-
+.skills:after, .story:after, .side_projects:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 15px 37px;
+    border-color: rgb(245, 246, 141) transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    margin-left: -15px;
+    top: -37px;
+    left: 83%;
+}
