@@ -4,7 +4,6 @@ title:  "Floating"
 date:   2015-01-30 13:03:47
 tags: tiy
 permalink: /floating_left/
-excerpt: The day is finally here! I have started my journey at The Iron Yard. After months of wavering between feelings of excitment and slight terror, I jumped in ... 
 ---
 
 ###Floating _(Left)_ in a Sea of Unfamiliarity

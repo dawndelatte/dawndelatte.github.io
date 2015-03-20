@@ -8,9 +8,9 @@ layout: journal
 <div class="about">
 <h2>Hi y'all, I'm Dawn</h2>
 <img src="../site_assets/dawn.jpg">
-</div>
 <div class="about_bubble">
 <p>Lorem ipsum dolor sit amet, sit cibo eius dolorum te. Est recteque periculis ei. Illud erant omittantur mel ut, duo sumo quas offendit eu, cu vix placerat moderatius dissentias. In ignota libris doming qui. Usu utinam altera te, eos et officiis salutatus.</p>
+</div>
 </div>
 
 <h2>Latest Entry</h2>
@@ -23,7 +23,7 @@ layout: journal
         	<h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-          <p>{{ post.content | strip_html | truncatewords:10 }}</p>
+          <p>{{ post.content | strip_html | truncate: 50 }}</p>
         </li>
     {% endfor %}
   </div>

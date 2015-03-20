@@ -12,10 +12,40 @@
 	}
 }
 
+.logo {
+	margin-bottom: 0;
+	float: left;
+}
+.head_nav {
+	float: right;
+}
+.social {
+	float: left;
+}
+h4 {
+	float: right;
+}
+
+.about {
+
+    img {
+        width: 45%;
+        float: left;
+    }
+}
+
+.about_bubble {
+	width: 45%;
+	float: left;
+	margin-left: 10%;
+}
+
+
 }
 /*==========large==========*/
 
 @media screen and (min-width: 900px) {
+
 /*======JOURNAL=====*/
 
 .post-list li:nth-of-type(2n+3), li {

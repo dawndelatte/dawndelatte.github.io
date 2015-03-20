@@ -4,7 +4,6 @@ title:  "Morphological Matrix"
 date:   2015-03-10 13:03:47
 tags: tiy, typography, exploring, design
 permalink: /morphological/
-excerpt: All the things have happened/been learned. Let me list a few before jumping into what I like to call the morphological mind maze of logo design...
 ---
 ###Wowza!
 

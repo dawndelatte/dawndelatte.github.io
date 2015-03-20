@@ -4,7 +4,6 @@ title:  "You are Here"
 date:   2015-02-18 13:03:47
 tags: tiy, layouts, responsive, design, rwd, grids, journey, brain, function
 permalink: /you_are_here/
-excerpt: We are talking design now. I feel like Sam retrofit me back into art school...
 ---
 
 ###Week. Four. 

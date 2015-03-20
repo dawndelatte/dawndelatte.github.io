@@ -3,6 +3,7 @@ body {
     img {
         max-width: 100%;
     }
+
 }
 
 .journal nav li::after {
@@ -66,8 +67,8 @@ body {
 .head_mama {
     overflow: hidden;
     padding: 2em 0;
+
     .logo {
-        // float: left; /*This belongs in another query- don't forget to take off margin-bottom*/
         margin-bottom: 2em;
     }
     .head_nav {
@@ -94,6 +95,7 @@ footer {
 .foot_mama {
     overflow: hidden;
     padding: 2em 0;
+
     li {
         display: inline-block;
     }
@@ -112,16 +114,29 @@ footer {
 /*==================== JOURNAL ====================*/
 .post_mama {
     overflow: hidden;
+    clear: both;
+    padding-bottom: 2em;
+}
+.about {
+    overflow: hidden;
+
+    img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: .25em;
+    }
 }
 
-// .about img{
-//  width: 90%;
-//  display: block;
-//  margin: 0 auto;
-// }
+    h2 {
+        clear: both;
+        padding: 1em 0;
+    }
 
 .about_bubble {
     position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     padding: 1.5em;
     background: rgb(15, 187, 163);
     -webkit-border-radius: 0px;
@@ -156,26 +171,13 @@ footer {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    &:after {
-        content: '';
-        position: absolute;
-        border-style: solid;
-        border-width: 0 20px 20px;
-        border-color: rgb(1, 4, 156) transparent;
-        display: block;
-        width: 0;
-        z-index: 1;
-        margin-left: -20px;
-        top: -20px;
-        left: 30%;
-    }
     p, a {
         color: rgb(227, 225, 225);
         font-weight: 300;
         text-decoration: none;
     }
 }
-
+/*==================== latest entry ====================*/
 .post-list li:first-of-type {
     color: rgb(77, 76, 76);
     width: 100%;
@@ -209,15 +211,16 @@ footer {
         text-decoration: none;
     }
 }
+/*==================== previous entries ====================*/
 .post-list li:nth-of-type(4n+2) {
-    background-color: red;
-
+    color: rgb(77, 76, 76);
+    background-color: rgb(245, 246, 141);
     &::after {
         content: '';
         position: absolute;
         border-style: solid;
         border-width: 0 20px 20px;
-        border-color: red transparent;
+        border-color: rgb(245, 246, 141) transparent;
         display: block;
         width: 0;
         z-index: 1;
@@ -225,13 +228,72 @@ footer {
         top: -20px;
         left: 30%;
     }
+    p, a {
+        color: rgb(77, 76, 76);
+    }
 }
+
 .post-list li:nth-of-type(4n+3) {
-    background-color: purple;
+    background-color: rgb(1, 4, 156);
+    &::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 0 20px 20px;
+        border-color: transparent rgb(1, 4, 156);
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-top: -20px;
+        right: -20px;
+        top: 63%;
+    }
 }
+
 .post-list li:nth-of-type(4n+4) {
-    background-color: green;
+    color: rgb(77, 76, 76);
+    background-color: rgb(15, 187, 163);
+    &::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 20px 0;
+        border-color: rgb(15, 187, 163) transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -20px;
+        bottom: -20px;
+        left: 52%;
+    }
+    p, a {
+        color: rgb(77, 76, 76);
+    }
 }
+
 .post-list li:nth-of-type(4n+5) {
-    background-color: grey;
+    background-color: rgb(77, 76, 76);
+    &::after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 20px 20px 0;
+        border-color: transparent rgb(77, 76, 76);
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-top: -20px;
+        left: -20px;
+        top: 75%;
+    }
 }
+
+
+
+
+
+
+
+
+
+

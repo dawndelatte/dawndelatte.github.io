@@ -5,8 +5,8 @@
     <description></description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Mar 2015 18:06:41 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2015 18:06:41 -0500</lastBuildDate>
+    <pubDate>Thu, 19 Mar 2015 23:23:27 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Mar 2015 23:23:27 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -207,7 +207,7 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
       </item>
     
       <item>
-        <title>Basic Responsive CodePens</title>
+        <title>Basic RWD Codepens</title>
         <description>&lt;p&gt;In class today, we were assigned a few basic responsive CodePens to make playing around with different meida queries and seeing how we can make content reflow. If you want to see them at work, you’ll have to “edit on CodePen”. Check em out!&lt;/p&gt;
 
 &lt;p&gt;Here is a basic one-breakpoint layout, where global is 200px width and 50% after breakpoint:&lt;/p&gt;
