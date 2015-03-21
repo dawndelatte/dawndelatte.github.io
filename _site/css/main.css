@@ -59,6 +59,16 @@ body img {
   margin: 0 1em;
   background-color: #0fbba3; }
 
+.post nav li::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 30px;
+  float: right;
+  transform: skew(-20deg);
+  margin: 0 1em;
+  background-color: #0fbba3; }
+
 .portfolio nav li::after {
   content: "";
   display: block;
@@ -96,7 +106,7 @@ body img {
 
 .post_wrap {
   margin: 0 auto;
-  max-width: 800px; }
+  max-width: 700px; }
 
 .wrapper {
   width: 90%;
@@ -173,6 +183,9 @@ footer {
     color: #e3e1e1;
     font-weight: 300;
     text-decoration: none; }
+
+.post {
+  padding: 0 1em; }
 
 /*==================== latest entry ====================*/
 .post-list li:first-of-type {
