@@ -321,6 +321,8 @@ footer {
     }
 }
 
+
+
 /*=================== PROJECT ===================*/
 
 .project_mama {
@@ -332,7 +334,7 @@ footer {
 
 .project_container {
     margin: 0 auto;
-    background: url(http://placekitten.com/g/600/400) no-repeat;
+    background: url(http://placekitten.com/g/600/600) no-repeat;
     background-size: cover;
     height: 600px;
 }
@@ -481,6 +483,15 @@ footer {
 }
 }
 
+.currently_photos {
+    float: left;
+    max-width: 8em;
+    height: 30px;
+
+    img {
+        max-width: 100%;
+    }
+}
 
 
 

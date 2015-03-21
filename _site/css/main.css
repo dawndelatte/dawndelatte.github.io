@@ -322,7 +322,7 @@ footer {
 
 .project_container {
   margin: 0 auto;
-  background: url(http://placekitten.com/g/600/400) no-repeat;
+  background: url(http://placekitten.com/g/600/600) no-repeat;
   background-size: cover;
   height: 600px; }
 
@@ -452,6 +452,13 @@ footer {
     margin-top: -15px;
     right: -20px;
     top: 40%; }
+
+.currently_photos {
+  float: left;
+  max-width: 8em;
+  height: 30px; }
+  .currently_photos img {
+    max-width: 100%; }
 
 /*========== medium breakpoint ==========*/
 @media screen and (min-width: 650px) {
@@ -683,4 +690,12 @@ footer p {
   text-decoration: none; }
 
 .about h2 {
+  margin-bottom: 1em; }
+
+.contact a {
+  text-decoration: none;
+  border-bottom: 2px solid #01049c; }
+
+.project_mama h1 {
+  text-align: center;
   margin-bottom: 1em; }
