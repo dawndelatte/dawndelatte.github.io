@@ -1,0 +1,11 @@
+/* Mixin */
+
+@mixin grid ($col-num){
+  width: ($col * $col-num)+($gut * (($col-num)-1));
+  margin-right: $gut;
+}
+
+/*Variables*/
+$global: 100%;
+$col: 8.33%;
+$gut: 0;

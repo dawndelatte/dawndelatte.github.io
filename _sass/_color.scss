@@ -6,7 +6,7 @@ $cobalt: rgb(1, 4, 156);
 $teal: rgb(15, 187, 163);
 
 $primary_text: rgb(77, 76, 76);
-$secondary_text: rgb(227, 225, 225);
+
 
 
 h1, h2, h3, p, a {
@@ -14,5 +14,29 @@ h1, h2, h3, p, a {
 }
 
 h4 {
-	color: rgb(130, 130, 130);
+	color: lighten($primary_text, 30%);
+}
+
+.social:hover {
+	background-color: $teal;
+}
+
+.head_nav li a:hover {
+
+	color: lighten($primary_text, 30%);
+}
+
+.post-list li {
+
+	    p, a {
+        color: lighten($primary_text, 60%);
+    }
+}
+
+.snippets:hover {
+    background-color: rgba(76, 76, 76, 0.5);
+}
+
+.project_title h3 {
+ 	color: lighten($primary_text, 60%);
 }

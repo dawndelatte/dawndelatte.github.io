@@ -2,10 +2,11 @@
 @media screen and (min-width: 650px) {
 
     .foot_mama ul {
-                float: left;
+        float: left;
         width: 50%;
     }
-    /*======JOURNAL=====*/
+
+/*=============JOURNAL============*/
     .post-list li {
         height: 200px;
         width: 45%;
@@ -28,12 +29,11 @@
     h4 {
         float: right;
     }
-    .about {
-        img {
-            width: 45%;
-            float: left;
-        }
+
+    .follow{
+        float: none;
     }
+    
     .about_bubble {
         width: 45%;
         float: left;
@@ -78,4 +78,60 @@
             margin-right: 0;
         }
     }
+
+.project_container {
+    float: left;
+    width: 40%;
+}
+.project_bubble_right {
+float: left;
+width: 30%;
+max-width: 300px;
+
+&::after {
+content: '';
+border-width: 15px 20px 15px 0;
+border-color: transparent rgb(245, 246, 141);
+margin-left: 0;
+margin-top: -15px;
+left: -20px;
+top: 24%;
+}
+}
+
+.project_bubble_left {
+
+    float: left;
+    width: 30%;
+max-width: 300px;
+
+
+&::after {
+content: '';
+border-width: 15px 0 15px 20px;
+border-color: transparent rgb(245, 246, 141);
+margin-left: 0;
+bottom: 0;
+left:0;
+margin-top: -15px;
+right: -20px;
+top: 24%;
+}
+}
+
+/*=============ABOUT============*/
+    .about_face {
+        float:left;
+        width: 45%;
+        margin-right: 10%;
+    }
+
+        .story {
+        float:left;
+        width: 45%;
+    }
+    .skills {
+        clear: both;
+    }
+
 }

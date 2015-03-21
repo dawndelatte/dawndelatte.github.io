@@ -21,24 +21,20 @@ Now we are tackling logo design for our restaurants. I've been spending a lot of
 Now – Would you like to take the red pill or the blue pill? 
 Just kidding, you don't have a choice. Welcome to the morphological matrix...
 
-<div class="img_container">
-<img src="/assets/morph_chart.jpg">
-</div>
+<img src="/journal_assets/morph_chart.jpg">
 
 I expanded on the word list I created a few weeks ago when creating style tiles and researching the theme of the website. From there, I used a "morphological matrix" to connect those words and phrases to icons or images that were associated. This was the basis for the 50 sketches that followed. I took two ideas/images and meshed them together by either random selection or to carry out an idea or theme I wanted to iterate a little further.
 
-<div class="img_container">
-<img src="/assets/abgb_logos1.jpg">
-</div>
+<img src="/journal_assets/abgb_logos1.jpg">
+
 
 The first round was awesome. And also hilarious. How does one draw a beer barrel and pizza together to form a simple logo? Or a picnic blanket and keg? I tried.
 
 So we critiqued and narrowed it down to a few logos to explore even further. Now we're starting to get somewhere!
 
-<div class="img_container">
-<img src="/assets/abgb_logos2.jpg">
-<img src="/assets/abgb_logos3.jpg">
-</div>
+<img src="/journal_assets/abgb_logos2.jpg">
+<img src="/journal_assets/abgb_logos3.jpg">
+
 
 A fantastic bonus about this process was the fact that I was able to listen to music while working. I haven't been able to do that since a lot of my work has been reading and coding. Music is good for the soul.
 
