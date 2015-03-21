@@ -290,6 +290,8 @@ footer {
     -ms-box-sizing: border-box;
     height: 300px;
     margin-bottom: 3em;
+    -webkit-transition: background 5s ease;
+    -moz-transition: background 5s ease;
 }
 
 .project_title {
@@ -299,6 +301,9 @@ footer {
     margin: 0 auto;
     display: none;
     top: 20px;
+    -webkit-transition: background 5s ease;
+    -moz-transition: background 5s ease;
+
     &::after {
         content: '';
         position: absolute;
@@ -316,6 +321,7 @@ footer {
 .snippets:hover {
     background: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(http://placekitten.com/g/300/300) no-repeat;
     background-size: cover;
+
     &:hover .project_title {
         display: block;
     }
