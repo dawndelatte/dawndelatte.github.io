@@ -321,7 +321,7 @@ footer {
 /*=================== PROJECT ===================*/
 .project_mama {
   overflow: hidden;
-  max-width: 1000px;
+  max-width: 1100px;
   width: 90%;
   margin: 0 auto; }
 
@@ -388,6 +388,9 @@ footer {
 .project_statement {
   clear: both;
   max-width: 700px;
+  margin: 0 auto; }
+
+.sub_mama {
   margin: 0 auto; }
 
 /*==================== ABOUT ====================*/
@@ -752,6 +755,10 @@ footer p {
 .project_mama a {
   text-decoration: none;
   border-bottom: 2px solid #f5f68d; }
+
+.project_bubble_left p, .project_bubble_right p {
+  font-size: 1em;
+  text-align: left; }
 
 .project_statement p {
   text-align: left; }

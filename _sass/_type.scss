@@ -139,6 +139,13 @@ h3 {
 			border-bottom: 2px solid rgb(245, 246, 141);
 		}
 }
+
+.project_bubble_left, .project_bubble_right {
+	        p {
+        font-size: 1em;
+        text-align: left;
+    }
+}
 .project_statement p {
 	text-align: left;
 }
