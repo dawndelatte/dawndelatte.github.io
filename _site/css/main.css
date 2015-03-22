@@ -482,6 +482,11 @@ footer {
   background: url(../site_assets/skylines.svg) no-repeat;
   height: 70px; }
 
+.skills_mama ul {
+  margin-bottom: 2em; }
+.skills_mama h4 {
+  margin-bottom: .5em; }
+
 /*========== medium breakpoint ==========*/
 @media screen and (min-width: 650px) {
   .foot_mama ul {
@@ -507,7 +512,7 @@ footer {
   .social {
     float: left; }
 
-  h4 {
+  footer h4 {
     float: right; }
 
   .follow {
@@ -532,7 +537,16 @@ footer {
     margin-right: 10%; }
 
   .project_sub2 {
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .skills_mama {
+    overflow: hidden; }
+    .skills_mama ul {
+      width: 45%;
+      margin-right: 10%;
+      float: left; }
+      .skills_mama ul:last-of-type {
+        margin-right: 0; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
   /*======JOURNAL=====*/
@@ -636,6 +650,9 @@ h4 {
 .side_projects h2, .side_projects p {
   color: #e6e5e5; }
 
+.skills ul li, .skills h4 {
+  color: #4d4c4c; }
+
 /*Variables*/
 /*=====font families=====*/
 h1, h2 {
@@ -738,3 +755,8 @@ footer p {
 
 .project_statement p {
   text-align: left; }
+
+.skills ul li {
+  font-family: "adelle", serif;
+  font-size: 1.25em;
+  line-height: 1.4; }

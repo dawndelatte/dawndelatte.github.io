@@ -27,7 +27,7 @@
     .social {
         float: left;
     }
-    h4 {
+    footer h4 {
         float: right;
     }
     .follow {
@@ -60,6 +60,22 @@
     .project_sub2 {
         margin-right: 0;
     }
+
+    .skills_mama {
+        overflow: hidden;
+
+        ul {
+            width: 45%;
+            margin-right: 10%;
+            float: left;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
+
 }
 
 /*==========large breakpoint ==========*/
@@ -154,4 +170,16 @@
     .skills {
         clear: both;
     }
+
+    // .skills_mama {
+    //     overflow: hidden;
+    //     ul {
+    //         float: left;
+    //     }
+    // }
+
+
+
+
+
 }

@@ -43,3 +43,7 @@ h4 {
 .side_projects h2, .side_projects p {
 	color: lighten($primary_text, 60%);
 }
+
+.skills ul li, .skills h4{
+	color: $primary_text;
+}
