@@ -279,6 +279,7 @@ footer {
 
 /*==================== PORTFOLIO ====================*/
 .snippets {
+  display: block;
   background: url(https://placekitten.com/g/300/300) no-repeat;
   background-size: cover;
   position: relative;
@@ -324,11 +325,19 @@ footer {
   width: 90%;
   margin: 0 auto; }
 
-.project_container {
+.project_main {
   margin: 0 auto;
   background: url(http://placekitten.com/g/600/600) no-repeat;
   background-size: cover;
   height: 600px; }
+
+.project_sub1, .project_sub2 {
+  background: url(http://placekitten.com/g/300/300) no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  margin-top: 2em; }
 
 .project_bubble_right {
   -webkit-box-sizing: border-box;
@@ -375,6 +384,11 @@ footer {
     margin-left: -15px;
     bottom: -20px;
     left: 24%; }
+
+.project_statement {
+  clear: both;
+  max-width: 700px;
+  margin: 0 auto; }
 
 /*==================== ABOUT ====================*/
 .about_face {
@@ -464,6 +478,10 @@ footer {
   .currently_photos img {
     max-width: 100%; }
 
+.nola_atx {
+  background: url(../site_assets/skylines.svg) no-repeat;
+  height: 70px; }
+
 /*========== medium breakpoint ==========*/
 @media screen and (min-width: 650px) {
   .foot_mama ul {
@@ -506,7 +524,15 @@ footer {
     float: left;
     margin-right: 10%; }
     .snippets:nth-of-type(2n+2) {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  .project_sub1, .project_sub2 {
+    width: 45%;
+    float: left;
+    margin-right: 10%; }
+
+  .project_sub2 {
+    margin-right: 0; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
   /*======JOURNAL=====*/
@@ -532,7 +558,7 @@ footer {
     .snippets:nth-of-type(3n+3) {
       margin-right: 0; }
 
-  .project_container {
+  .project_main {
     float: left;
     width: 55%; }
 
@@ -690,7 +716,7 @@ footer p {
   text-align: center;
   padding: 2em; }
 
-.snippets a {
+.snippets {
   text-decoration: none; }
 
 .about h2 {
@@ -700,6 +726,15 @@ footer p {
   text-decoration: none;
   border-bottom: 2px solid #01049c; }
 
+.project_mama h1, .project_mama p {
+  text-align: center; }
 .project_mama h1 {
-  text-align: center;
-  margin-bottom: 1em; }
+  margin-bottom: .5em; }
+.project_mama p {
+  margin-bottom: 2em; }
+.project_mama a {
+  text-decoration: none;
+  border-bottom: 2px solid #f5f68d; }
+
+.project_statement p {
+  text-align: left; }

@@ -112,7 +112,7 @@ h3 {
 	padding: 2em;
 }
 
-.snippets a {text-decoration: none;}
+.snippets {text-decoration: none;}
 
 .about h2 {
 	margin-bottom: .5em;
@@ -122,5 +122,23 @@ h3 {
 	text-decoration: none; 
 	border-bottom: 2px solid rgb(1, 4, 156);
 }
+.project_mama {
 
-.project_mama h1 {text-align: center; margin-bottom: 1em;}
+		h1, p {
+			text-align: center;
+		}
+		h1 {
+			margin-bottom: .5em;
+		}
+
+		p {
+			margin-bottom: 2em;
+		}
+		a {
+			text-decoration: none;
+			border-bottom: 2px solid rgb(245, 246, 141);
+		}
+}
+.project_statement p {
+	text-align: left;
+}
