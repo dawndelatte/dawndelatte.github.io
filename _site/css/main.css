@@ -378,7 +378,7 @@ footer {
 
 /*==================== ABOUT ====================*/
 .about_face {
-  width: 80%;
+  width: 75%;
   margin: 0 auto; }
   .about_face img {
     max-width: 100%;
@@ -465,9 +465,6 @@ footer {
     max-width: 100%; }
 
 /*========== medium breakpoint ==========*/
-@media screen and (min-width: 550px) {
-  .about_face {
-    width: 55%; } }
 @media screen and (min-width: 650px) {
   .foot_mama ul {
     float: left;
@@ -509,10 +506,7 @@ footer {
     float: left;
     margin-right: 10%; }
     .snippets:nth-of-type(2n+2) {
-      margin-right: 0; }
-
-  .about_face {
-    width: 60%; } }
+      margin-right: 0; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
   /*======JOURNAL=====*/
@@ -700,7 +694,7 @@ footer p {
   text-decoration: none; }
 
 .about h2 {
-  margin-bottom: 1em; }
+  margin-bottom: .5em; }
 
 .contact a {
   text-decoration: none;

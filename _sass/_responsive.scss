@@ -1,9 +1,4 @@
 /*========== medium breakpoint ==========*/
-@media screen and (min-width: 550px) {
-        .about_face {
-    width: 55%;
-    }
-}
 
 @media screen and (min-width: 650px) {
     .foot_mama ul {
@@ -52,9 +47,6 @@
         &:nth-of-type(2n+2) {
             margin-right: 0;
         }
-    }
-        .about_face {
-    width: 60%;
     }
 }
 
