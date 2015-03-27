@@ -20,7 +20,8 @@ Now it's my turn... We get our final project assignment this coming week. I'll h
 
 This week's project—GoodReads web app redesign. Holy Moly this has been a tedious project. After a lot of research and feedback from other users, I opened up Photoshop to create my Style Tiles/Element Collages/Comps and haven't closed it since. Three days of [Pixel Perfect Precision](http://cdn.ustwo.com/PPP/PP3.pdf) and I'm still going. It's been a pain staking process, but surprising enjoyable (and enlightening). 
 
-Oh the glory of being able to listen to music and podcasts while working again. I was never able to do that while coding. Next up—getting all my stuff portfolio-ready over the weekend, so stay tuned! 
+
+But Oh the glory of being able to listen to music and podcasts while working again. I was never able to do that while coding. Next up—getting all my stuff portfolio-ready over the weekend, so stay tuned! 
 
 It's crunch time y'all. 
 
