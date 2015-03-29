@@ -109,6 +109,10 @@ body {
 footer {
     clear: both;
     overflow: hidden;
+
+    .rss-subscribe {
+        margin-bottom: 3em;
+    }
 }
 
 .foot_mama {
@@ -120,7 +124,7 @@ footer {
         margin-right: 5%;
     }
     ul {
-        margin-top: 1em;
+        margin: 3em 0;
     }
     .social {
         height: 2.25em;
@@ -533,3 +537,6 @@ footer {
     }
     }
 
+.contact {
+    overflow: hidden;
+}
