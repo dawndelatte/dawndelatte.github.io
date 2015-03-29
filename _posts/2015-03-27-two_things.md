@@ -3,7 +3,7 @@ layout: post
 title:  "Two Things"  
 date:   2015-03-27
 tags: tiy, graduation, pixel, perfection, photoshop, design
-permalink: /morphological/
+permalink: /twothings/
 ---
 ###One. 
 
