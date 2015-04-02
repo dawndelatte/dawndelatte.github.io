@@ -10,4 +10,4 @@ github_username:  dawndelatte
 
 # Build settings
 markdown: kramdown
-paginate: 10
+paginate: 9
