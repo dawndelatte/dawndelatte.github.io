@@ -69,7 +69,7 @@ body img {
   height: 30px;
   float: right;
   transform: skew(-20deg);
-  margin: 0 1em;
+  margin: -5px 1em;
   background-color: #0fbba3; }
 
 .portfolio nav li::after {
@@ -79,7 +79,7 @@ body img {
   height: 30px;
   float: right;
   transform: skew(-20deg);
-  margin: 0 1em;
+  margin: -5px 1em;
   background-color: #01049c; }
 
 .project nav li::after {
@@ -89,7 +89,7 @@ body img {
   height: 30px;
   float: right;
   transform: skew(-20deg);
-  margin: 0 1em;
+  margin: -5px 1em;
   background-color: #f5f68d; }
 
 .about nav li::after {
@@ -99,8 +99,18 @@ body img {
   height: 30px;
   float: right;
   transform: skew(-20deg);
-  margin: 0 1em;
+  margin: -5px 1em;
   background-color: #f5f68d; }
+
+.contact nav li::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 30px;
+  float: right;
+  transform: skew(-20deg);
+  margin: -5px 1em;
+  background-color: #01049c; }
 
 /* wrappers */
 .includes_wrap {
@@ -153,8 +163,6 @@ footer {
 
 /*==================== JOURNAL ====================*/
 .hi_there {
-  max-width: 700px;
-  width: 99%;
   margin: 0 auto;
   margin-bottom: 4em; }
 
@@ -416,7 +424,8 @@ footer {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  margin-top: 3em; }
   .story:after {
     content: '';
     position: absolute;
@@ -487,7 +496,8 @@ footer {
 
 .nola_atx {
   background: url(../site_assets/skylines.svg) no-repeat;
-  height: 70px; }
+  height: 70px;
+  margin: 0 auto; }
 
 .skills_mama ul {
   margin-bottom: 2em; }
@@ -555,7 +565,10 @@ footer {
       margin-right: 10%;
       float: left; }
       .skills_mama ul:last-of-type {
-        margin-right: 0; } }
+        margin-right: 0; }
+
+  .nola_atx {
+    width: 60%; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
   footer .follow {
@@ -628,8 +641,7 @@ footer {
     margin-right: 5%; }
 
   .story {
-    float: left;
-    width: 50%; }
+    float: left; }
     .story::after {
       border-width: 15px 20px 15px 0;
       border-color: transparent #f5f68d;
@@ -732,7 +744,7 @@ footer p {
 .post-list li:first-of-type h3 {
   font-size: 2em; }
 
-.portfolio h1, .contact h1 {
+.portfolio h1, .contact h1, .journal h1 {
   text-transform: uppercase;
   margin-bottom: 1em; }
 
@@ -787,6 +799,9 @@ footer p {
   font-family: "adelle", serif;
   font-size: 1.25em;
   line-height: 1.4; }
+
+.story h2 {
+  padding-bottom: 1em; }
 
 /*=============== Jacques and Julia ===============*/
 .jj_main {

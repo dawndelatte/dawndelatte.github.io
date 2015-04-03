@@ -75,6 +75,9 @@
         }
     }
 
+    .nola_atx {
+        width: 60%;
+    }
 
 }
 
@@ -167,7 +170,7 @@ footer {
     }
     .story {
         float: left;
-        width: 50%;
+        // width: 50%;
 
         &::after {
             border-width: 15px 20px 15px 0;

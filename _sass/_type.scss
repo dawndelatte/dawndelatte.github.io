@@ -83,7 +83,7 @@ footer p {
 
 }
 
-.portfolio h1, .contact h1 {
+.portfolio h1, .contact h1, .journal h1 {
 	text-transform: uppercase;
 	margin-bottom: 1em;
 }
@@ -158,4 +158,8 @@ h3 {
 	font-family: $primary;
 	font-size: 1.25em;
 	line-height: 1.4;
+}
+
+.story h2 {
+	padding-bottom: 1em;
 }
