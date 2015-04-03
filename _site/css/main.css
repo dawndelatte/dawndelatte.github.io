@@ -51,67 +51,6 @@ table {
 body img {
   max-width: 100%; }
 
-/*Below are the "slashes" in the head nav bar- changing color on each page*/
-.journal nav li::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 30px;
-  float: right;
-  transform: skew(-20deg);
-  margin: -5px 1em;
-  background-color: #0fbba3; }
-
-.post nav li::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 30px;
-  float: right;
-  transform: skew(-20deg);
-  margin: -5px 1em;
-  background-color: #0fbba3; }
-
-.portfolio nav li::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 30px;
-  float: right;
-  transform: skew(-20deg);
-  margin: -5px 1em;
-  background-color: #01049c; }
-
-.project nav li::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 30px;
-  float: right;
-  transform: skew(-20deg);
-  margin: -5px 1em;
-  background-color: #f5f68d; }
-
-.about nav li::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 30px;
-  float: right;
-  transform: skew(-20deg);
-  margin: -5px 1em;
-  background-color: #f5f68d; }
-
-.contact nav li::after {
-  content: "";
-  display: block;
-  width: 5px;
-  height: 30px;
-  float: right;
-  transform: skew(-20deg);
-  margin: -5px 1em;
-  background-color: #01049c; }
-
 /* wrappers */
 .includes_wrap {
   width: 90%;
@@ -134,12 +73,6 @@ body img {
   .head_mama .logo {
     float: left;
     margin-bottom: 2em; }
-  .head_mama .head_nav li {
-    display: inline-block; }
-    .head_mama .head_nav li:last-of-type {
-      margin-right: 0; }
-  .head_mama .head_nav li:nth-of-type(4)::after {
-    display: none; }
 
 /*========== footer ==========*/
 footer {
@@ -503,9 +436,6 @@ footer {
 .skills_mama h4 {
   margin-bottom: .5em; }
 
-.contact {
-  overflow: hidden; }
-
 .typeform_btn {
   margin-top: 3em; }
 
@@ -523,9 +453,6 @@ footer {
   .logo {
     margin-bottom: 0;
     float: left; }
-
-  .head_nav {
-    float: right; }
 
   .social {
     float: left; }
@@ -715,7 +642,7 @@ p {
   line-height: 1.6; }
 
 /*Gettin' specific*/
-.head_nav a {
+nav a {
   text-decoration: none; }
 
 footer p {
@@ -820,3 +747,123 @@ footer p {
     width: 55%;
     float: left;
     margin-bottom: 3em; } }
+/*! responsive-nav.js 1.0.38 by @viljamis */
+.navmama {
+  float: right; }
+
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none; }
+
+.nav-collapse li {
+  display: block;
+  margin-bottom: 1em;
+  text-align: right; }
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  clear: both; }
+
+.nav-collapse.opened {
+  max-height: 9999px; }
+
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  float: right;
+  font-size: 2em;
+  font-family: "adelle", serif;
+  text-decoration: none;
+  border-bottom: 3px solid #01049c;
+  margin-bottom: 1em; }
+
+@media screen and (min-width: 800px) {
+  /*Below are the "slashes" in the head nav bar- changing color on each page*/
+  .journal nav li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    float: right;
+    transform: skew(-20deg);
+    margin: -5px 1em;
+    background-color: #0fbba3; }
+
+  .post nav li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    float: right;
+    transform: skew(-20deg);
+    margin: -5px 1em;
+    background-color: #0fbba3; }
+
+  .portfolio nav li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    float: right;
+    transform: skew(-20deg);
+    margin: -5px 1em;
+    background-color: #01049c; }
+
+  .project nav li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    float: right;
+    transform: skew(-20deg);
+    margin: -5px 1em;
+    background-color: #f5f68d; }
+
+  .about nav li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    float: right;
+    transform: skew(-20deg);
+    margin: -5px 1em;
+    background-color: #f5f68d; }
+
+  .contact nav li::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    float: right;
+    transform: skew(-20deg);
+    margin: -5px 1em;
+    background-color: #01049c; }
+
+  .nav-collapse li {
+    float: left; }
+    .nav-collapse li:last-of-type {
+      margin-right: 0; }
+    .nav-collapse li:nth-of-type(4)::after {
+      display: none; }
+
+  .js .nav-collapse {
+    position: relative; }
+
+  .js .nav-collapse.closed {
+    max-height: none; }
+
+  .nav-toggle {
+    display: none; } }

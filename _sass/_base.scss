@@ -6,74 +6,6 @@ body {
     }
 }
 
-/*Below are the "slashes" in the head nav bar- changing color on each page*/
-
-.journal nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: rgb(15, 187, 163);
-}
-
-
-.post nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: rgb(15, 187, 163);
-}
-
-.portfolio nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: rgb(1, 4, 156);
-}
-
-.project nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: rgb(245, 246, 141);
-}
-
-.about nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: rgb(245, 246, 141);
-}
-
-.contact nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: rgb(1, 4, 156);
-}
 
 /* wrappers */
 
@@ -103,18 +35,18 @@ body {
         float: left;
         margin-bottom: 2em;
     }
-    .head_nav {
-        // width: 325px;
-        li {
-            display: inline-block;
-            &:last-of-type {
-                margin-right: 0;
-            }
-        }
-        li:nth-of-type(4)::after {
-            display: none;
-        }
-    }
+    // .head_nav {
+    //     // width: 325px;
+    //     li {
+    //         display: inline-block;
+    //         &:last-of-type {
+    //             margin-right: 0;
+    //         }
+    //     }
+    //     li:nth-of-type(4)::after {
+    //         display: none;
+    //     }
+    // }
 }
 
 /*========== footer ==========*/
@@ -557,9 +489,7 @@ footer {
     }
     }
 
-.contact {
-    overflow: hidden;
-}
+
 
 .typeform_btn {
 
