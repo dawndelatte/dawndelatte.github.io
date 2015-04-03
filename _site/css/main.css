@@ -132,6 +132,7 @@ body img {
   overflow: hidden;
   padding: 2em 0; }
   .head_mama .logo {
+    float: left;
     margin-bottom: 2em; }
   .head_mama .head_nav li {
     display: inline-block; }
