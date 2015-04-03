@@ -103,14 +103,14 @@ body {
         margin-bottom: 2em;
     }
     .head_nav {
-        width: 325px;
+        // width: 325px;
         li {
             display: inline-block;
             &:last-of-type {
                 margin-right: 0;
             }
         }
-        li:nth-of-type(3)::after {
+        li:nth-of-type(4)::after {
             display: none;
         }
     }

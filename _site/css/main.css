@@ -133,14 +133,12 @@ body img {
   padding: 2em 0; }
   .head_mama .logo {
     margin-bottom: 2em; }
-  .head_mama .head_nav {
-    width: 325px; }
-    .head_mama .head_nav li {
-      display: inline-block; }
-      .head_mama .head_nav li:last-of-type {
-        margin-right: 0; }
-    .head_mama .head_nav li:nth-of-type(3)::after {
-      display: none; }
+  .head_mama .head_nav li {
+    display: inline-block; }
+    .head_mama .head_nav li:last-of-type {
+      margin-right: 0; }
+  .head_mama .head_nav li:nth-of-type(4)::after {
+    display: none; }
 
 /*========== footer ==========*/
 footer {
@@ -774,7 +772,7 @@ footer p {
   margin-bottom: .5em;
   font-size: 2.5em; }
 
-.contact a {
+.contact_info a {
   text-decoration: none;
   border-bottom: 2px solid #01049c; }
 
