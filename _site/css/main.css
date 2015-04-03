@@ -329,10 +329,10 @@ footer {
 
 .project_main {
   margin: 0 auto;
-  background: url(../project_assets/jacquesandjulia.jpg) no-repeat;
+  background: url(http://placekitten.com/g/600/600) no-repeat;
   background-size: cover;
   width: 70%;
-  height: 1500px; }
+  height: 600px; }
 
 .project_sub1, .project_sub2 {
   background: url(http://placekitten.com/g/300/300) no-repeat;
@@ -783,3 +783,15 @@ footer p {
   font-family: "adelle", serif;
   font-size: 1.25em;
   line-height: 1.4; }
+
+/*=============== Jacques and Julia ===============*/
+.jj_main {
+  background-image: url(../project_assets/jj_fullpage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 1500px; }
+
+@media screen and (min-width: 900px) {
+  .jj_main {
+    width: 55%; } }
