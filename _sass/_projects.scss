@@ -11,10 +11,16 @@
 
 .jj_snip {
 	background-image: url(../project_assets/jj_fullpage.jpg);
+
+	&:hover {
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_fullpage.jpg);
+	}
 }
 
 @media screen and (min-width:900px) {
 	.jj_main {
 		width: 55%;
+		float: left;
+		margin-bottom: 3em;
 	}
 }
