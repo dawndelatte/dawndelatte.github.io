@@ -11,12 +11,13 @@ h1, h2 {
 	font-family: $head;
 }
 
-h3, h4, nav a, p, span {
+h3, h4, nav a, p, span, {
 
 	font-family: $primary;
 }
 
 /*=====font size=====*/
+
 h1 {
 	font-size: 4em;
 	font-weight: bold;
@@ -162,4 +163,8 @@ h3 {
 
 .story h2 {
 	padding-bottom: 1em;
+}
+.pagination {
+
+	font-size: 1.25em;
 }

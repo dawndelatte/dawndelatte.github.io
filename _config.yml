@@ -11,3 +11,4 @@ github_username:  dawndelatte
 # Build settings
 markdown: kramdown
 paginate: 9
+paginate_path: "/journal/page:num/"

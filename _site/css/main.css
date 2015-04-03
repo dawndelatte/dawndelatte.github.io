@@ -94,6 +94,12 @@ footer {
     height: 2.25em; }
 
 /*==================== JOURNAL ====================*/
+.pagination {
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 4em; }
+
 .hi_there {
   margin: 0 auto;
   margin-bottom: 4em; }
@@ -586,7 +592,7 @@ footer {
     width: 48%;
     float: left; } }
 /*Variables*/
-h1, h2, h3, p, a {
+h1, h2, h3, p, a, .pagination {
   color: #4d4c4c; }
 
 h4 {
@@ -728,6 +734,9 @@ footer p {
 
 .story h2 {
   padding-bottom: 1em; }
+
+.pagination {
+  font-size: 1.25em; }
 
 /*=============== Jacques and Julia ===============*/
 .jj_main {
