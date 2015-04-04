@@ -345,11 +345,9 @@ footer {
 
 /*==================== ABOUT ====================*/
 .about_face {
-  width: 75%;
+  max-width: 250px;
   margin: 0 auto; }
   .about_face img {
-    max-width: 100%;
-    margin: 0 auto;
     margin-bottom: .25em; }
 
 .story {
@@ -569,7 +567,6 @@ footer {
   /*==========ABOUT=========*/
   .about_face {
     float: left;
-    width: 45%;
     margin-right: 5%; }
 
   .story {
@@ -584,12 +581,14 @@ footer {
 
   .skills {
     clear: both;
+    height: 475px;
     width: 48%;
     float: left;
     margin-right: 4%; }
 
   .side_projects {
     width: 48%;
+    height: 475px;
     float: left; } }
 /*Variables*/
 h1, h2, h3, p, a, .pagination {
@@ -739,13 +738,6 @@ footer p {
   font-size: 1.25em; }
 
 /*=============== Jacques and Julia ===============*/
-.jj_main {
-  background-image: url(../project_assets/jj_fullpage.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  height: 1500px; }
-
 .jj_snip {
   background-image: url(../project_assets/jj_fullpage.jpg); }
   .jj_snip:hover {
@@ -753,7 +745,6 @@ footer p {
 
 @media screen and (min-width: 900px) {
   .jj_main {
-    width: 55%;
     float: left;
     margin-bottom: 3em; } }
 /*! responsive-nav.js 1.0.38 by @viljamis */

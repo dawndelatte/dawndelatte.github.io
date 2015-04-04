@@ -1,13 +1,7 @@
 /*========== medium breakpoint ==========*/
 
 @media screen and (min-width: 650px) {
-    // .foot_mama ul {
-    //     float: left;
-    //     width: 50%;
-    // }
-
-/*========JOURNAL=======*/
-
+    /*========JOURNAL=======*/
     .post-list li {
         height: 200px;
         width: 45%;
@@ -21,9 +15,6 @@
         margin-bottom: 0;
         float: left;
     }
-    // .head_nav {
-    //     float: right;
-    // }
     .social {
         float: left;
     }
@@ -38,8 +29,7 @@
         float: left;
         margin-left: 10%;
     }
- /*======PORTFOLIO=====*/
-
+    /*======PORTFOLIO=====*/
     .snippets {
         width: 45%;
         float: left;
@@ -48,55 +38,43 @@
             margin-right: 0;
         }
     }
-
     .project_sub1, .project_sub2 {
-
         width: 45%;
         float: left;
-        margin-right:10%;
-
+        margin-right: 10%;
     }
-
     .project_sub2 {
         margin-right: 0;
     }
-
     .skills_mama {
         overflow: hidden;
-
         ul {
             width: 45%;
             margin-right: 10%;
             float: left;
-
             &:last-of-type {
                 margin-right: 0;
             }
         }
     }
-
     .nola_atx {
         width: 60%;
     }
-
 }
 
 /*==========large breakpoint ==========*/
 
 @media screen and (min-width: 900px) {
-
-footer {
-    .follow {
-        float: left;
+    footer {
+        .follow {
+            float: left;
+        }
+        .powered {
+            width: 30%;
+            float: right;
+        }
     }
-
-    .powered {
-        width: 30%;
-        float: right;
-    }
-}
-
- /*======JOURNAL=====*/
+    /*======JOURNAL=====*/
     .post-list li:nth-of-type(2n+3) {
         margin-right: 5%;
     }
@@ -109,9 +87,7 @@ footer {
             margin-right: 0;
         }
     }
-
-/*======PORTFOLIO=====*/
-
+    /*======PORTFOLIO=====*/
     .snippets:nth-of-type(2n+2) {
         margin-right: 5%;
     }
@@ -159,19 +135,13 @@ footer {
             top: 24%;
         }
     }
-
-
- /*==========ABOUT=========*/
-
+    /*==========ABOUT=========*/
     .about_face {
         float: left;
-        width: 45%;
         margin-right: 5%;
     }
     .story {
         float: left;
-        // width: 50%;
-
         &::after {
             border-width: 15px 20px 15px 0;
             border-color: transparent rgb(245, 246, 141);
@@ -183,17 +153,14 @@ footer {
     }
     .skills {
         clear: both;
+        height: 475px;
         width: 48%;
         float: left;
         margin-right: 4%;
     }
-
     .side_projects {
         width: 48%;
+        height: 475px;
         float: left;
     }
-
-
-
-
 }

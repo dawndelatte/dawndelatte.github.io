@@ -6,7 +6,6 @@ body {
     }
 }
 
-
 /* wrappers */
 
 .includes_wrap {
@@ -53,7 +52,6 @@ body {
 footer {
     clear: both;
     overflow: hidden;
-
     .rss-subscribe {
         margin-bottom: 3em;
     }
@@ -78,11 +76,12 @@ footer {
 /*==================== JOURNAL ====================*/
 
 .pagination {
-    clear:both;
+    clear: both;
     margin: 0 auto;
     text-align: center;
     padding-top: 4em;
 }
+
 .hi_there {
     // max-width: 700px;
     // width: 99%;
@@ -115,13 +114,11 @@ footer {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-
 }
 
 .post {
     padding: 0 1em;
 }
-
 
 .post-list li:first-of-type {
     color: rgb(77, 76, 76);
@@ -156,7 +153,6 @@ footer {
         text-decoration: none;
     }
 }
-
 
 .post-list li:nth-of-type(4n+2) {
     color: rgb(77, 76, 76);
@@ -259,7 +255,6 @@ footer {
     top: 20px;
     -webkit-transition: background 5s ease;
     -moz-transition: background 5s ease;
-
     &::after {
         content: '';
         position: absolute;
@@ -277,13 +272,10 @@ footer {
 .snippets:hover {
     background: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(http://placekitten.com/g/300/300) no-repeat;
     background-size: cover;
-
     &:hover .project_title {
         display: block;
     }
 }
-
-
 
 /*=================== PROJECT ===================*/
 
@@ -301,6 +293,7 @@ footer {
     width: 70%;
     height: 600px;
 }
+
 .project_sub1, .project_sub2 {
     background: url(http://placekitten.com/g/300/300) no-repeat;
     background-size: cover;
@@ -309,6 +302,7 @@ footer {
     margin-bottom: 2em;
     margin-top: 2em;
 }
+
 .project_bubble_right {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -365,22 +359,17 @@ footer {
     margin: 0 auto;
     margin-top: 3em;
 }
+
 .sub_mama {
     margin: 0 auto;
 }
+
 /*==================== ABOUT ====================*/
 
 .about_face {
-    // background-image: url(../site_assets/dawn_outside.jpg);
-    // background-size: cover;
-    // background-repeat: no-repeat;
-    // height: 300px;
-    width: 75%;
+    max-width: 250px;
     margin: 0 auto;
-
     img {
-        max-width: 100%;
-        margin: 0 auto;
         margin-bottom: .25em;
     }
 }
@@ -397,20 +386,19 @@ footer {
     border-radius: 0px;
     margin-bottom: 3em;
     margin-top: 3em;
-
     &:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 0 15px 20px;
-    border-color: rgb(245, 246, 141) transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    top: -20px;
-    left: 83%;
-}
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 15px 20px;
+        border-color: rgb(245, 246, 141) transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -15px;
+        top: -20px;
+        left: 83%;
+    }
 }
 
 .skills {
@@ -424,22 +412,20 @@ footer {
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-bottom: 3em;
-
-&:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 15px 0;
-    border-color: rgb(15, 187, 163) transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    bottom: -20px;
-    left: 18%;
+    &:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 20px 15px 0;
+        border-color: rgb(15, 187, 163) transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -15px;
+        bottom: -20px;
+        left: 18%;
+    }
 }
-}
-
 
 .side_projects {
     -webkit-box-sizing: border-box;
@@ -452,27 +438,25 @@ footer {
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin-bottom: 3em;
-
-&:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 15px 0 15px 20px;
-    border-color: transparent rgb(1, 4, 156) ;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-top: -15px;
-    right: -20px;
-    top: 40%;
-}
+    &:after {
+        content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 15px 0 15px 20px;
+        border-color: transparent rgb(1, 4, 156);
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-top: -15px;
+        right: -20px;
+        top: 40%;
+    }
 }
 
 .currently_photos {
     float: left;
     max-width: 8em;
     height: 30px;
-
     img {
         max-width: 100%;
     }
@@ -480,24 +464,19 @@ footer {
 
 .nola_atx {
     background: url(../site_assets/skylines.svg) no-repeat;
-    // background-size: cover;
     height: 70px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .skills_mama {
-
     ul {
         margin-bottom: 2em;
     }
     h4 {
         margin-bottom: .5em;
     }
-    }
-
-
+}
 
 .typeform_btn {
-
     margin-top: 3em;
 }
