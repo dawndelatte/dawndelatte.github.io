@@ -1,14 +1,5 @@
 /*=============== Jacques and Julia ===============*/
 
-.jj_main {
-
-	// background-image: url(../project_assets/jj_fullpage.jpg);
-	// background-repeat: no-repeat;
-	// background-size: cover;
-	// margin: 0 auto;
-	// height: 1500px;
-}
-
 .jj_snip {
 	background-image: url(../project_assets/jj_fullpage.jpg);
 
@@ -16,11 +7,34 @@
 		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_fullpage.jpg);
 	}
 }
+.zen_snip {
+	background-image: url(../project_assets/zengarden.png);
+		&:hover {
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/zengarden.png);
+	}
+}
+
 
 @media screen and (min-width:900px) {
 	.jj_main {
 		// width: 55%;
 		float: left;
 		margin-bottom: 3em;
+	}
+
+	.zen_sub1 {
+		clear:both;
+		float: left;	
+		width: 45%;
+		margin-right: 10%;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	.zen_sub2 {
+		float: left;	
+		width: 45%;
+		margin-top: 2em;
+		margin-bottom: 2em;
 	}
 }

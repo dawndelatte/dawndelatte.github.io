@@ -530,7 +530,7 @@ footer {
     .snippets:nth-of-type(3n+3) {
       margin-right: 0; }
 
-  .project_main {
+  .project_main, .zen_main {
     float: left;
     width: 55%; }
 
@@ -743,10 +743,29 @@ footer p {
   .jj_snip:hover {
     background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_fullpage.jpg); }
 
+.zen_snip {
+  background-image: url(../project_assets/zengarden.png); }
+  .zen_snip:hover {
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/zengarden.png); }
+
 @media screen and (min-width: 900px) {
   .jj_main {
     float: left;
-    margin-bottom: 3em; } }
+    margin-bottom: 3em; }
+
+  .zen_sub1 {
+    clear: both;
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+    margin-top: 2em;
+    margin-bottom: 2em; }
+
+  .zen_sub2 {
+    float: left;
+    width: 45%;
+    margin-top: 2em;
+    margin-bottom: 2em; } }
 /*! responsive-nav.js 1.0.38 by @viljamis */
 .navmama {
   float: right; }
