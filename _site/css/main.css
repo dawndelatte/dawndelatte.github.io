@@ -752,9 +752,9 @@ footer p {
     background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/zengarden.png); }
 
 .fqf_snip {
-  background-image: url(../project_assets/fqf_artistpage.jpg); }
+  background-image: url(../project_assets/fqf_homepage.jpg); }
   .fqf_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_artistpage.jpg); }
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_homepage.jpg); }
 
 @media screen and (min-width: 900px) {
   .jj_main {
