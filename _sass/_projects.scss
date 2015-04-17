@@ -21,6 +21,13 @@
 	}
 }
 
+.abgb_snip  {
+	background-image :url(../project_assets/abgb_menu1.jpg);
+	&:hover {
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/abgb_menu1.jpg);
+	}
+}
+
 
 @media screen and (min-width:900px) {
 	.jj_main {
@@ -29,7 +36,7 @@
 		margin-bottom: 3em;
 	}
 
-	.zen_sub1, .fqf_sub1 {
+	.zen_sub1, .fqf_sub1, .abgb_sub1 {
 		clear:both;
 		float: left;	
 		width: 45%;
@@ -38,7 +45,7 @@
 		margin-bottom: 2em;
 	}
 
-	.zen_sub2, .fqf_sub2 {
+	.zen_sub2, .fqf_sub2, .abgb_sub2 {
 		float: left;	
 		width: 45%;
 		margin-top: 2em;
