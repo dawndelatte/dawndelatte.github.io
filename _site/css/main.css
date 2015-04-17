@@ -530,7 +530,7 @@ footer {
     .snippets:nth-of-type(3n+3) {
       margin-right: 0; }
 
-  .project_main, .zen_main {
+  .project_main, .zen_main, .fqf_main {
     float: left;
     width: 55%; }
 
@@ -722,6 +722,10 @@ footer p {
 .project_bubble_left p, .project_bubble_right p {
   font-size: 1em;
   text-align: left; }
+.project_bubble_left a, .project_bubble_right a {
+  font-weight: 700; }
+  .project_bubble_left a:hover, .project_bubble_right a:hover {
+    color: #807f7f; }
 
 .project_statement p {
   text-align: left; }
@@ -737,7 +741,6 @@ footer p {
 .pagination {
   font-size: 1.25em; }
 
-/*=============== Jacques and Julia ===============*/
 .jj_snip {
   background-image: url(../project_assets/jj_fullpage.jpg); }
   .jj_snip:hover {
@@ -748,12 +751,17 @@ footer p {
   .zen_snip:hover {
     background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/zengarden.png); }
 
+.fqf_snip {
+  background-image: url(../project_assets/fqf_artistpage.jpg); }
+  .fqf_snip:hover {
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_artistpage.jpg); }
+
 @media screen and (min-width: 900px) {
   .jj_main {
     float: left;
     margin-bottom: 3em; }
 
-  .zen_sub1 {
+  .zen_sub1, .fqf_sub1 {
     clear: both;
     float: left;
     width: 45%;
@@ -761,7 +769,7 @@ footer p {
     margin-top: 2em;
     margin-bottom: 2em; }
 
-  .zen_sub2 {
+  .zen_sub2, .fqf_sub2 {
     float: left;
     width: 45%;
     margin-top: 2em;
