@@ -73,6 +73,22 @@ body img {
   .head_mama .logo {
     float: left;
     margin-bottom: 2em; }
+  .head_mama svg {
+    width: 30px;
+    float: left;
+    margin-right: 5px; }
+
+.journal .head_mama svg path {
+  fill: #0fbba3; }
+
+.about .head_mama svg path, .project .head_mama svg path {
+  fill: #f5f68d; }
+
+.contact .head_mama svg path, .portfolio .head_mama svg path {
+  fill: #01049c; }
+
+.journal .head_mama svg path {
+  fill: #0fbba3; }
 
 /*========== footer ==========*/
 footer {
@@ -465,7 +481,8 @@ footer {
     float: right; }
 
   .follow {
-    float: none; }
+    float: none;
+    width: 50%; }
 
   .about_bubble {
     width: 45%;
@@ -593,9 +610,6 @@ h1, h2, h3, p, a, .pagination {
 h4 {
   color: #9a9898; }
 
-.social:hover {
-  background-color: #0fbba3; }
-
 .head_nav li a:hover {
   color: #9a9898; }
 
@@ -635,7 +649,7 @@ h3 {
   font-size: 2em; }
 
 h4, nav a {
-  font-size: 1.5em; }
+  font-size: 1.3em; }
 
 p {
   font-size: 1.25em;
@@ -643,6 +657,9 @@ p {
   line-height: 1.6; }
 
 /*Gettin' specific*/
+.head_mama h3 {
+  font-size: 1.75em; }
+
 nav a {
   text-decoration: none; }
 
@@ -821,7 +838,7 @@ footer p {
   -o-user-select: none;
   user-select: none;
   float: right;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "adelle", serif;
   text-decoration: none;
   border-bottom: 3px solid #01049c;

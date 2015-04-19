@@ -34,18 +34,33 @@ body {
         float: left;
         margin-bottom: 2em;
     }
-    // .head_nav {
-    //     // width: 325px;
-    //     li {
-    //         display: inline-block;
-    //         &:last-of-type {
-    //             margin-right: 0;
-    //         }
-    //     }
-    //     li:nth-of-type(4)::after {
-    //         display: none;
-    //     }
-    // }
+
+    svg {
+        width: 30px;
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+.journal {
+    .head_mama svg path {
+        fill: rgb(15, 187, 163);
+    }
+}
+.about, .project {
+    .head_mama svg path {
+        fill: rgb(245, 246, 141);
+    }
+}
+.contact, .portfolio {
+    .head_mama svg path {
+        fill: rgb(1, 4, 156);
+    }
+}
+.journal {
+    .head_mama svg path {
+        fill: rgb(15, 187, 163);
+    }
 }
 
 /*========== footer ==========*/
