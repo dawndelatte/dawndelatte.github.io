@@ -74,21 +74,9 @@ body img {
     float: left;
     margin-bottom: 2em; }
   .head_mama svg {
-    width: 30px;
+    width: 40px;
     float: left;
     margin-right: 5px; }
-
-.journal .head_mama svg path {
-  fill: #0fbba3; }
-
-.about .head_mama svg path, .project .head_mama svg path {
-  fill: #f5f68d; }
-
-.contact .head_mama svg path, .portfolio .head_mama svg path {
-  fill: #01049c; }
-
-.journal .head_mama svg path {
-  fill: #0fbba3; }
 
 /*========== footer ==========*/
 footer {
@@ -103,7 +91,13 @@ footer {
   margin-top: 3em; }
   .foot_mama li {
     display: inline-block;
-    margin-right: 5%; }
+    margin-right: 5%;
+    -webkit-transition: 1s ease-in-out all;
+    transition: 1s ease-in-out all;
+    position: relative; }
+    .foot_mama li:hover svg {
+      position: relative;
+      top: -20px; }
   .foot_mama ul {
     margin: 3em 0; }
   .foot_mama .social {
@@ -658,7 +652,10 @@ p {
 
 /*Gettin' specific*/
 .head_mama h3 {
-  font-size: 1.75em; }
+  font-size: 1.5em;
+  color: #01049c; }
+.head_mama h4 {
+  font-size: 1em; }
 
 nav a {
   text-decoration: none; }
