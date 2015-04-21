@@ -90,18 +90,23 @@ footer {
   padding: 2em 0;
   margin-top: 3em; }
   .foot_mama li {
-    display: inline-block;
+    float: left;
     margin-right: 5%;
-    -webkit-transition: 1s ease-in-out all;
-    transition: 1s ease-in-out all;
-    position: relative; }
-    .foot_mama li:hover svg {
-      position: relative;
-      top: -20px; }
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    position: relative;
+    bottom: 0; }
+    .foot_mama li:hover {
+      margin-top: -10px; }
   .foot_mama ul {
     margin: 3em 0; }
   .foot_mama .social {
     height: 2.25em; }
+  .foot_mama .powered {
+    clear: left;
+    margin-top: 2em; }
+  .foot_mama .follow {
+    overflow: hidden; }
 
 /*==================== JOURNAL ====================*/
 .pagination {
@@ -492,9 +497,10 @@ footer {
 @media screen and (min-width: 900px) {
   footer .follow {
     float: left; }
-  footer .powered {
+  footer .foot_mama .powered {
     width: 30%;
-    float: right; }
+    float: right;
+    clear: none; }
 
   /*======JOURNAL=====*/
   .post-list li:nth-of-type(2n+3) {
@@ -757,23 +763,19 @@ footer p {
     background-position: center; }
 
 @media screen and (min-width: 900px) {
-  .jj_main {
-    float: left;
-    margin-bottom: 3em; }
-
-  .project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main {
+  .project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main, .jj_main {
     float: left;
     width: 55%;
     margin-bottom: 2em; }
 
-  .zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1 {
+  .zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1, .jj_sub1 {
     clear: both;
     float: left;
     width: 45%;
     margin-right: 10%;
     margin-top: 2em; }
 
-  .zen_sub2, .fqf_sub2, .abgb_sub2, .sheroe_sub2 {
+  .zen_sub2, .fqf_sub2, .abgb_sub2, .sheroe_sub2, .jj_sub2 {
     float: left;
     width: 45%;
     margin-top: 2em;

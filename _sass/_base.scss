@@ -42,26 +42,6 @@ body {
     }
 }
 
-// .journal {
-//     .head_mama svg path {
-//         fill: rgb(15, 187, 163);
-//     }
-// }
-// .about, .project {
-//     .head_mama svg path {
-//         fill: rgb(245, 246, 141);
-//     }
-// }
-// .contact, .portfolio {
-//     .head_mama svg path {
-//         fill: rgb(1, 4, 156);
-//     }
-// }
-// .journal {
-//     .head_mama svg path {
-//         fill: rgb(15, 187, 163);
-//     }
-// }
 
 /*========== footer ==========*/
 footer {
@@ -77,13 +57,14 @@ footer {
     padding: 2em 0;
     margin-top: 3em;
     li {
-        display: inline-block;
+        float: left;
         margin-right: 5%;
-        -webkit-transition: 1s ease-in-out all;
-      transition: 1s ease-in-out all;
+        -webkit-transition: 500ms ease-in-out all;
+      transition: 500ms ease-in-out all;
       position: relative;
+      bottom: 0;
 
-      &:hover svg {position: relative; top: -20px;}
+      &:hover {margin-top: -10px;}
     }
     
     ul {
@@ -92,6 +73,11 @@ footer {
     .social {
         height: 2.25em;
     }
+
+    .powered {clear: left; margin-top: 2em;}
+    .follow {overflow: hidden;}
+
+
 }
 
 /*==================== JOURNAL ====================*/

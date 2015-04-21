@@ -65,18 +65,14 @@
 
 
 @media screen and (min-width:900px) {
-	.jj_main {
-		float: left;
-		margin-bottom: 3em;
-	}
 
-	.project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main {
+	.project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main, .jj_main {
         float: left;
         width: 55%;
         margin-bottom: 2em;
     }
 
-	.zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1 {
+	.zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1, .jj_sub1 {
 		clear:both;
 		float: left;	
 		width: 45%;
@@ -84,7 +80,7 @@
 		margin-top: 2em;
 	}
 
-	.zen_sub2, .fqf_sub2, .abgb_sub2, .sheroe_sub2 {
+	.zen_sub2, .fqf_sub2, .abgb_sub2, .sheroe_sub2, .jj_sub2 {
 		float: left;	
 		width: 45%;
 		margin-top: 2em;
