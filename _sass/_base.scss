@@ -293,34 +293,16 @@ footer {
     margin: 0 auto;
 }
 
-.project_main {
-    margin: 0 auto;
-    background: url(http://placekitten.com/g/600/600) no-repeat;
-    background-size: cover;
-    width: 70%;
-    height: 600px;
-}
-
-.project_sub1, .project_sub2  {
-    background: url(http://placekitten.com/g/300/300) no-repeat;
-    background-size: cover;
-    height: 300px;
-    margin: 0 auto;
-    margin-bottom: 2em;
-    margin-top: 2em;
-}
-
 .project_bubble_right {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     position: relative;
-    padding: 2em;
     background: rgb(245, 246, 141);
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    max-height: 260px;
+    margin-bottom: 4em;
     &::after {
         content: '';
         position: absolute;
@@ -336,36 +318,40 @@ footer {
     }
 }
 
-// .project_bubble_left {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     -ms-box-sizing: border-box;
-//     position: relative;
-//     padding: 2em;
-//     background: rgb(245, 246, 141);
-//     -webkit-border-radius: 0px;
-//     -moz-border-radius: 0px;
-//     border-radius: 0px;
-//     &::after {
-//         content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 20px 15px 0;
-//         border-color: rgb(245, 246, 141) transparent;
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         margin-left: -15px;
-//         bottom: -20px;
-//         left: 24%;
-//     }
-// }
+.project_bubble_left 
+{
+position: relative;
+// width: 250px;
+// height: 200px;
+// padding: 0px;
+background: rgb(245, 246, 141);
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+
+
+&::after 
+{
+    content: '';
+        position: absolute;
+        border-style: solid;
+        border-width: 0 15px 20px;
+        border-color: rgb(245, 246, 141) transparent;
+        display: block;
+        width: 0;
+        z-index: 1;
+        margin-left: -15px;
+        top: -20px;
+        left: 24%;
+}
+}
 
 .project_statement {
     clear: both;
     max-width: 700px;
     margin: 0 auto;
     margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .sub_mama {
