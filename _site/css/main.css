@@ -307,7 +307,8 @@ footer {
   background: #f5f68d;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  border-radius: 0px; }
+  border-radius: 0px;
+  max-height: 260px; }
   .project_bubble_right::after {
     content: '';
     position: absolute;
@@ -319,29 +320,6 @@ footer {
     z-index: 1;
     margin-left: -15px;
     top: -20px;
-    left: 24%; }
-
-.project_bubble_left {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  position: relative;
-  padding: 2em;
-  background: #f5f68d;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px; }
-  .project_bubble_left::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 15px 0;
-    border-color: #f5f68d transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    bottom: -20px;
     left: 24%; }
 
 .project_statement {
@@ -543,9 +521,8 @@ footer {
 
   .project_bubble_right {
     float: left;
-    width: 23%;
-    margin-left: 1%;
-    max-width: 300px; }
+    width: 43%;
+    margin-left: 1%; }
     .project_bubble_right::after {
       content: '';
       border-width: 15px 20px 15px 0;
@@ -553,22 +530,6 @@ footer {
       margin-left: 0;
       margin-top: -15px;
       left: -20px;
-      top: 24%; }
-
-  .project_bubble_left {
-    float: left;
-    width: 20%;
-    margin-right: 1%;
-    max-width: 300px; }
-    .project_bubble_left::after {
-      content: '';
-      border-width: 15px 0 15px 20px;
-      border-color: transparent #f5f68d;
-      margin-left: 0;
-      bottom: 0;
-      left: 0;
-      margin-top: -15px;
-      right: -20px;
       top: 24%; }
 
   /*==========ABOUT=========*/
@@ -751,30 +712,49 @@ footer p {
 .pagination {
   font-size: 1.25em; }
 
+.zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1 {
+  margin-bottom: 2em; }
+
 .jj_snip {
-  background-image: url(../project_assets/jj_fullpage.jpg); }
+  background-image: url(../project_assets/jj_thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
   .jj_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_fullpage.jpg); }
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-position: center; }
 
 .zen_snip {
-  background-image: url(../project_assets/zengarden.png); }
+  background-image: url(../project_assets/csszen_thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
   .zen_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/zengarden.png); }
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/csszen_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-position: center; }
 
 .fqf_snip {
-  background-image: url(../project_assets/fqf_homepage.jpg); }
+  background-image: url(../project_assets/fqf_thumbnail.jpg); }
   .fqf_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_homepage.jpg); }
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_thumbnail.jpg); }
 
 .abgb_snip {
-  background-image: url(../project_assets/abgb_menu1.jpg); }
+  background-image: url(../project_assets/abgb_thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
   .abgb_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/abgb_menu1.jpg); }
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/abgb_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-position: center; }
 
 .sheroe_snip {
-  background-image: url(../project_assets/sheroehome.jpg); }
+  background-image: url(../project_assets/sheroe_thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
   .sheroe_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/sheroehome.jpg); }
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/sheroe_thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-position: center; }
 
 @media screen and (min-width: 900px) {
   .jj_main {
@@ -783,15 +763,15 @@ footer p {
 
   .project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main {
     float: left;
-    width: 55%; }
+    width: 55%;
+    margin-bottom: 2em; }
 
   .zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1 {
     clear: both;
     float: left;
     width: 45%;
     margin-right: 10%;
-    margin-top: 2em;
-    margin-bottom: 2em; }
+    margin-top: 2em; }
 
   .zen_sub2, .fqf_sub2, .abgb_sub2, .sheroe_sub2 {
     float: left;

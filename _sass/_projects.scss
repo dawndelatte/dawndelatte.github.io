@@ -1,44 +1,71 @@
 
+.zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1 {
+		 margin-bottom: 2em;
+	}
+
 
 .jj_snip {
-	background-image: url(../project_assets/jj_fullpage.jpg);
+	background-image: url(../project_assets/jj_thumbnail.jpg);
+	// background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 
 	&:hover {
-		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_fullpage.jpg);
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/jj_thumbnail.jpg);
+		// background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 }
 .zen_snip {
-	background-image: url(../project_assets/zengarden.png);
+	background-image: url(../project_assets/csszen_thumbnail.jpg);
+	background-repeat: no-repeat;
+		background-position: center;
 		&:hover {
-		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/zengarden.png);
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/csszen_thumbnail.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 }
 
 .fqf_snip {
-	background-image: url(../project_assets/fqf_homepage.jpg);
+	background-image: url(../project_assets/fqf_thumbnail.jpg);
+	// background-repeat: no-repeat;
+	// 	background-position: center;
 		&:hover {
-		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_homepage.jpg);
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/fqf_thumbnail.jpg);
+		// background-repeat: no-repeat;
+		// background-position: center;
 	}
 }
 
 .abgb_snip  {
-	background-image :url(../project_assets/abgb_menu1.jpg);
+	background-image :url(../project_assets/abgb_thumbnail.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+
 	&:hover {
-		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/abgb_menu1.jpg);
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/abgb_thumbnail.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 }
 
 .sheroe_snip {
-	background-image: url(../project_assets/sheroehome.jpg);
+	background-image: url(../project_assets/sheroe_thumbnail.jpg);
+	background-repeat: no-repeat;
+		background-position: center;
 	&:hover {
-		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/sheroehome.jpg);
+		background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/sheroe_thumbnail.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+
 	}
 }	
 
 
 @media screen and (min-width:900px) {
 	.jj_main {
-		// width: 55%;
 		float: left;
 		margin-bottom: 3em;
 	}
@@ -46,6 +73,7 @@
 	.project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main {
         float: left;
         width: 55%;
+        margin-bottom: 2em;
     }
 
 	.zen_sub1, .fqf_sub1, .abgb_sub1, .sheroe_sub1 {
@@ -54,7 +82,6 @@
 		width: 45%;
 		margin-right: 10%;
 		margin-top: 2em;
-		margin-bottom: 2em;
 	}
 
 	.zen_sub2, .fqf_sub2, .abgb_sub2, .sheroe_sub2 {
