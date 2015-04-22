@@ -568,14 +568,14 @@ footer {
 
   .skills {
     clear: both;
-    height: 475px;
+    height: 550px;
     width: 48%;
     float: left;
     margin-right: 4%; }
 
   .side_projects {
     width: 48%;
-    height: 475px;
+    height: 550px;
     float: left; } }
 /*Variables*/
 h1, h2, h3, p, a, .pagination, .project_statement li {
@@ -734,7 +734,11 @@ footer p {
 .skills ul li {
   font-family: "adelle", serif;
   font-size: 1.25em;
-  line-height: 1.4; }
+  line-height: 1.4;
+  padding-bottom: .75em; }
+
+.side_projects p {
+  margin-bottom: .75em; }
 
 .story h2 {
   padding-bottom: 1em; }
