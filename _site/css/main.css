@@ -433,150 +433,14 @@ footer {
   margin: 0 auto; }
 
 .skills_mama ul {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  margin-left: 20px; }
 .skills_mama h4 {
   margin-bottom: .5em; }
 
 .typeform_btn {
   margin-top: 3em; }
 
-/*========== medium breakpoint ==========*/
-@media screen and (min-width: 650px) {
-  /*========JOURNAL=======*/
-  .post-list li {
-    height: 200px;
-    width: 45%;
-    float: left;
-    margin-right: 10%; }
-    .post-list li:nth-of-type(2n+3) {
-      margin-right: 0; }
-
-  .logo {
-    margin-bottom: 0;
-    float: left; }
-
-  .social {
-    float: left; }
-
-  footer h4 {
-    float: right; }
-
-  .follow {
-    float: none;
-    width: 50%; }
-
-  .about_bubble {
-    width: 45%;
-    float: left;
-    margin-left: 10%; }
-
-  /*======PORTFOLIO=====*/
-  .snippets {
-    width: 45%;
-    float: left;
-    margin-right: 10%; }
-    .snippets:nth-of-type(2n+2) {
-      margin-right: 0; }
-
-  .skills_mama {
-    overflow: hidden; }
-    .skills_mama ul {
-      width: 45%;
-      margin-right: 10%;
-      float: left; }
-      .skills_mama ul:last-of-type {
-        margin-right: 0; }
-
-  .nola_atx {
-    width: 60%; }
-
-  .project_statement li {
-    width: 50%;
-    float: left; }
-  .project_statement h2 {
-    clear: both; } }
-/*==========large breakpoint ==========*/
-@media screen and (min-width: 900px) {
-  footer .follow {
-    float: left; }
-  footer .foot_mama .powered {
-    width: 30%;
-    float: right;
-    clear: none; }
-
-  /*======JOURNAL=====*/
-  .post-list li:nth-of-type(2n+3) {
-    margin-right: 5%; }
-
-  .post-list li {
-    height: 200px;
-    width: 30%;
-    float: left;
-    margin-right: 5%; }
-    .post-list li:nth-of-type(3n+4) {
-      margin-right: 0; }
-
-  /*======PORTFOLIO=====*/
-  .snippets:nth-of-type(2n+2) {
-    margin-right: 5%; }
-
-  .snippets {
-    width: 30%;
-    float: left;
-    margin-right: 5%; }
-    .snippets:nth-of-type(3n+3) {
-      margin-right: 0; }
-
-  .project_bubble_right {
-    float: left;
-    width: 40%;
-    margin-left: 1%; }
-    .project_bubble_right::after {
-      content: '';
-      border-width: 15px 20px 15px 0;
-      border-color: transparent #f5f68d;
-      margin-left: 0;
-      margin-top: -15px;
-      left: -20px;
-      top: 24%; }
-
-  .project_bubble_left {
-    float: left;
-    width: 40%;
-    margin-left: 1%; }
-    .project_bubble_left::after {
-      content: '';
-      border-width: 15px 0 15px 20px;
-      border-color: transparent #f5f68d;
-      left: 103%;
-      top: 33%; }
-
-  /*==========ABOUT=========*/
-  .about_face {
-    float: left;
-    margin-right: 5%; }
-
-  .story {
-    float: left; }
-    .story::after {
-      border-width: 15px 20px 15px 0;
-      border-color: transparent #f5f68d;
-      margin-left: 0;
-      margin-top: -15px;
-      left: -20px;
-      top: 50%; }
-
-  .skills {
-    clear: both;
-    height: 550px;
-    width: 48%;
-    float: left;
-    margin-right: 4%; }
-
-  .side_projects {
-    width: 48%;
-    height: 550px;
-    float: left; } }
 /*Variables*/
 h1, h2, h3, p, a, .pagination, .project_statement li {
   color: #4d4c4c; }
@@ -735,7 +599,8 @@ footer p {
   font-family: "adelle", serif;
   font-size: 1.25em;
   line-height: 1.4;
-  padding-bottom: .75em; }
+  padding-bottom: .75em;
+  list-style: disc; }
 
 .side_projects p {
   margin-bottom: .75em; }
@@ -937,3 +802,145 @@ footer p {
 
   .nav-toggle {
     display: none; } }
+/*========== medium breakpoint ==========*/
+@media screen and (min-width: 650px) {
+  .hi_there p {
+    overflow: hidden; }
+
+  /*========JOURNAL=======*/
+  .post-list li {
+    height: 200px;
+    width: 45%;
+    float: left;
+    margin-right: 10%; }
+    .post-list li:nth-of-type(2n+3) {
+      margin-right: 0; }
+
+  .logo {
+    margin-bottom: 0;
+    float: left; }
+
+  .social {
+    float: left; }
+
+  footer h4 {
+    float: right; }
+
+  .follow {
+    float: none;
+    width: 50%; }
+
+  .about_bubble {
+    width: 45%;
+    float: left;
+    margin-left: 10%; }
+
+  /*======PORTFOLIO=====*/
+  .snippets {
+    width: 45%;
+    float: left;
+    margin-right: 10%; }
+    .snippets:nth-of-type(2n+2) {
+      margin-right: 0; }
+
+  .skills_mama {
+    overflow: hidden; }
+    .skills_mama ul {
+      width: 40%;
+      float: left; }
+      .skills_mama ul:last-of-type {
+        margin-right: 0; }
+
+  .nola_atx {
+    width: 60%; }
+
+  .project_statement li {
+    width: 50%;
+    float: left; }
+  .project_statement h2 {
+    clear: both; } }
+/*==========large breakpoint ==========*/
+@media screen and (min-width: 900px) {
+  footer .follow {
+    float: left; }
+  footer .foot_mama .powered {
+    width: 30%;
+    float: right;
+    clear: none; }
+
+  /*======JOURNAL=====*/
+  .post-list li:nth-of-type(2n+3) {
+    margin-right: 5%; }
+
+  .post-list li {
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-right: 5%; }
+    .post-list li:nth-of-type(3n+4) {
+      margin-right: 0; }
+
+  /*======PORTFOLIO=====*/
+  .snippets:nth-of-type(2n+2) {
+    margin-right: 5%; }
+
+  .snippets {
+    width: 30%;
+    float: left;
+    margin-right: 5%; }
+    .snippets:nth-of-type(3n+3) {
+      margin-right: 0; }
+
+  .project_bubble_right {
+    float: left;
+    width: 40%;
+    margin-left: 1%; }
+    .project_bubble_right::after {
+      content: '';
+      border-width: 15px 20px 15px 0;
+      border-color: transparent #f5f68d;
+      margin-left: 0;
+      margin-top: -15px;
+      left: -20px;
+      top: 24%; }
+
+  .project_bubble_left {
+    float: left;
+    width: 40%;
+    margin-left: 1%; }
+    .project_bubble_left::after {
+      content: '';
+      border-width: 15px 0 15px 20px;
+      border-color: transparent #f5f68d;
+      left: 103%;
+      top: 33%; }
+
+  /*==========ABOUT=========*/
+  .hi_there h1 {
+    text-align: left; }
+
+  .about_face {
+    float: left;
+    margin-right: 5%; }
+
+  .story {
+    float: left; }
+    .story::after {
+      border-width: 15px 20px 15px 0;
+      border-color: transparent #f5f68d;
+      margin-left: 0;
+      margin-top: -15px;
+      left: -20px;
+      top: 50%; }
+
+  .skills {
+    clear: both;
+    height: 550px;
+    width: 48%;
+    float: left;
+    margin-right: 4%; }
+
+  .side_projects {
+    width: 48%;
+    height: 550px;
+    float: left; } }

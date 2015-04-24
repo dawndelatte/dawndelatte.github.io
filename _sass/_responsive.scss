@@ -1,6 +1,7 @@
 /*========== medium breakpoint ==========*/
 
 @media screen and (min-width: 650px) {
+    .hi_there p{overflow: hidden;}
     /*========JOURNAL=======*/
     .post-list li {
         height: 200px;
@@ -42,8 +43,7 @@
     .skills_mama {
         overflow: hidden;
         ul {
-            width: 45%;
-            margin-right: 10%;
+            width: 40%;
             float: left;
             &:last-of-type {
                 margin-right: 0;
@@ -125,6 +125,7 @@
         }
     }
     /*==========ABOUT=========*/
+    .hi_there h1 {text-align: left;}
     .about_face {
         float: left;
         margin-right: 5%;
