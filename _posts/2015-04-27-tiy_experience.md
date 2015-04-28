@@ -27,6 +27,11 @@ Oh and here's Jesse and Katlyn dancing while Travis quickly tries to escape that
 
 <img src="../journal_assets/dance.jpg">
 
+
+Burk doing an interpretation of Tim Gunn perhaps? Also per the usual.
+
+<img src="../journal_assets/burk.jpg">
+
 These guys on their demo day! Also, Rails room before the Design class took it over post ROR / FEE graduation.
 
 <img src="../journal_assets/rails_room.jpg">
