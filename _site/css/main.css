@@ -250,9 +250,11 @@ footer {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   height: 300px;
-  margin-bottom: 3em;
+  width: 300px;
   -webkit-transition: background 5s ease;
-  -moz-transition: background 5s ease; }
+  -moz-transition: background 5s ease;
+  margin: 0 auto;
+  margin-bottom: 3em; }
 
 .project_title {
   background: #01049c;
@@ -654,7 +656,7 @@ footer p {
     background-position: center; }
 
 .sheroe_snip {
-  background-image: url(../project_assets/sheroe_thumbnail.jpg);
+  background-image: url(../project_assets/shero_thumbnail.jpg);
   background-repeat: no-repeat;
   background-position: center; }
   .sheroe_snip:hover {

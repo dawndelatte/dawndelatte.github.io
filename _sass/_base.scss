@@ -246,9 +246,11 @@ footer {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     height: 300px;
-    margin-bottom: 3em;
+    width: 300px;
     -webkit-transition: background 5s ease;
     -moz-transition: background 5s ease;
+    margin: 0 auto;
+       margin-bottom: 3em;
 }
 
 .project_title {
