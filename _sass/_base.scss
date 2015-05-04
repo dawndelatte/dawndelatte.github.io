@@ -321,13 +321,11 @@ footer {
 .project_bubble_left 
 {
 position: relative;
-// width: 250px;
-// height: 200px;
-// padding: 0px;
 background: rgb(245, 246, 141);
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 border-radius: 0px;
+margin-bottom: 4em;
 
 
 &::after 
