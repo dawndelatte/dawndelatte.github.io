@@ -253,6 +253,7 @@ footer {
   width: 300px;
   -webkit-transition: background 5s ease;
   -moz-transition: background 5s ease;
+  transition: background 5s ease;
   margin: 0 auto;
   margin-bottom: 3em; }
 
@@ -262,9 +263,7 @@ footer {
   position: relative;
   margin: 0 auto;
   display: none;
-  top: 20px;
-  -webkit-transition: background 5s ease;
-  -moz-transition: background 5s ease; }
+  top: 20px; }
   .project_title::after {
     content: '';
     position: absolute;
@@ -661,7 +660,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: center; }
   .sheroe_snip:hover {
-    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/sheroe_thumbnail.jpg);
+    background-image: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(../project_assets/shero_thumbnail.jpg);
     background-repeat: no-repeat;
     background-position: center; }
 
@@ -735,62 +734,14 @@ footer p {
 
 @media screen and (min-width: 800px) {
   /*Below are the "slashes" in the head nav bar- changing color on each page*/
-  .journal nav li::after {
+  .journal nav li::after, .post nav li::after, .portfolio nav li::after, .project nav li::after, .about nav li::after, .contact nav li::after {
     content: "";
     display: block;
     width: 5px;
     height: 30px;
     float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: #0fbba3; }
-
-  .post nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: #0fbba3; }
-
-  .portfolio nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: #01049c; }
-
-  .project nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: #f5f68d; }
-
-  .about nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: #f5f68d; }
-
-  .contact nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
     transform: skew(-20deg);
     margin: -5px 1em;
     background-color: #01049c; }
