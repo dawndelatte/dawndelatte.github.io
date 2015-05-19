@@ -47,6 +47,35 @@ table {
 
 /* Mixin */
 /*Variables*/
+/*Variables*/
+h1, h2, h3, p, a, .pagination, .project_statement li {
+  color: #4d4c4c; }
+
+h4 {
+  color: #9a9898; }
+
+.head_nav li a:hover {
+  color: #9a9898; }
+
+.post-list li p, .post-list li a {
+  color: #e6e5e5; }
+
+.post-content a {
+  text-decoration: none;
+  border-bottom: 2px solid #0fbba3; }
+
+.snippets:hover {
+  background-color: rgba(76, 76, 76, 0.5); }
+
+.project_title h3 {
+  color: #e6e5e5; }
+
+.side_projects h2, .side_projects p {
+  color: #e6e5e5; }
+
+.skills ul li, .skills h4 {
+  color: #4d4c4c; }
+
 /*=============== global ===============*/
 body img {
   max-width: 100%; }
@@ -434,35 +463,6 @@ footer {
   margin-top: 3em; }
 
 /*Variables*/
-h1, h2, h3, p, a, .pagination, .project_statement li {
-  color: #4d4c4c; }
-
-h4 {
-  color: #9a9898; }
-
-.head_nav li a:hover {
-  color: #9a9898; }
-
-.post-list li p, .post-list li a {
-  color: #e6e5e5; }
-
-.post-content a {
-  text-decoration: none;
-  border-bottom: 2px solid #0fbba3; }
-
-.snippets:hover {
-  background-color: rgba(76, 76, 76, 0.5); }
-
-.project_title h3 {
-  color: #e6e5e5; }
-
-.side_projects h2, .side_projects p {
-  color: #e6e5e5; }
-
-.skills ul li, .skills h4 {
-  color: #4d4c4c; }
-
-/*Variables*/
 /*=====font families=====*/
 h1, h2 {
   font-family: "effra", sans-serif; }
@@ -493,7 +493,7 @@ p {
 /*Gettin' specific*/
 .head_mama h3 {
   font-size: 1.5em;
-  color: #01049c; }
+  color: #2a044a; }
 .head_mama h4 {
   font-size: 1em; }
 
