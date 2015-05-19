@@ -9,7 +9,7 @@
 	 background: url(../project_assets/jj_thumbnail.jpg) no-repeat center;
 	 background-size: cover;
 
-	span { 
+	.transition { 
     display: block;
     width: 100%;
     height: 100%;
@@ -28,7 +28,7 @@
 	 background: url(../project_assets/csszen_thumbnail.jpg) no-repeat center;
 	 background-size: cover;
 
-	span { 
+	.transition { 
     display: block;
     width: 100%;
     height: 100%;
@@ -47,7 +47,7 @@
 	 background: url(../project_assets/fqf_thumbnail.jpg) no-repeat center;
 	 background-size: cover;
 
-	span { 
+	.transition { 
     display: block;
     width: 100%;
     height: 100%;
@@ -66,7 +66,7 @@
 	 background: url(../project_assets/abgb_thumbnail.jpg) no-repeat center;
 	 background-size: cover;
 
-	span { 
+	.transition { 
     display: block;
     width: 100%;
     height: 100%;
@@ -84,7 +84,7 @@
 	 background: url(../project_assets/shero_thumbnail.jpg) no-repeat center;
 	 background-size: cover;
 
-	span { 
+	.transition { 
     display: block;
     width: 100%;
     height: 100%;
@@ -102,7 +102,8 @@
 .gr_snip {
 	 background: url(../project_assets/gr_sub1.jpg) no-repeat center;
 	 background-size: cover;
-	span { 
+     
+	.transition { 
     display: block;
     width: 100%;
     height: 100%;

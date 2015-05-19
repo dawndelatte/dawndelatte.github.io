@@ -269,17 +269,6 @@ footer {
       bottom: -15px;
       left: 110px; }
 
-span {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(225, 225, 255, 0.5), rgba(225, 225, 225, 0.5)), url(http://placekitten.com/g/300/400) no-repeat;
-  opacity: 0;
-  transition: opacity 700ms ease; }
-
-span:hover {
-  opacity: 1; }
-
 .snippets:hover:hover .project_title {
   opacity: 1; }
 
@@ -627,7 +616,7 @@ footer p {
 .jj_snip {
   background: url(../project_assets/jj_thumbnail.jpg) no-repeat center;
   background-size: cover; }
-  .jj_snip span {
+  .jj_snip .transition {
     display: block;
     width: 100%;
     height: 100%;
@@ -635,13 +624,13 @@ footer p {
     background-size: cover;
     opacity: 0;
     transition: opacity 700ms ease; }
-    .jj_snip span:hover {
+    .jj_snip .transition:hover {
       opacity: 1; }
 
 .zen_snip {
   background: url(../project_assets/csszen_thumbnail.jpg) no-repeat center;
   background-size: cover; }
-  .zen_snip span {
+  .zen_snip .transition {
     display: block;
     width: 100%;
     height: 100%;
@@ -649,13 +638,13 @@ footer p {
     background-size: cover;
     opacity: 0;
     transition: opacity 700ms ease; }
-    .zen_snip span:hover {
+    .zen_snip .transition:hover {
       opacity: 1; }
 
 .fqf_snip {
   background: url(../project_assets/fqf_thumbnail.jpg) no-repeat center;
   background-size: cover; }
-  .fqf_snip span {
+  .fqf_snip .transition {
     display: block;
     width: 100%;
     height: 100%;
@@ -663,13 +652,13 @@ footer p {
     background-size: cover;
     opacity: 0;
     transition: opacity 700ms ease; }
-    .fqf_snip span:hover {
+    .fqf_snip .transition:hover {
       opacity: 1; }
 
 .abgb_snip {
   background: url(../project_assets/abgb_thumbnail.jpg) no-repeat center;
   background-size: cover; }
-  .abgb_snip span {
+  .abgb_snip .transition {
     display: block;
     width: 100%;
     height: 100%;
@@ -677,13 +666,13 @@ footer p {
     background-size: cover;
     opacity: 0;
     transition: opacity 700ms ease; }
-    .abgb_snip span:hover {
+    .abgb_snip .transition:hover {
       opacity: 1; }
 
 .sheroe_snip {
   background: url(../project_assets/shero_thumbnail.jpg) no-repeat center;
   background-size: cover; }
-  .sheroe_snip span {
+  .sheroe_snip .transition {
     display: block;
     width: 100%;
     height: 100%;
@@ -691,13 +680,13 @@ footer p {
     background-size: cover;
     opacity: 0;
     transition: opacity 700ms ease; }
-    .sheroe_snip span:hover {
+    .sheroe_snip .transition:hover {
       opacity: 1; }
 
 .gr_snip {
   background: url(../project_assets/gr_sub1.jpg) no-repeat center;
   background-size: cover; }
-  .gr_snip span {
+  .gr_snip .transition {
     display: block;
     width: 100%;
     height: 100%;
@@ -705,7 +694,7 @@ footer p {
     background-size: cover;
     opacity: 0;
     transition: opacity 700ms ease; }
-    .gr_snip span:hover {
+    .gr_snip .transition:hover {
       opacity: 1; }
 
 @media screen and (min-width: 900px) {
