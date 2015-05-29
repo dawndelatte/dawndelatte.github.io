@@ -5,9 +5,45 @@
     <description></description>
     <link>dawndelatte.github.io/</link>
     <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 May 2015 19:33:03 -0500</pubDate>
-    <lastBuildDate>Thu, 28 May 2015 19:33:03 -0500</lastBuildDate>
+    <pubDate>Fri, 29 May 2015 10:08:43 -0500</pubDate>
+    <lastBuildDate>Fri, 29 May 2015 10:08:43 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Bagel is french for Bagel</title>
+        <description>&lt;p&gt;I was trying to come up with a clever title for this entry, but it turns out bagel in French…is just “bagel”. &lt;/p&gt;
+
+&lt;p&gt;In the weeks after graduating from The Iron Yard, life has been full of peaks and valleys, sharpening of skills, shameless self-promotion, and a couple of awesome freelance opportunities. I had the pleasure of working with &lt;a href=&quot;http://jrocca.com/&quot;&gt;Joe&lt;/a&gt;, a graduating Mobile Engineering student in Orlando, on his final project for TIY. He built a game called “Bagel Runner” in which a little toaster has to dodge a bunch of bagels hurdling toward him. I contributed the toaster, bagels, background, and main page/logo illustrations for the game. This project was as much fun to work on as it is to play. You can check out the App Store link and more about the process &lt;a href=&quot;http://dawndelatte.com/portfolio/bagelrunner.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../journal_assets/br_journal1.jpg&quot; /&gt;
+&lt;img src=&quot;../journal_assets/br_journal3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve been thinking about doing a bit of a redesign for my site. Adding more &lt;span class=&quot;em&quot;&gt;jeuje&lt;/span&gt;, as one might say. I find myself sitting up in bed, much to late, drooling over the sites on &lt;a href=&quot;http://www.awwwards.com/&quot;&gt;awwwards.com&lt;/a&gt;. Recently I came across &lt;a href=&quot;http://jardins-poudriere.ch/points-forts-promotion-orbe/&quot;&gt;jardins-poudriere&lt;/a&gt;, a French website for a luxury property development project. I’ll give you a moment to soak that in…&lt;/p&gt;
+
+&lt;p&gt;I have an entire bookmarks folder filled with visually stunning and playfully interactive sites like &lt;a href=&quot;http://residence-mixte.com/&quot;&gt;this&lt;/a&gt;, that I still visit after months of discovering. Ooo la la, I can’t wait to dive in and see how everything I’m learning will transform the design. Stay tuned! &lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
+        <link>dawndelatte.github.io/bagel/</link>
+        <guid isPermaLink="true">dawndelatte.github.io/bagel/</guid>
+        
+        <category>tiy,</category>
+        
+        <category>freelance,</category>
+        
+        <category>design,</category>
+        
+        <category>graphics,</category>
+        
+        <category>icons,</category>
+        
+        <category>illustration,</category>
+        
+        <category>mobile,</category>
+        
+        <category>ios</category>
+        
+        
+      </item>
     
       <item>
         <title>The Iron Yard Experience</title>
@@ -409,29 +445,6 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
         <category>imposter-syndrome,</category>
         
         <category>breaks</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Floating</title>
-        <description>&lt;h3 id=&quot;floating-left-in-a-sea-of-unfamiliarity&quot;&gt;Floating &lt;em&gt;(Left)&lt;/em&gt; in a Sea of Unfamiliarity&lt;/h3&gt;
-
-&lt;p&gt;The day is finally here! I have started my journey at The Iron Yard. After months of wavering between feelings of excitment and slight terror, I jumped in … sort of blindly. I had already attended a week of the Front End Engineering class, so I felt like I had a good “practice round” in. But nothing really prepared me for the sheer amount of information and exercise my brain was getting. &lt;/p&gt;
-
-&lt;p&gt;Many of my classmates and fellow iron yarders were so willing to share their experiences and insights. I found myself learning a lot more than &lt;strong&gt;HTML&lt;/strong&gt; and &lt;strong&gt;CSS&lt;/strong&gt;. I was (and still am) trying to learn about myself and how I work and what kind of attitudes hold me back or help me to move forward.  I am learning to trust. To trust my instructors, my peers, and myself. &lt;/p&gt;
-
-&lt;p&gt;The first week was overwhelming, but not in the way that I expected. I was overwhelmed with feelings of self-doubt and anxiety, and that was matched by encouragment from Sam and the other Iron Yard team leaders. This is a community of people who were in the same &lt;em&gt;sea&lt;/em&gt;, on their own boats. &lt;/p&gt;
-
-&lt;p&gt;I never considered myself a great student in college. So I felt like this was my second chance. This was a challenge though when I began to feel inadequite because the ever illusive “click” was not happening. I know, I know, nothing’s going to click in the first week, but quieting those thoughts are a lot harder for me. The more I worked, and the further we got in class, the more I realized that the clicking was there, but it came in what I like to call a “gentle whisper”.&lt;/p&gt;
-
-&lt;p&gt;Week One left me &lt;strike&gt;feeling&lt;/strike&gt; knowing that I was, in fact, in the right place and had made the right decision to leave it all behind, and join The Iron Yard in song and pun into a &lt;em&gt;whole new world&lt;/em&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 30 Jan 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/floating_left/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/floating_left/</guid>
-        
-        <category>tiy</category>
         
         
       </item>
