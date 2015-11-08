@@ -24,12 +24,12 @@ h4 {
 	color: lighten($primary_text, 30%);
 }
 
-.post-list li {
+// .post-list li {
 
-	    p, a {
-        color: lighten($primary_text, 60%);
-    }
-}
+// 	    p, a {
+//         color: lighten($primary_text, 60%);
+//     }
+// }
 
 .post-content a {
 	text-decoration: none; 
@@ -50,4 +50,10 @@ h4 {
 
 .skills ul li, .skills h4{
 	color: $primary_text;
+}
+
+.post-list a {color:$teal;}
+.post-list a:hover {
+	color: darken($teal,5%);
+
 }

@@ -16,6 +16,8 @@
     display: block;
     margin-bottom: 1em;
     text-align: right;
+
+    &:last-of-type {margin-right: 0px;}
 }
 
 .js .nav-collapse {
@@ -50,18 +52,19 @@
 
 @media screen and (min-width: 800px) {
     /*Below are the "slashes" in the head nav bar- changing color on each page*/
-    .journal nav li::after, .post nav li::after, .portfolio nav li::after, .project nav li::after, .about nav li::after, .contact nav li::after {
-        content: "";
-        display: block;
-        width: 5px;
-        height: 30px;
-        float: right;
-        -webkit-transform: skew(-20deg);
-        -moz-transform: skew(-20deg);
-        transform: skew(-20deg);
-        margin: -5px 1em;
-        background-color: rgb(1, 4, 156);
-    }
+
+    // .journal nav li::after, .post nav li::after, .portfolio nav li::after, .project nav li::after, .about nav li::after, .contact nav li::after {
+    //     content: "";
+    //     display: block;
+    //     width: 5px;
+    //     height: 30px;
+    //     float: right;
+    //     -webkit-transform: skew(-20deg);
+    //     -moz-transform: skew(-20deg);
+    //     transform: skew(-20deg);
+    //     margin: -5px 1em;
+    //     background-color: rgb(1, 4, 156);
+    // }
     
     // .post nav li::after {
     //     content: "";
@@ -113,13 +116,21 @@
     //     margin: -5px 1em;
     //     background-color: rgb(1, 4, 156);
     // }
+
+    .navmama {width: 414px;}
+
     .nav-collapse li {
         float: left;
+        margin-right: 10%;
         &:last-of-type {
             margin-right: 0;
         }
-        &:nth-of-type(4)::after {
-            display: none;
+        // &:nth-of-type(4)::after {
+        //     display: none;
+        // }
+
+        &:hover {
+            border-bottom: 3px solid rgb(1, 4, 156);
         }
     }
     .js .nav-collapse {

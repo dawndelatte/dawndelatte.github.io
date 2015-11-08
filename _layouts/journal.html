@@ -5,7 +5,7 @@ layout: journal
 <div class="wrapper">
 <h1>journal</h1>
   <div class="post_mama">
-    <h2>Latest Entry</h2>
+<!--     <h2>Latest Entry</h2> -->
     <ul class="post-list">
       {% for post in paginator.posts %}
         <li>
@@ -13,22 +13,22 @@ layout: journal
           <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h3>
-          <p>{{ post.content | strip_html | truncate: 50 }}</p>
+          <p>{{ post.content | strip_html | truncate: 150 }}</p>
         </li>
       {% endfor %}
     </div>
   </div>
   <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">Newer Entries</a>
   {% else %}
-    <span class="previous">Previous Entries</span>
+    <span class="previous"></span>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+<!--   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="next">Older Entries</a>
   {% else %}
-    <span class="next ">Newer Entries</span>
+    <span class="next "></span>
   {% endif %}
 </div>
   {% include footer.html %}

@@ -57,9 +57,6 @@ h4 {
 .head_nav li a:hover {
   color: #9a9898; }
 
-.post-list li p, .post-list li a {
-  color: #e6e5e5; }
-
 .post-content a {
   text-decoration: none;
   border-bottom: 2px solid #0fbba3; }
@@ -75,6 +72,12 @@ h4 {
 
 .skills ul li, .skills h4 {
   color: #4d4c4c; }
+
+.post-list a {
+  color: #0fbba3; }
+
+.post-list a:hover {
+  color: #0da38e; }
 
 /*=============== global ===============*/
 body img {
@@ -141,16 +144,21 @@ footer {
 .pagination {
   clear: both;
   margin: 0 auto;
-  text-align: center;
-  padding-top: 4em; }
+  text-align: center; }
+  .pagination a {
+    text-decoration: none;
+    font-family: "effra", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold; }
 
 .hi_there {
   margin: 0 auto;
   margin-bottom: 4em; }
 
 .post_mama {
+  overflow: hidden;
   clear: both;
-  padding-bottom: 2em; }
+  padding-bottom: 1em; }
 
 .post-content img {
   width: 100%;
@@ -158,116 +166,16 @@ footer {
   margin-bottom: .75em; }
 
 .post-list li {
-  color: #e3e1e1;
+  color: #4d4c4c;
   font-weight: 300;
-  padding: 2em;
-  margin-top: 4em;
+  padding: 1em;
+  margin-top: 2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   position: relative;
-  background: #01049c;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px; }
-
-.post {
-  padding: 0 1em; }
-
-.post-list li:first-of-type {
-  color: #4d4c4c;
-  width: 100%;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  border: #0fbba3 solid 7px;
-  margin-top: 1em;
-  background-color: white; }
-  .post-list li:first-of-type::before {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 26px 26px 0;
-    border-color: #0fbba3 transparent;
-    display: block;
-    width: 0;
-    z-index: 0;
-    margin-left: -26px;
-    bottom: -33px;
-    left: 65%; }
-  .post-list li:first-of-type::after {
-    display: none; }
-  .post-list li:first-of-type p, .post-list li:first-of-type a {
-    color: #4d4c4c;
-    text-decoration: none; }
-
-.post-list li:nth-of-type(4n+2) {
-  color: #4d4c4c;
-  background-color: #f5f68d; }
-  .post-list li:nth-of-type(4n+2)::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 0 20px 20px;
-    border-color: #f5f68d transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -20px;
-    top: -20px;
-    left: 30%; }
-  .post-list li:nth-of-type(4n+2) p, .post-list li:nth-of-type(4n+2) a {
-    color: #4d4c4c; }
-
-.post-list li:nth-of-type(4n+3) {
-  background-color: #01049c; }
-  .post-list li:nth-of-type(4n+3)::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 0 20px 20px;
-    border-color: transparent #01049c;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-top: -20px;
-    right: -20px;
-    top: 63%; }
-
-.post-list li:nth-of-type(4n+4) {
-  color: #4d4c4c;
-  background-color: #0fbba3; }
-  .post-list li:nth-of-type(4n+4)::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 20px 0;
-    border-color: #0fbba3 transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -20px;
-    bottom: -20px;
-    left: 52%; }
-  .post-list li:nth-of-type(4n+4) p, .post-list li:nth-of-type(4n+4) a {
-    color: #4d4c4c; }
-
-.post-list li:nth-of-type(4n+5) {
-  background-color: #4d4c4c; }
-  .post-list li:nth-of-type(4n+5)::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 20px 20px 0;
-    border-color: transparent #4d4c4c;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-top: -20px;
-    left: -20px;
-    top: 75%; }
 
 /*==================== PORTFOLIO ====================*/
 .snippets {
@@ -454,7 +362,6 @@ footer {
   margin: 0 auto; }
 
 .skills_mama ul {
-  margin-bottom: 2em;
   margin-left: 20px; }
 .skills_mama h4 {
   margin-bottom: .5em; }
@@ -520,14 +427,9 @@ footer p {
 .post-list a {
   text-decoration: none; }
 
-.post-list li:first-of-type p {
-  font-size: 1.5em; }
-.post-list li:first-of-type h3 {
-  font-size: 2em; }
-
 .portfolio h1, .contact h1, .journal h1 {
   text-transform: uppercase;
-  margin-bottom: 1em; }
+  margin-bottom: .5em; }
 
 .contact h1 {
   margin-top: 1em; }
@@ -745,6 +647,8 @@ footer p {
   display: block;
   margin-bottom: 1em;
   text-align: right; }
+  .nav-collapse li:last-of-type {
+    margin-right: 0px; }
 
 .js .nav-collapse {
   clip: rect(0 0 0 0);
@@ -775,24 +679,16 @@ footer p {
 
 @media screen and (min-width: 800px) {
   /*Below are the "slashes" in the head nav bar- changing color on each page*/
-  .journal nav li::after, .post nav li::after, .portfolio nav li::after, .project nav li::after, .about nav li::after, .contact nav li::after {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 30px;
-    float: right;
-    -webkit-transform: skew(-20deg);
-    -moz-transform: skew(-20deg);
-    transform: skew(-20deg);
-    margin: -5px 1em;
-    background-color: #01049c; }
+  .navmama {
+    width: 414px; }
 
   .nav-collapse li {
-    float: left; }
+    float: left;
+    margin-right: 10%; }
     .nav-collapse li:last-of-type {
       margin-right: 0; }
-    .nav-collapse li:nth-of-type(4)::after {
-      display: none; }
+    .nav-collapse li:hover {
+      border-bottom: 3px solid #01049c; }
 
   .js .nav-collapse {
     position: relative; }
@@ -809,11 +705,12 @@ footer p {
 
   /*========JOURNAL=======*/
   .post-list li {
+    margin-bottom: 3em;
     height: 200px;
     width: 45%;
     float: left;
-    margin-right: 10%; }
-    .post-list li:nth-of-type(2n+3) {
+    margin-right: 5%; }
+    .post-list li:nth-of-type(2n+2) {
       margin-right: 0; }
 
   .logo {
@@ -869,16 +766,8 @@ footer p {
     clear: none; }
 
   /*======JOURNAL=====*/
-  .post-list li:nth-of-type(2n+3) {
-    margin-right: 5%; }
-
   .post-list li {
-    height: 200px;
-    width: 30%;
-    float: left;
-    margin-right: 5%; }
-    .post-list li:nth-of-type(3n+4) {
-      margin-right: 0; }
+    margin-bottom: em; }
 
   /*======PORTFOLIO=====*/
   .snippets:nth-of-type(2n+2) {
@@ -921,7 +810,8 @@ footer p {
 
   .about_face {
     float: left;
-    margin-right: 5%; }
+    margin-right: 5%;
+    margin-bottom: 2em; }
 
   .story {
     float: left; }
@@ -935,12 +825,11 @@ footer p {
 
   .skills {
     clear: both;
-    height: 550px;
     width: 48%;
     float: left;
     margin-right: 4%; }
 
   .side_projects {
     width: 48%;
-    height: 550px;
+    height: 522px;
     float: left; } }

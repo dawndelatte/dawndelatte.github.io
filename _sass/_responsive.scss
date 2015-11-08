@@ -4,11 +4,12 @@
     .hi_there p{overflow: hidden;}
     /*========JOURNAL=======*/
     .post-list li {
+        margin-bottom: 3em;
         height: 200px;
         width: 45%;
         float: left;
-        margin-right: 10%;
-        &:nth-of-type(2n+3) {
+        margin-right: 5%;
+        &:nth-of-type(2n+2) {
             margin-right: 0;
         }
     }
@@ -74,18 +75,19 @@
         }
     }
     /*======JOURNAL=====*/
-    .post-list li:nth-of-type(2n+3) {
-        margin-right: 5%;
-    }
-    .post-list li {
-        height: 200px;
-        width: 30%;
-        float: left;
-        margin-right: 5%;
-        &:nth-of-type(3n+4) {
-            margin-right: 0;
-        }
-    }
+    // .post-list li:nth-of-type(2n+3) {
+    //     margin-right: 5%;
+    // }
+    // .post-list li {
+    //     height: 200px;
+    //     width: 30%;
+    //     float: left;
+    //     margin-right: 5%;
+    //     &:nth-of-type(3n+4) {
+    //         margin-right: 0;
+    //     }
+    // }
+    .post-list li {margin-bottom: em;}
     /*======PORTFOLIO=====*/
     .snippets:nth-of-type(2n+2) {
         margin-right: 5%;
@@ -129,6 +131,7 @@
     .about_face {
         float: left;
         margin-right: 5%;
+        margin-bottom: 2em;
     }
     .story {
         float: left;
@@ -143,14 +146,14 @@
     }
     .skills {
         clear: both;
-        height: 550px;
+        // height: 550px;
         width: 48%;
         float: left;
         margin-right: 4%;
     }
     .side_projects {
         width: 48%;
-        height: 550px;
+        height: 522px;
         float: left;
     }
 }
