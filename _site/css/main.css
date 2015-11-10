@@ -684,7 +684,8 @@ footer p {
 
   .nav-collapse li {
     float: left;
-    margin-right: 10%; }
+    margin-right: 10%;
+    padding-bottom: 7px; }
     .nav-collapse li:last-of-type {
       margin-right: 0; }
     .nav-collapse li:hover {
