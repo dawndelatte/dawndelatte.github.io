@@ -1,8 +1,8 @@
 
 /*Variables*/
 
-$primary: "adelle", serif;
-$head: "effra", sans-serif;
+$primary: "neuzeit-grotesk", sans-serif;
+$head: "neuzeit-grotesk", sans-serif;
 
 /*=====font families=====*/
 
@@ -19,13 +19,16 @@ h3, h4, nav a, p, span, {
 /*=====font size=====*/
 
 h1 {
-	font-size: 4em;
-	font-weight: bold;
+	font-size: 3.2em;
+	line-height: 1.25;
+	font-weight: 700;
+
+	span {color: #34a6ce;}
 }
 
 h2 {
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: 700;
 }
 h3 {
 	font-size: 2em;
@@ -36,7 +39,7 @@ h4, nav a {
 
 p {
 	font-size: 1.25em;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.6;
 }
 
@@ -90,7 +93,6 @@ footer p {
 // }
 
 .portfolio h1, .contact h1, .journal h1 {
-	text-transform: uppercase;
 	margin-bottom: .5em;
 }
 
