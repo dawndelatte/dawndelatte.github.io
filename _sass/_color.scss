@@ -7,53 +7,81 @@ $teal: rgb(52, 166, 206);
 
 $primary_text: rgb(77, 76, 76);
 
+/*New Variables*/
+
+$block_highlight: rgb(212, 191, 198);
+$text_highlight: rgb(52, 166, 206);
+
+$lt_text: rgb(255, 255, 255);
+$dk_text: rgb(93, 91, 90);
 
 
-h1, h2, h3, p, a, .pagination, .project_statement li {
-	color: $primary_text;
+/*Gettin' specific*/
+
+.navmama {
+	color: $dk_text;
+	a {
+		color: $dk_text;
+		&:visited{color:$dk_text;}
+		&:hover{color: lighten($dk_text, 15%);}
+	}
 }
 
-h4 {
-	color: lighten($primary_text, 30%);
+footer{ 
+	color: $lt_text;
+	a{color: $text_highlight;
+		&:visited{color:$text_highlight;}
+		&:hover{color:lighten($text_highlight, 10%);}
+	}
 }
 
 
 
-.head_nav li a:hover {
-
-	color: lighten($primary_text, 30%);
-}
-
-// .post-list li {
-
-// 	    p, a {
-//         color: lighten($primary_text, 60%);
-//     }
+// h1, h2, h3, p, a, .pagination, .project_statement li {
+// 	color: $primary_text;
 // }
 
-.post-content a {
-	text-decoration: none; 
-	border-bottom: 2px solid $teal;
-}
+// h4 {
+// 	color: lighten($primary_text, 30%);
+// }
 
 
-.snippets:hover {
-    background-color: rgba(76, 76, 76, 0.5);
-}
 
-.project_title h3 {
- 	color: lighten($primary_text, 60%);
-}
-.side_projects h2, .side_projects p {
-	color: lighten($primary_text, 60%);
-}
+// .head_nav li a:hover {
 
-.skills ul li, .skills h4{
-	color: $primary_text;
-}
+// 	color: lighten($primary_text, 30%);
+// }
 
-.post-list a {color:$teal;}
-.post-list a:hover {
-	color: darken($teal,5%);
+// // .post-list li {
 
-}
+// // 	    p, a {
+// //         color: lighten($primary_text, 60%);
+// //     }
+// // }
+
+// .post-content a {
+// 	text-decoration: none; 
+// 	border-bottom: 2px solid $teal;
+// }
+
+
+// .snippets:hover {
+//     background-color: rgba(76, 76, 76, 0.5);
+// }
+
+// .project_title h3 {
+//  	color: lighten($primary_text, 60%);
+// }
+// .side_projects h2, .side_projects p {
+// 	color: lighten($primary_text, 60%);
+// }
+
+// .skills ul li, .skills h4{
+// 	color: $primary_text;
+// }
+
+// .post-list a {color:$teal;}
+// .post-list a:hover {
+// 	color: darken($teal,5%);
+
+// }
