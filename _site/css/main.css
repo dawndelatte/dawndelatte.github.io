@@ -100,13 +100,19 @@ footer {
 
 .social_nav {
   overflow: hidden;
-  padding-bottom: 4em; }
-  .social_nav ul li {
-    float: left;
-    width: 30%;
-    margin-right: 5%; }
-    .social_nav ul li:last-of-type {
-      margin-right: 0; }
+  padding-bottom: 4em;
+  margin: 0 auto; }
+  .social_nav ul {
+    overflow: hidden; }
+    .social_nav ul li {
+      float: left;
+      width: 15%;
+      max-width: 40px;
+      margin-right: 15%; }
+      .social_nav ul li:last-of-type {
+        margin-right: 0; }
+      .social_nav ul li a {
+        display: block; }
 
 .foot_nav {
   clear: both; }
@@ -326,7 +332,12 @@ p, a {
     float: left;
     width: 45%;
     margin-right: 5%;
-    clear: none; } }
+    clear: none; }
+
+  .social_nav ul li {
+    float: right;
+    margin-right: 0;
+    margin-left: 15%; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
   /*======JOURNAL=====*/ }
