@@ -1,86 +1,43 @@
+/*========== portfolio thumbnails ==========*/
+
+@media screen and (min-width: 600px) {
+.thumbnails_mama {
+    clear: both;
+    overflow: hidden;
+}
+
+.port_thumbnails {
+    float: left;
+    width: 50%;
+}
+}
+
 /*========== medium breakpoint ==========*/
 
 @media screen and (min-width: 650px) {
 
-        .social_nav{
-        float:right;
-        width: 45%;
-        padding-bottom: 0;
-    }
 
-    .foot_nav {
+.foot_nav {
         float: left;
         width: 45%;
         margin-right: 5%;
         clear: none;
-    }
+        overflow: hidden;
+}
 
-    .social_nav {
-        ul li {
+.social_nav {
+        float: right;
+        width: 50%;
+        margin-right: 0;
+
+        li {
             float: right;
             margin-right: 0;
-            margin-left: 15%;
+            margin-left: 35px;
         }
-    }
+}
 
-    
-//     .hi_there p{overflow: hidden;}
-//     /*========JOURNAL=======*/
-//     .post-list li {
-//         margin-bottom: 3em;
-//         height: 200px;
-//         width: 45%;
-//         float: left;
-//         margin-right: 5%;
-//         &:nth-of-type(2n+2) {
-//             margin-right: 0;
-//         }
-//     }
-//     .logo {
-//         margin-bottom: 0;
-//         float: left;
-//     }
-//     .social {
-//         float: left;
-//     }
-//     footer h4 {
-//         float: right;
-//     }
-//     .follow {
-//         float: none;
-//         width: 50%;
-//     }
-//     .about_bubble {
-//         width: 45%;
-//         float: left;
-//         margin-left: 10%;
-//     }
-//     /*======PORTFOLIO=====*/
-//     .snippets {
-//         width: 45%;
-//         float: left;
-//         margin-right: 10%;
-//         &:nth-of-type(2n+2) {
-//             margin-right: 0;
-//         }
-//     }
-//     .skills_mama {
-//         overflow: hidden;
-//         ul {
-//             width: 40%;
-//             float: left;
-//             &:last-of-type {
-//                 margin-right: 0;
-//             }
-//         }
-//     }
-//     .nola_atx {
-//         width: 60%;
-//     }
-//     .project_statement {
-//     li {width: 50%; float: left;}
-//     h2 {clear: both;}
-// }
+
 }
 
 
@@ -88,96 +45,17 @@
 
 @media screen and (min-width: 900px) {
 
-    // footer {
-    //     .follow {
-    //         float: left;
-    //     }
-    //     .foot_mama .powered {
-    //         width: 30%;
-    //         float: right;
-    //         clear: none;
-    //     }
-    // }
-    /*======JOURNAL=====*/
-    // .post-list li:nth-of-type(2n+3) {
-    //     margin-right: 5%;
-    // }
-    // .post-list li {
-    //     height: 200px;
-    //     width: 30%;
-    //     float: left;
-    //     margin-right: 5%;
-    //     &:nth-of-type(3n+4) {
-    //         margin-right: 0;
-    //     }
-    // }
-//     .post-list li {margin-bottom: em;}
-//     /*======PORTFOLIO=====*/
-//     .snippets:nth-of-type(2n+2) {
-//         margin-right: 5%;
-//     }
-//     .snippets {
-//         width: 30%;
-//         float: left;
-//         margin-right: 5%;
-//         &:nth-of-type(3n+3) {
-//             margin-right: 0;
-//         }
-//     }
-//     .project_bubble_right {
-//         float: left;
-//         width: 40%;
-//         margin-left: 1%;
-//         &::after {
-//             content: '';
-//             border-width: 15px 20px 15px 0;
-//             border-color: transparent rgb(245, 246, 141);
-//             margin-left: 0;
-//             margin-top: -15px;
-//             left: -20px;
-//             top: 24%;
-//         }
-//     }
-//     .project_bubble_left {
-//         float: left;
-//         width: 40%;
-//         margin-left: 1%;
-//         &::after {
-//             content: '';
-//             border-width: 15px 0 15px 20px;
-//             border-color: transparent rgb(245, 246, 141);
-//             left: 103%;
-//             top: 33%;
-//         }
-//     }
-//     /*==========ABOUT=========*/
-//     .hi_there h1 {text-align: left;}
-//     .about_face {
-//         float: left;
-//         margin-right: 5%;
-//         margin-bottom: 2em;
-//     }
-//     .story {
-//         float: left;
-//         &::after {
-//             border-width: 15px 20px 15px 0;
-//             border-color: transparent rgb(245, 246, 141);
-//             margin-left: 0;
-//             margin-top: -15px;
-//             left: -20px;
-//             top: 50%;
-//         }
-//     }
-//     .skills {
-//         clear: both;
-//         // height: 550px;
-//         width: 48%;
-//         float: left;
-//         margin-right: 4%;
-//     }
-//     .side_projects {
-//         width: 48%;
-//         height: 522px;
-//         float: left;
-//     }
+}
+
+
+
+/*========== portfolio thumbnails ==========*/
+
+@media screen and (min-width: 1000px) {
+
+.port_thumbnails {
+    float: left;
+    width: 33.333%;
+}
+
 }

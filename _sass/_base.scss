@@ -8,22 +8,13 @@ body {
 
 /* wrappers */
 
-.includes_wrap {
+.includes_wrap, .wrapper {
     width: 90%;
     margin: 0 auto;
     max-width: 1000px;
 }
 
-// .post_wrap {
-//     margin: 0 auto;
-//     max-width: 700px;
-// }
 
-// .wrapper {
-//     width: 90%;
-//     max-width: 900px;
-//     margin: 0 auto;
-// }
 
 /*========== header ==========*/
 
@@ -33,6 +24,7 @@ body {
     .logo {
         float: left;
         margin-bottom: 2em;
+        width: 40px;
     }
 
     svg {
@@ -56,341 +48,79 @@ footer {
 .social_nav {
     overflow: hidden;
     padding-bottom: 4em;
-    margin: 0 auto;
-
-    ul {
-
-        overflow: hidden;
         
         li {
             float: left;
-            width: 15%;
-            max-width: 40px;
-            margin-right: 15%;
+            width: 100%;
+            max-width: 35px;
+            margin-right: 35px;
     
             &:last-of-type {margin-right: 0;}
     
             a{display: block;}
         }
-    }
 }
 
 .foot_nav {
     clear:both;
 }
 
-// .foot_mama {
-//     overflow: hidden;
-//     padding: 2em 0;
-//     margin-top: 3em;
-//     li {
-//         float: left;
-//         margin-right: 5%;
-//         -webkit-transition: 500ms ease-in-out all;
-//       transition: 500ms ease-in-out all;
-//       position: relative;
-//       bottom: 0;
+/*========== portfolio/home page ==========*/
 
-//       &:hover {margin-top: -10px;}
-//     }
-    
-//     ul {
-//         margin: 3em 0;
-//     }
-//     .social {
-//         height: 2.25em;
-//     }
+.thumbnails_mama {
+    margin: 4em 0;
+}
 
-//     .powered {clear: left; margin-top: 2em;}
-//     .follow {overflow: hidden;}
+.port_thumbnails {
+    display: block;
+    width: 100%;
+    height: 300px;
+    text-decoration: none;
 
+     &:visited { color: white;}
+}
 
-// }
+.br_thumb {
+    background: url(../project_assets/bagelrunner.png) no-repeat center;
+    background-size: cover;
+    display: block;
+}
 
-/*==================== JOURNAL ====================*/
+.fqf_thumb {
+    background: url(../project_assets/port-snippets-placeholder-fqf.png) no-repeat center;
+    background-size: cover;
+}
 
-// .pagination {
-//     clear: both;
-//     margin: 0 auto;
-//     text-align: center;
-//     // padding-top: 4em;
+.shero_thumb {
+    background: url(../project_assets/port-snippets-placeholder-sheroe.png) no-repeat center;
+    background-size: cover;
+}
 
-//     a {
-//         text-decoration: none;
-//         font-family: "effra", sans-serif;
-//         text-transform: uppercase;
-//         font-weight: bold;
-//     }
-// }
+.goodreads_thumb {
+    background: url(../project_assets/port-snippets-placeholder-goodreads.png) no-repeat center;
+    background-size: cover;
+}
 
-// .hi_there {
-//     margin: 0 auto;
-//     margin-bottom: 4em;
-// }
+.abgb_thumb {
+    background: url(../project_assets/port-snippets-placeholder-abgb.png) no-repeat center;
+    background-size: cover;
+}
 
-// .post_mama {
-//     overflow: hidden;
-//     clear: both;
-//     padding-bottom: 1em;
-// }
+.csszen_thumb {
+    background: url(../project_assets/port-snippets-placeholder-zengarden.png) no-repeat center;
+    background-size: cover;
+}
 
-// .post-content {
-//     img {
-//         width: 100%;
-//         max-width: 100%;
-//         margin-bottom: .75em;
-//     }
-// }
+.overlay {
+   height: 100%;
+   background:rgba(212,191,198,.85);
+   opacity:0;
+   -webkit-transition: opacity 500ms ease;
+   -moz-transition: opacity 500ms ease;
+   -o-transition: opacity 500ms ease;
+   transition: opacity 500ms ease;
+}
 
-// .post-list li {
-//     // color: rgb(227, 225, 225);
-//     color: $primary_text;
-//     font-weight: 300;
-//     padding: 1em;
-//     margin-top: 2em;
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     position: relative;
-//     // background: rgb(1, 4, 156);
-//     -webkit-border-radius: 0px;
-//     -moz-border-radius: 0px;
-//     border-radius: 0px;
-// }
-
-
-
-/*==================== PORTFOLIO ====================*/
-
-
-// .snippets {
-//     display: block;
-//     background: url(http://placekitten.com/g/300/400) no-repeat;
-//     height: 300px;
-//     width: 300px;
-//     margin: 0 auto;
-//     text-decoration: none;
-//     margin-top: 3em;
-
-
-// .project_title {
-//     background: rgb(1, 4, 156);
-//     width: 90%;
-//     position: relative;
-//     margin: 0 auto;
-//     top: 20px;
-//     opacity: 0;
-//     transition: opacity 700ms ease;
-
-
- 
-//     &::after {
-//         content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 15px 15px 0;
-//         border-color: rgb(1, 4, 156) transparent;
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         bottom: -15px;
-//         left: 110px;
-//     }
-//   }
-// }
-
-// .snippets:hover {
-//     &:hover .project_title {
-//         opacity: 1; 
-    
-//     }
-// }
-
-/*=================== PROJECT ===================*/
-
-// .project_mama {
-//     overflow: hidden;
-//     max-width: 1100px;
-//     width: 90%;
-//     margin: 0 auto;
-// }
-
-// .project_bubble_right {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     -ms-box-sizing: border-box;
-//     position: relative;
-//     background: rgb(245, 246, 141);
-//     -webkit-border-radius: 0px;
-//     -moz-border-radius: 0px;
-//     border-radius: 0px;
-//     margin-bottom: 4em;
-//     &::after {
-//         content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 0 15px 20px;
-//         border-color: rgb(245, 246, 141) transparent;
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         margin-left: -15px;
-//         top: -20px;
-//         left: 24%;
-//     }
-// }
-
-// .project_bubble_left 
-// {
-// position: relative;
-// background: rgb(245, 246, 141);
-// -webkit-border-radius: 0px;
-// -moz-border-radius: 0px;
-// border-radius: 0px;
-// margin-bottom: 4em;
-
-
-// &::after 
-// {
-//     content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 0 15px 20px;
-//         border-color: rgb(245, 246, 141) transparent;
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         margin-left: -15px;
-//         top: -20px;
-//         left: 24%;
-// }
-// }
-
-// .project_statement {
-//     clear: both;
-//     max-width: 700px;
-//     margin: 0 auto;
-//     margin-top: 3em;
-//     margin-bottom: 3em;
-// }
-
-// .sub_mama {
-//     margin: 0 auto;
-// }
-
-/*==================== ABOUT ====================*/
-
-// .about_face {
-//     max-width: 250px;
-//     margin: 0 auto;
-//     img {
-//         margin-bottom: .25em;
-//     }
-// }
-
-// .story {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     -ms-box-sizing: border-box;
-//     padding: 2em;
-//     position: relative;
-//     background: rgb(245, 246, 141);
-//     -webkit-border-radius: 0px;
-//     -moz-border-radius: 0px;
-//     border-radius: 0px;
-//     margin-bottom: 3em;
-//     margin-top: 3em;
-//     &:after {
-//         content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 0 15px 20px;
-//         border-color: rgb(245, 246, 141) transparent;
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         margin-left: -15px;
-//         top: -20px;
-//         left: 83%;
-//     }
-// }
-
-// .skills {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     -ms-box-sizing: border-box;
-//     padding: 2em;
-//     position: relative;
-//     background: rgb(15, 187, 163);
-//     -webkit-border-radius: 0px;
-//     -moz-border-radius: 0px;
-//     border-radius: 0px;
-//     margin-bottom: 3em;
-//     &:after {
-//         content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 20px 15px 0;
-//         border-color: rgb(15, 187, 163) transparent;
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         margin-left: -15px;
-//         bottom: -20px;
-//         left: 18%;
-//     }
-// }
-
-// .side_projects {
-//     -webkit-box-sizing: border-box;
-//     -moz-box-sizing: border-box;
-//     -ms-box-sizing: border-box;
-//     padding: 2em;
-//     position: relative;
-//     background: rgb(1, 4, 156);
-//     -webkit-border-radius: 0px;
-//     -moz-border-radius: 0px;
-//     border-radius: 0px;
-//     margin-bottom: 3em;
-//     &:after {
-//         content: '';
-//         position: absolute;
-//         border-style: solid;
-//         border-width: 15px 0 15px 20px;
-//         border-color: transparent rgb(1, 4, 156);
-//         display: block;
-//         width: 0;
-//         z-index: 1;
-//         margin-top: -15px;
-//         right: -20px;
-//         top: 40%;
-//     }
-// }
-
-// .currently_photos {
-//     float: left;
-//     max-width: 8em;
-//     height: 30px;
-//     img {
-//         max-width: 100%;
-//     }
-// }
-
-// .nola_atx {
-//     background: url(../site_assets/skylines.svg) no-repeat;
-//     height: 70px;
-//     margin: 0 auto;
-// }
-
-// .skills_mama {
-//     ul {
-//         // margin-bottom: 2em;
-//         margin-left: 20px;
-//     }
-//     h4 {
-//         margin-bottom: .5em;
-//     }
-// }
-
-// .typeform_btn {
-//     margin-top: 3em;
-// }
+.overlay:hover {
+  opacity: 1;
+}

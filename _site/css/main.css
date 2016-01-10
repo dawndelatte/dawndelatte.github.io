@@ -68,12 +68,23 @@ footer {
     footer a:hover {
       color: #5db8d8; }
 
+.port_mama h1 {
+  color: #5d5b5a; }
+  .port_mama h1 span {
+    color: #34a6ce; }
+
+.title {
+  color: white; }
+
+.description {
+  color: #5d5b5a; }
+
 /*=============== global ===============*/
 body img {
   max-width: 100%; }
 
 /* wrappers */
-.includes_wrap {
+.includes_wrap, .wrapper {
   width: 90%;
   margin: 0 auto;
   max-width: 1000px; }
@@ -84,7 +95,8 @@ body img {
   padding: 2em 0; }
   .head_mama .logo {
     float: left;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    width: 40px; }
   .head_mama svg {
     width: 40px;
     float: left; }
@@ -100,27 +112,69 @@ footer {
 
 .social_nav {
   overflow: hidden;
-  padding-bottom: 4em;
-  margin: 0 auto; }
-  .social_nav ul {
-    overflow: hidden; }
-    .social_nav ul li {
-      float: left;
-      width: 15%;
-      max-width: 40px;
-      margin-right: 15%; }
-      .social_nav ul li:last-of-type {
-        margin-right: 0; }
-      .social_nav ul li a {
-        display: block; }
+  padding-bottom: 4em; }
+  .social_nav li {
+    float: left;
+    width: 100%;
+    max-width: 35px;
+    margin-right: 35px; }
+    .social_nav li:last-of-type {
+      margin-right: 0; }
+    .social_nav li a {
+      display: block; }
 
 .foot_nav {
   clear: both; }
 
-/*==================== JOURNAL ====================*/
-/*==================== PORTFOLIO ====================*/
-/*=================== PROJECT ===================*/
-/*==================== ABOUT ====================*/
+/*========== portfolio/home page ==========*/
+.thumbnails_mama {
+  margin: 4em 0; }
+
+.port_thumbnails {
+  display: block;
+  width: 100%;
+  height: 300px;
+  text-decoration: none; }
+  .port_thumbnails:visited {
+    color: white; }
+
+.br_thumb {
+  background: url(../project_assets/bagelrunner.png) no-repeat center;
+  background-size: cover;
+  display: block; }
+
+.fqf_thumb {
+  background: url(../project_assets/port-snippets-placeholder-fqf.png) no-repeat center;
+  background-size: cover; }
+
+.shero_thumb {
+  background: url(../project_assets/port-snippets-placeholder-sheroe.png) no-repeat center;
+  background-size: cover; }
+
+.goodreads_thumb {
+  background: url(../project_assets/port-snippets-placeholder-goodreads.png) no-repeat center;
+  background-size: cover; }
+
+.abgb_thumb {
+  background: url(../project_assets/port-snippets-placeholder-abgb.png) no-repeat center;
+  background-size: cover; }
+
+.csszen_thumb {
+  background: url(../project_assets/port-snippets-placeholder-zengarden.png) no-repeat center;
+  background-size: cover; }
+
+.overlay {
+  height: 100%;
+  background: rgba(212, 191, 198, 0.85);
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease; }
+
+.overlay:hover {
+  opacity: 1; }
+
 /*Variables*/
 /*=====font families=====*/
 h1, h2, h3, h4, p, a, span {
@@ -129,12 +183,29 @@ h1, h2, h3, h4, p, a, span {
 a {
   text-decoration: none; }
 
+h1 {
+  font-size: 3.2em;
+  line-height: 1.25;
+  font-weight: 900; }
+
 p, a {
   font-size: 1.25em;
   line-height: 1.6; }
 
 .foot_mama p, .foot_mama a {
   font-size: 16px;
+  font-weight: 300; }
+
+.title {
+  padding-top: 100px;
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1em;
+  text-align: center; }
+
+.description {
+  display: block;
+  font-size: 20px;
   font-weight: 300; }
 
 .zen_sub1, .zen_sub2, .fqf_sub1, .fqf_sub2, .fqf_sub3, .fqf_sub4, .fqf_sub5, .abgb_sub1, .abgb_sub2, .sheroe_sub1, .sheroe_sub2, .gr_sub1, .gr_sub2, .gr_sub3 {
@@ -321,23 +392,35 @@ p, a {
 
   .nav-toggle {
     display: none; } }
+/*========== portfolio thumbnails ==========*/
+@media screen and (min-width: 600px) {
+  .thumbnails_mama {
+    clear: both;
+    overflow: hidden; }
+
+  .port_thumbnails {
+    float: left;
+    width: 50%; } }
 /*========== medium breakpoint ==========*/
 @media screen and (min-width: 650px) {
-  .social_nav {
-    float: right;
-    width: 45%;
-    padding-bottom: 0; }
-
   .foot_nav {
     float: left;
     width: 45%;
     margin-right: 5%;
-    clear: none; }
+    clear: none;
+    overflow: hidden; }
 
-  .social_nav ul li {
+  .social_nav {
     float: right;
-    margin-right: 0;
-    margin-left: 15%; } }
+    width: 50%;
+    margin-right: 0; }
+    .social_nav li {
+      float: right;
+      margin-right: 0;
+      margin-left: 35px; } }
 /*==========large breakpoint ==========*/
-@media screen and (min-width: 900px) {
-  /*======JOURNAL=====*/ }
+/*========== portfolio thumbnails ==========*/
+@media screen and (min-width: 1000px) {
+  .port_thumbnails {
+    float: left;
+    width: 33.333%; } }

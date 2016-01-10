@@ -35,53 +35,17 @@ footer{
 	}
 }
 
+.port_mama{
+	h1 {
+		color: $dk_text;
 
+		span {color: $text_highlight;}
+	}
+}
 
-// h1, h2, h3, p, a, .pagination, .project_statement li {
-// 	color: $primary_text;
-// }
+.title {
+	color:$lt_text;
+}
 
-// h4 {
-// 	color: lighten($primary_text, 30%);
-// }
+.description {color: $dk_text;}
 
-
-
-// .head_nav li a:hover {
-
-// 	color: lighten($primary_text, 30%);
-// }
-
-// // .post-list li {
-
-// // 	    p, a {
-// //         color: lighten($primary_text, 60%);
-// //     }
-// // }
-
-// .post-content a {
-// 	text-decoration: none; 
-// 	border-bottom: 2px solid $teal;
-// }
-
-
-// .snippets:hover {
-//     background-color: rgba(76, 76, 76, 0.5);
-// }
-
-// .project_title h3 {
-//  	color: lighten($primary_text, 60%);
-// }
-// .side_projects h2, .side_projects p {
-// 	color: lighten($primary_text, 60%);
-// }
-
-// .skills ul li, .skills h4{
-// 	color: $primary_text;
-// }
-
-// .post-list a {color:$teal;}
-// .post-list a:hover {
-// 	color: darken($teal,5%);
-
-// }
