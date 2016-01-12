@@ -6,7 +6,7 @@ body {
     }
 }
 
-/* wrappers */
+/*========== wrappers ==========*/
 
 .includes_wrap, .wrapper {
     width: 90%;
@@ -21,6 +21,7 @@ body {
 .head_mama {
     overflow: hidden;
     padding: 2em 0;
+
     .logo {
         float: left;
         margin-bottom: 2em;
@@ -39,6 +40,7 @@ body {
 footer {
     background-color: #5d5b5a;
 }
+
 .foot_mama {
     overflow: hidden;
     clear: both;
@@ -80,10 +82,11 @@ footer {
      &:visited { color: white;}
 }
 
+/*========== placeholder images -- may need to use <img> instead ==========*/
+
 .br_thumb {
-    background: url(../project_assets/bagelrunner.png) no-repeat center;
+    background: url(../project_assets/port-snippets-placeholder-bagelrunner.png) no-repeat center;
     background-size: cover;
-    display: block;
 }
 
 .fqf_thumb {

@@ -83,7 +83,7 @@ footer {
 body img {
   max-width: 100%; }
 
-/* wrappers */
+/*========== wrappers ==========*/
 .includes_wrap, .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -138,10 +138,10 @@ footer {
   .port_thumbnails:visited {
     color: white; }
 
+/*========== placeholder images -- may need to use <img> instead ==========*/
 .br_thumb {
-  background: url(../project_assets/bagelrunner.png) no-repeat center;
-  background-size: cover;
-  display: block; }
+  background: url(../project_assets/port-snippets-placeholder-bagelrunner.png) no-repeat center;
+  background-size: cover; }
 
 .fqf_thumb {
   background: url(../project_assets/port-snippets-placeholder-fqf.png) no-repeat center;
