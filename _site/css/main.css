@@ -108,23 +108,24 @@ footer {
 .foot_mama {
   overflow: hidden;
   clear: both;
-  padding: 5em 0; }
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto; }
 
 .social_nav {
   overflow: hidden;
   padding-bottom: 4em; }
-  .social_nav li {
-    float: left;
-    width: 100%;
-    max-width: 35px;
-    margin-right: 35px; }
-    .social_nav li:last-of-type {
-      margin-right: 0; }
-    .social_nav li a {
-      display: block; }
-
-.foot_nav {
-  clear: both; }
+  .social_nav ul {
+    display: flex;
+    justify-content: flex-start; }
+    .social_nav ul li {
+      flex: 0 0 35px;
+      margin-right: 35px; }
+      .social_nav ul li:last-of-type {
+        margin-right: 0; }
 
 /*========== portfolio/home page ==========*/
 .thumbnails_mama {
@@ -403,21 +404,15 @@ p, a {
     width: 50%; } }
 /*========== medium breakpoint ==========*/
 @media screen and (min-width: 650px) {
-  .foot_nav {
-    float: left;
-    width: 45%;
-    margin-right: 5%;
-    clear: none;
-    overflow: hidden; }
+  .foot_mama {
+    flex-direction: row-reverse;
+    justify-content: space-around; }
 
-  .social_nav {
-    float: right;
-    width: 50%;
-    margin-right: 0; }
-    .social_nav li {
-      float: right;
-      margin-right: 0;
-      margin-left: 35px; } }
+  .social_nav ul li {
+    flex: 0 0 35px;
+    margin-right: 35px; }
+    .social_nav ul li:last-of-type {
+      margin-right: 0; } }
 /*==========large breakpoint ==========*/
 /*========== portfolio thumbnails ==========*/
 @media screen and (min-width: 1000px) {
