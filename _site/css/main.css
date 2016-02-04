@@ -376,14 +376,22 @@ p, a {
 
 @media screen and (min-width: 800px) {
   .navmama {
-    width: 222px; }
+    width: 228px; }
 
   .nav-collapse li {
     float: left;
-    margin-right: 10%;
+    margin-right: 8%;
     padding-bottom: 7px; }
     .nav-collapse li:last-of-type {
       margin-right: 0; }
+    .nav-collapse li:nth-child(-n+2):after {
+      content: "";
+      display: inline-block;
+      width: 2px;
+      height: 20px;
+      background-color: #5d5b5a;
+      vertical-align: middle;
+      margin-left: 20px; }
 
   .js .nav-collapse {
     position: relative; }
