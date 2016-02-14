@@ -16,6 +16,20 @@ $lt_text: rgb(255, 255, 255);
 $dk_text: rgb(93, 91, 90);
 
 
+/*General*/
+
+h1, h2, h3, h4, p {
+	color: $dk_text;
+}
+
+a, span {
+	color: $text_highlight;
+
+	&:hover{color: lighten($text_highlight, 10%);}
+}
+
+
+
 /*Gettin' specific*/
 
 .navmama {
@@ -28,24 +42,18 @@ $dk_text: rgb(93, 91, 90);
 }
 
 footer{ 
-	color: $lt_text;
-	a{color: $text_highlight;
-		&:visited{color:$text_highlight;}
-		&:hover{color:lighten($text_highlight, 10%);}
-	}
+
+	p {color: $lt_text;}
 }
 
-.port_mama{
-	h1 {
-		color: $dk_text;
-
-		span {color: $text_highlight;}
-	}
-}
 
 .title {
 	color:$lt_text;
 }
 
-.description {color: $dk_text;}
+.description {
+	color: $dk_text;
+	&:hover{color: $dk_text;}
+	&:visited{color: $dk_text;}
+}
 

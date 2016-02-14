@@ -49,6 +49,15 @@ table {
 /*Variables*/
 /*Variables*/
 /*New Variables*/
+/*General*/
+h1, h2, h3, h4, p {
+  color: #5d5b5a; }
+
+a, span {
+  color: #34a6ce; }
+  a:hover, span:hover {
+    color: #5db8d8; }
+
 /*Gettin' specific*/
 .navmama {
   color: #5d5b5a; }
@@ -59,25 +68,18 @@ table {
     .navmama a:hover {
       color: #848180; }
 
-footer {
+footer p {
   color: white; }
-  footer a {
-    color: #34a6ce; }
-    footer a:visited {
-      color: #34a6ce; }
-    footer a:hover {
-      color: #5db8d8; }
-
-.port_mama h1 {
-  color: #5d5b5a; }
-  .port_mama h1 span {
-    color: #34a6ce; }
 
 .title {
   color: white; }
 
 .description {
   color: #5d5b5a; }
+  .description:hover {
+    color: #5d5b5a; }
+  .description:visited {
+    color: #5d5b5a; }
 
 /*=============== global ===============*/
 body img {
@@ -108,25 +110,25 @@ footer {
 .foot_mama {
   overflow: hidden;
   clear: both;
-  padding: 5em 0;
-  display: flex;
-  flex-direction: column;
-  max-width: 90%;
-  margin-right: auto;
-  margin-left: auto; }
+  padding: 5em 0; }
 
 .social_nav {
   overflow: hidden;
   padding-bottom: 4em; }
-  .social_nav ul {
-    display: flex;
-    justify-content: flex-start; }
-    .social_nav ul li {
-      flex: 0 0 35px;
-      margin-right: 35px; }
-      .social_nav ul li:last-of-type {
-        margin-right: 0; }
+  .social_nav li {
+    float: left;
+    width: 100%;
+    max-width: 35px;
+    margin-right: 35px; }
+    .social_nav li:last-of-type {
+      margin-right: 0; }
+    .social_nav li a {
+      display: block; }
 
+.foot_nav {
+  clear: both; }
+
+/* Below is code for flexbox...still working this out - it's too buggy for now */
 /*========== portfolio/home page ==========*/
 .thumbnails_mama {
   margin: 4em 0; }
@@ -141,27 +143,27 @@ footer {
 
 /*========== placeholder images -- may need to use <img> instead ==========*/
 .br_thumb {
-  background: url(../project_assets/port-snippets-placeholder-bagelrunner.png) no-repeat center;
+  background: url(../project_assets/portfolio_thumbnails/bagel_portfolio_thumbnail.png) no-repeat center;
   background-size: cover; }
 
 .fqf_thumb {
-  background: url(../project_assets/port-snippets-placeholder-fqf.png) no-repeat center;
-  background-size: cover; }
-
-.shero_thumb {
-  background: url(../project_assets/port-snippets-placeholder-sheroe.png) no-repeat center;
+  background: url(../project_assets/portfolio_thumbnails/fqf_portfolio_thumbnail.png) no-repeat center;
   background-size: cover; }
 
 .goodreads_thumb {
-  background: url(../project_assets/port-snippets-placeholder-goodreads.png) no-repeat center;
+  background: url(../project_assets/portfolio_thumbnails/goodreads_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.shero_thumb {
+  background: url(../project_assets/portfolio_thumbnails/shero_portfolio_thumbnail.png) no-repeat center;
   background-size: cover; }
 
 .abgb_thumb {
-  background: url(../project_assets/port-snippets-placeholder-abgb.png) no-repeat center;
+  background: url(../project_assets/portfolio_thumbnails/abgb_portfolio_thumbnail.png) no-repeat center;
   background-size: cover; }
 
 .csszen_thumb {
-  background: url(../project_assets/port-snippets-placeholder-zengarden.png) no-repeat center;
+  background: url(../project_assets/portfolio_thumbnails/csszen_portfolio_thumbnail.png) no-repeat center;
   background-size: cover; }
 
 .overlay {
@@ -412,15 +414,23 @@ p, a {
     width: 50%; } }
 /*========== medium breakpoint ==========*/
 @media screen and (min-width: 650px) {
-  .foot_mama {
-    flex-direction: row-reverse;
-    justify-content: space-around; }
+  .foot_nav {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    clear: none;
+    overflow: hidden; }
 
-  .social_nav ul li {
-    flex: 0 0 35px;
-    margin-right: 35px; }
-    .social_nav ul li:last-of-type {
-      margin-right: 0; } }
+  .social_nav {
+    float: right;
+    width: 50%;
+    margin-right: 0; }
+    .social_nav li {
+      float: right;
+      margin-right: 0;
+      margin-left: 35px; }
+
+  /* Below is code for flexbox...still working this out - it's too buggy for now */ }
 /*==========large breakpoint ==========*/
 /*========== portfolio thumbnails ==========*/
 @media screen and (min-width: 1000px) {
