@@ -5,9 +5,12 @@ $primary: "neuzeit-grotesk", sans-serif;
 
 /*=====font families=====*/
 
-h1, h2, h3, h4, p, a, span, {font-family: $primary;}
+h1, h2, h3, h4, p, a, span, li {font-family: $primary;}
 
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+	font-size: 1.25em;
+}
 
 // /*=====font size=====*/
 
@@ -17,7 +20,13 @@ h1 {
 	font-weight: 900;
 }
 
-p, a {
+h2 {
+	font-size: 2.2em;
+	line-height: 1.25;
+	font-weight: 900;
+}
+
+p, li {
 	font-size: 1.25em;
 	line-height: 1.6;
 }
