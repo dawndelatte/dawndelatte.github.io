@@ -11,7 +11,7 @@ h1, h2 {
 	font-family: $head;
 }
 
-h3, h4, nav a, p, span, {
+ h3, h4, nav a, p, span, {
 
 	font-family: $primary;
 }
@@ -117,9 +117,9 @@ h3 {
 	font-size: 1em;
 }
 .project_title h3 {
-
-	text-align: center; 
-	padding: 2em 1em;
+	line-height: 1.25;
+	text-align: center;
+	padding: 3.2em 1em;
 }
 
 .snippets {text-decoration: none;}
