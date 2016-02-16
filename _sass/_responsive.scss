@@ -1,3 +1,4 @@
+
 /*========== portfolio thumbnails ==========*/
 
 @media screen and (min-width: 600px) {
@@ -56,6 +57,37 @@
 // }
 // }
 
+/*========== journal ==========*/
+
+.post-list li {
+        margin-bottom: 3em;
+        height: 200px;
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+        &:nth-of-type(2n+2) {
+            margin-right: 0;
+        }
+    }
+
+/*========== about ==========*/
+
+.about_intro{
+    overflow: hidden;
+    clear: both;
+}
+
+.about_intro_text {
+    float: right;
+    width: 50%;
+    padding-top: 2em;
+}
+
+.about_image {
+    float: left;
+    width: 50%;
+}
+
 
 
 }
@@ -64,6 +96,53 @@
 /*==========large breakpoint ==========*/
 
 @media screen and (min-width: 900px) {
+
+/*========== projects ==========*/
+
+.wrapper {
+    width: 85%;
+}
+
+.project_statement {
+    margin-bottom: 5em;
+}
+.sub_project_image {
+    margin: 0;
+}
+
+.sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
+    clear:both;
+    overflow: hidden;
+    margin-bottom: 5em;
+}
+
+.project_bubble_right {
+    float: right;
+    width: 45%;
+}
+.br_sub1, .fqf_sub1, .fqf_sub4, .gr_sub1, .gr_sub3, .sheroe_sub1, .abgb_sub1, .zen_sub1{
+    float: left;
+    width: 50%;
+}
+
+.project_bubble_left {
+    float: left;
+    width: 45%;
+}
+.br_sub2, .fqf_sub2, .fqf_sub5, .gr_sub2, .sheroe_sub2, .abgb_sub2, .zen_sub2  {
+    float: right;
+    width: 50%;
+}
+
+/*========== journal ==========*/
+
+
+/*========== about ==========*/
+
+.about_intro_text {
+    padding-top: 4em;
+
+}
 
 }
 
@@ -77,5 +156,13 @@
     float: left;
     width: 33.333%;
 }
+ .post-list li {
+    width: 30%;
+        &:nth-of-type(odd) {margin-right: 0;}
+        &:nth-of-type(3n+2) {
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+ }
 
 }

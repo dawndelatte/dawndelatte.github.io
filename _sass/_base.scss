@@ -11,7 +11,19 @@ body {
 .includes_wrap, .wrapper {
     width: 90%;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1100px;
+}
+
+.about_wrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.post_wrap {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 
@@ -165,16 +177,34 @@ footer {
 
 /*==================== JOURNAL ====================*/
 
+.post-content {
+
+    margin-bottom: 3em;
+
+    h1 {
+        margin-bottom: 2em;
+    }
+    p {
+        margin: 1em 0;
+    }
+}
+
+.post-header p {
+    margin: .25em 0 2em 0;
+}
+
 .pagination {
     clear: both;
     margin: 0 auto;
     text-align: center;
+    margin: 1em 0 5em 0;
 
     a {
         text-decoration: none;
-        font-family: "effra", sans-serif;
-        text-transform: uppercase;
-        font-weight: bold;
+        font-family: $primary;
+        font-weight: 600;
+        padding-bottom: 4px;
+        border-bottom: 2px solid $text_highlight;
     }
 }
 
@@ -199,7 +229,7 @@ footer {
 
 .post-list li {
     font-weight: 300;
-    padding: 1em;
+    padding: .5em;
     margin-top: 2em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -209,27 +239,28 @@ footer {
     border-radius: 0px;
 }
 
+
 /*=================== PROJECT ===================*/
 
 .main_project_image {
     margin: 1em 0; 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sub_project_image {
     margin: 1em 0;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .margin_hack {
     margin-top: 1em;
 }
-.project_bubble_right {
-    float: right;
-}
 
-.project_bubble_left 
-{
-    float: left;
-}
+.project_bubble_right p, .project_bubble_left p {margin-bottom: 2em;}
 
 .project_statement {
     clear: both;
@@ -237,6 +268,10 @@ footer {
     margin: 0 auto;
     margin-top: 2em;
     margin-bottom: 2em;
+
+    li {
+        margin-bottom: 1em;
+    }
 }
 
 .sub_mama {
@@ -245,117 +280,21 @@ footer {
 
 /*==================== ABOUT ====================*/
 
-.about_face {
-    max-width: 250px;
-    margin: 0 auto;
-    img {
-        margin-bottom: .25em;
-    }
+.about_intro {
+    background: rgba(212,191,198,.75);
+    padding-top: 5em;
+    margin-bottom: 2em;
 }
 
-.story {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    padding: 2em;
-    position: relative;
-    background: rgb(245, 246, 141);
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    margin-bottom: 3em;
-    margin-top: 3em;
-    &:after {
-        content: '';
-        position: absolute;
-        border-style: solid;
-        border-width: 0 15px 20px;
-        border-color: rgb(245, 246, 141) transparent;
-        display: block;
-        width: 0;
-        z-index: 1;
-        margin-left: -15px;
-        top: -20px;
-        left: 83%;
-    }
+.about_mama p{
+    margin: 2em 0;
 }
 
-.skills {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    padding: 2em;
-    position: relative; 
-    background: rgb(15, 187, 163);
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    margin-bottom: 3em;
-    &:after {
-        content: '';
-        position: absolute;
-        border-style: solid;
-        border-width: 20px 15px 0;
-        border-color: rgb(15, 187, 163) transparent;
-        display: block;
-        width: 0;
-        z-index: 1;
-        margin-left: -15px;
-        bottom: -20px;
-        left: 18%;
-    }
-}
-
-.side_projects {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    padding: 2em;
-    position: relative;
-    background: rgb(1, 4, 156);
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    margin-bottom: 3em;
-    &:after {
-        content: '';
-        position: absolute;
-        border-style: solid;
-        border-width: 15px 0 15px 20px;
-        border-color: transparent rgb(1, 4, 156);
-        display: block;
-        width: 0;
-        z-index: 1;
-        margin-top: -15px;
-        right: -20px;
-        top: 40%;
-    }
-}
-
-.currently_photos {
-    float: left;
-    max-width: 8em;
-    height: 30px;
-    img {
-        max-width: 100%;
-    }
-}
-
-.nola_atx {
-    background: url(../site_assets/skylines.svg) no-repeat;
-    height: 70px;
+.about_image {
+    max-width: 450px;
     margin: 0 auto;
 }
 
-.skills_mama {
-    ul {
-        margin-left: 20px;
-    }
-    h4 {
-        margin-bottom: .5em;
-    }
-}
-
-.typeform_btn {
-    margin-top: 3em;
+.about_mama {
+    max-width: 800px;
 }

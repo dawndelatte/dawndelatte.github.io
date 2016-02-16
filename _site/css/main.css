@@ -52,22 +52,27 @@ table {
 h1, h2, h3, h4, p, a, span, li {
   font-family: "neuzeit-grotesk", sans-serif; }
 
-a {
+a, li {
   text-decoration: none;
-  font-size: 1.25em; }
+  font-size: 1.25rem; }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3.2rem;
   line-height: 1.25;
   font-weight: 900; }
 
 h2 {
-  font-size: 2.2em;
+  font-size: 2.2rem;
   line-height: 1.25;
   font-weight: 900; }
 
-p, li {
-  font-size: 1.25em;
+h3 {
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 600; }
+
+p, a {
+  font-size: 1.25rem;
   line-height: 1.6; }
 
 .foot_mama p, .foot_mama a {
@@ -76,7 +81,7 @@ p, li {
 
 .title {
   padding-top: 100px;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1em;
   text-align: center; }
@@ -85,6 +90,9 @@ p, li {
   display: block;
   font-size: 20px;
   font-weight: 300; }
+
+.title_links {
+  text-align: center; }
 
 /*Variables*/
 /*New Variables*/
@@ -128,7 +136,17 @@ body img {
 .includes_wrap, .wrapper {
   width: 90%;
   margin: 0 auto;
-  max-width: 1000px; }
+  max-width: 1100px; }
+
+.about_wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 760px; }
+
+.post_wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 700px; }
 
 /*========== header ==========*/
 .head_mama {
@@ -221,15 +239,27 @@ footer {
 
 /*==================== below is old code - from master -- to get mvp out there asap ====================*/
 /*==================== JOURNAL ====================*/
+.post-content {
+  margin-bottom: 3em; }
+  .post-content h1 {
+    margin-bottom: 2em; }
+  .post-content p {
+    margin: 1em 0; }
+
+.post-header p {
+  margin: .25em 0 2em 0; }
+
 .pagination {
   clear: both;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  margin: 1em 0 5em 0; }
   .pagination a {
     text-decoration: none;
-    font-family: "effra", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold; }
+    font-family: "neuzeit-grotesk", sans-serif;
+    font-weight: 600;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #34a6ce; }
 
 .hi_there {
   margin: 0 auto;
@@ -247,7 +277,7 @@ footer {
 
 .post-list li {
   font-weight: 300;
-  padding: 1em;
+  padding: .5em;
   margin-top: 2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -258,19 +288,22 @@ footer {
 
 /*=================== PROJECT ===================*/
 .main_project_image {
-  margin: 1em 0; }
+  margin: 1em 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .sub_project_image {
-  margin: 1em 0; }
+  margin: 1em 0;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .margin_hack {
   margin-top: 1em; }
 
-.project_bubble_right {
-  float: right; }
-
-.project_bubble_left {
-  float: left; }
+.project_bubble_right p, .project_bubble_left p {
+  margin-bottom: 2em; }
 
 .project_statement {
   clear: both;
@@ -278,109 +311,27 @@ footer {
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 2em; }
+  .project_statement li {
+    margin-bottom: 1em; }
 
 .sub_mama {
   margin: 0 auto; }
 
 /*==================== ABOUT ====================*/
-.about_face {
-  max-width: 250px;
-  margin: 0 auto; }
-  .about_face img {
-    margin-bottom: .25em; }
+.about_intro {
+  background: rgba(212, 191, 198, 0.75);
+  padding-top: 5em;
+  margin-bottom: 2em; }
 
-.story {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  padding: 2em;
-  position: relative;
-  background: #f5f68d;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin-bottom: 3em;
-  margin-top: 3em; }
-  .story:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 0 15px 20px;
-    border-color: #f5f68d transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    top: -20px;
-    left: 83%; }
+.about_mama p {
+  margin: 2em 0; }
 
-.skills {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  padding: 2em;
-  position: relative;
-  background: #0fbba3;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin-bottom: 3em; }
-  .skills:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 20px 15px 0;
-    border-color: #0fbba3 transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    bottom: -20px;
-    left: 18%; }
-
-.side_projects {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  padding: 2em;
-  position: relative;
-  background: #01049c;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin-bottom: 3em; }
-  .side_projects:after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 15px 0 15px 20px;
-    border-color: transparent #01049c;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-top: -15px;
-    right: -20px;
-    top: 40%; }
-
-.currently_photos {
-  float: left;
-  max-width: 8em;
-  height: 30px; }
-  .currently_photos img {
-    max-width: 100%; }
-
-.nola_atx {
-  background: url(../site_assets/skylines.svg) no-repeat;
-  height: 70px;
+.about_image {
+  max-width: 450px;
   margin: 0 auto; }
 
-.skills_mama ul {
-  margin-left: 20px; }
-.skills_mama h4 {
-  margin-bottom: .5em; }
-
-.typeform_btn {
-  margin-top: 3em; }
+.about_mama {
+  max-width: 800px; }
 
 /*! responsive-nav.js 1.0.38 by @viljamis */
 .navmama {
@@ -481,10 +432,77 @@ footer {
       margin-right: 0;
       margin-left: 35px; }
 
-  /* Below is code for flexbox...still working this out - it's too buggy for now */ }
+  /* Below is code for flexbox...still working this out - it's too buggy for now */
+  /*========== journal ==========*/
+  .post-list li {
+    margin-bottom: 3em;
+    height: 200px;
+    width: 45%;
+    float: left;
+    margin-right: 5%; }
+    .post-list li:nth-of-type(2n+2) {
+      margin-right: 0; }
+
+  /*========== about ==========*/
+  .about_intro {
+    overflow: hidden;
+    clear: both; }
+
+  .about_intro_text {
+    float: right;
+    width: 50%;
+    padding-top: 2em; }
+
+  .about_image {
+    float: left;
+    width: 50%; } }
 /*==========large breakpoint ==========*/
+@media screen and (min-width: 900px) {
+  /*========== projects ==========*/
+  .wrapper {
+    width: 85%; }
+
+  .project_statement {
+    margin-bottom: 5em; }
+
+  .sub_project_image {
+    margin: 0; }
+
+  .sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 5em; }
+
+  .project_bubble_right {
+    float: right;
+    width: 45%; }
+
+  .br_sub1, .fqf_sub1, .fqf_sub4, .gr_sub1, .gr_sub3, .sheroe_sub1, .abgb_sub1, .zen_sub1 {
+    float: left;
+    width: 50%; }
+
+  .project_bubble_left {
+    float: left;
+    width: 45%; }
+
+  .br_sub2, .fqf_sub2, .fqf_sub5, .gr_sub2, .sheroe_sub2, .abgb_sub2, .zen_sub2 {
+    float: right;
+    width: 50%; }
+
+  /*========== journal ==========*/
+  /*========== about ==========*/
+  .about_intro_text {
+    padding-top: 4em; } }
 /*========== portfolio thumbnails ==========*/
 @media screen and (min-width: 1000px) {
   .port_thumbnails {
     float: left;
-    width: 33.333%; } }
+    width: 33.333%; }
+
+  .post-list li {
+    width: 30%; }
+    .post-list li:nth-of-type(odd) {
+      margin-right: 0; }
+    .post-list li:nth-of-type(3n+2) {
+      margin-right: 5%;
+      margin-left: 5%; } }
