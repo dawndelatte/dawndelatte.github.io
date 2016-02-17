@@ -2,11 +2,11 @@
 layout: journal
 ---
 {% include header.html %}
-<div class="wrapper">
-<h1>journal</h1>
-  <div class="post_mama">
+<!-- <div class="wrapper"> -->
+<!-- <h1>journal</h1> -->
+  <div class="wrapper post_mama">
 <!--     <h2>Latest Entry</h2> -->
-    <ul class="post-list">
+    <ul class="wrapper post-list">
       {% for post in paginator.posts %}
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -20,13 +20,13 @@ layout: journal
   </div>
   <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Newer Entries</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">← Newer Entries</a>
   {% else %}
     <span class="previous"></span>
   {% endif %}
 <!--   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Older Entries</a>
+    <a href="{{ paginator.next_page_path }}" class="next">Older Entries →</a>
   {% else %}
     <span class="next "></span>
   {% endif %}

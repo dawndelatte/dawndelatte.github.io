@@ -1,59 +1,76 @@
 
 /*Variables*/
 
-$lt_yellow: rgb(245, 246, 141);
-$cobalt: rgb(42, 4, 74);
-$teal: rgb(15, 187, 163);
+// $lt_yellow: rgb(245, 246, 141);
+// $cobalt: rgb(42, 4, 74);
+// $teal: rgb(52, 166, 206);
 
-$primary_text: rgb(77, 76, 76);
+// $primary_text: rgb(77, 76, 76);
+
+/*New Variables*/
+
+$block_highlight: rgb(212, 191, 198);
+$text_highlight: rgb(52, 166, 206);
+
+$lt_text: rgb(255, 255, 255);
+$dk_text: rgb(93, 91, 90);
 
 
+/*General*/
 
-h1, h2, h3, p, a, .pagination, .project_statement li {
-	color: $primary_text;
+h1, h2, h3, h4, p, li {
+	color: $dk_text;
 }
 
-h4 {
-	color: lighten($primary_text, 30%);
+a, span {
+	color: $text_highlight;
+}
+
+a:hover {color: lighten($text_highlight, 10%);}
+
+
+
+/*Gettin' specific*/
+
+.navmama {
+	color: $dk_text;
+	a {
+		color: $dk_text;
+		&:visited{color:$dk_text;}
+		&:hover{color: lighten($dk_text, 15%);}
+	}
+}
+
+footer{ 
+
+	p {color: $lt_text;}
 }
 
 
-
-.head_nav li a:hover {
-
-	color: lighten($primary_text, 30%);
-}
-
-// .post-list li {
-
-// 	    p, a {
-//         color: lighten($primary_text, 60%);
-//     }
-// }
-
-.post-content a {
-	text-decoration: none; 
-	border-bottom: 2px solid $teal;
+.title {
+	color:$lt_text;
 }
 
 
-.snippets:hover {
-    background-color: rgba(76, 76, 76, 0.5);
-}
-
-.project_title h3 {
- 	color: $primary_text;
-}
-.side_projects h2, .side_projects p {
-	color: lighten($primary_text, 60%);
-}
-
-.skills ul li, .skills h4{
-	color: $primary_text;
-}
-
-.post-list a {color:$teal;}
-.post-list a:hover {
-	color: darken($teal,5%);
+.description {
+	color: $dk_text;
+	&:hover{color: $dk_text;}
+	&:visited{color: $dk_text;}
 
 }
+
+.post-meta { color: $dk_text;}
+
+.about_intro_text a {
+	color: $dk_text;
+
+	&:hover {
+		color: lighten($dk_text, 15%);
+	}
+}
+
+.pagination a {color: $dk_text;}
+
+
+
+

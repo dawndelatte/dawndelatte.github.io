@@ -48,55 +48,131 @@ table {
 /* Mixin */
 /*Variables*/
 /*Variables*/
-h1, h2, h3, p, a, .pagination, .project_statement li {
-  color: #4d4c4c; }
+/*=====font families=====*/
+h1, h2, h3, h4, p, a, span, li {
+  font-family: "neuzeit-grotesk", sans-serif; }
 
-h4 {
-  color: #9a9898; }
-
-.head_nav li a:hover {
-  color: #9a9898; }
-
-.post-content a {
+a, li {
   text-decoration: none;
-  border-bottom: 2px solid #0fbba3; }
+  font-size: 1.25rem; }
 
-.snippets:hover {
-  background-color: rgba(76, 76, 76, 0.5); }
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.25;
+  font-weight: 900; }
 
+h2 {
+  font-size: 2.2rem;
+  line-height: 1.25;
+  font-weight: 900; }
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 600; }
+
+p, a {
+  font-size: 1.25rem;
+  line-height: 1.6; }
+
+.foot_mama p, .foot_mama a {
+  font-size: 16px;
+  font-weight: 300; }
+
+.title {
+  padding-top: 100px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1em;
+  text-align: center; }
+
+<<<<<<< HEAD
 .project_title h3 {
   color: #4d4c4c; }
+=======
+.description {
+  display: block;
+  font-size: 20px;
+  font-weight: 300; }
+>>>>>>> 342a4ab9898d1354c0c4a33cf9e194be4639cd2e
 
-.side_projects h2, .side_projects p {
-  color: #e6e5e5; }
+.title_links {
+  text-align: center; }
 
-.skills ul li, .skills h4 {
-  color: #4d4c4c; }
+.post-meta {
+  font-size: 18px; }
 
-.post-list a {
-  color: #0fbba3; }
+.post-link {
+  font-weight: normal; }
 
-.post-list a:hover {
-  color: #0da38e; }
+.about_intro_text a {
+  font-weight: 600; }
+
+/*Variables*/
+/*New Variables*/
+/*General*/
+h1, h2, h3, h4, p, li {
+  color: #5d5b5a; }
+
+a, span {
+  color: #34a6ce; }
+
+a:hover {
+  color: #5db8d8; }
+
+/*Gettin' specific*/
+.navmama {
+  color: #5d5b5a; }
+  .navmama a {
+    color: #5d5b5a; }
+    .navmama a:visited {
+      color: #5d5b5a; }
+    .navmama a:hover {
+      color: #848180; }
+
+footer p {
+  color: white; }
+
+.title {
+  color: white; }
+
+.description {
+  color: #5d5b5a; }
+  .description:hover {
+    color: #5d5b5a; }
+  .description:visited {
+    color: #5d5b5a; }
+
+.post-meta {
+  color: #5d5b5a; }
+
+.about_intro_text a {
+  color: #5d5b5a; }
+  .about_intro_text a:hover {
+    color: #848180; }
+
+.pagination a {
+  color: #5d5b5a; }
 
 /*=============== global ===============*/
 body img {
   max-width: 100%; }
 
-/* wrappers */
-.includes_wrap {
+/*========== wrappers ==========*/
+.includes_wrap, .wrapper {
   width: 90%;
   margin: 0 auto;
-  max-width: 1000px; }
+  max-width: 1100px; }
+
+.about_wrap {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 760px; }
 
 .post_wrap {
+  width: 90%;
   margin: 0 auto;
   max-width: 700px; }
-
-.wrapper {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto; }
 
 /*========== header ==========*/
 .head_mama {
@@ -104,56 +180,110 @@ body img {
   padding: 2em 0; }
   .head_mama .logo {
     float: left;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    width: 40px; }
   .head_mama svg {
     width: 40px;
-    float: left;
-    margin-right: 5px; }
+    float: left; }
 
 /*========== footer ==========*/
 footer {
-  clear: both;
-  overflow: hidden; }
-  footer .rss-subscribe {
-    margin-bottom: 3em; }
+  background-color: #5d5b5a;
+  overflow: hidden;
+  clear: both; }
 
 .foot_mama {
   overflow: hidden;
-  padding: 2em 0;
-  margin-top: 3em; }
-  .foot_mama li {
-    float: left;
-    margin-right: 5%;
-    -webkit-transition: 500ms ease-in-out all;
-    transition: 500ms ease-in-out all;
-    position: relative;
-    bottom: 0; }
-    .foot_mama li:hover {
-      margin-top: -10px; }
-  .foot_mama ul {
-    margin: 3em 0; }
-  .foot_mama .social {
-    height: 2.25em; }
-  .foot_mama .powered {
-    clear: left;
-    margin-top: 2em; }
-  .foot_mama .follow {
-    overflow: hidden; }
-
-/*==================== JOURNAL ====================*/
-.pagination {
   clear: both;
-  margin: 0 auto;
+  padding: 5em 0; }
+
+.social_nav {
+  overflow: hidden;
+  padding-bottom: 4em; }
+  .social_nav li {
+    float: left;
+    width: 100%;
+    max-width: 35px;
+    margin-right: 35px; }
+    .social_nav li:last-of-type {
+      margin-right: 0; }
+    .social_nav li a {
+      display: block; }
+
+.foot_nav {
+  clear: both; }
+
+/* Below is code for flexbox...still working this out - it's too buggy for now */
+/*========== portfolio/home page ==========*/
+.thumbnails_mama {
+  margin: 4rem 0; }
+
+.port_thumbnails {
+  display: block;
+  width: 100%;
+  height: 300px;
+  text-decoration: none; }
+  .port_thumbnails:visited {
+    color: white; }
+
+/*====== portfolio thumbnails ======*/
+.br_thumb {
+  background: url(../project_assets/portfolio_thumbnails/bagel_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.fqf_thumb {
+  background: url(../project_assets/portfolio_thumbnails/fqf_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.goodreads_thumb {
+  background: url(../project_assets/portfolio_thumbnails/goodreads_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.shero_thumb {
+  background: url(../project_assets/portfolio_thumbnails/shero_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.abgb_thumb {
+  background: url(../project_assets/portfolio_thumbnails/abgb_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.csszen_thumb {
+  background: url(../project_assets/portfolio_thumbnails/csszen_portfolio_thumbnail.png) no-repeat center;
+  background-size: cover; }
+
+.overlay {
+  height: 100%;
+  background: rgba(212, 191, 198, 0.85);
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease; }
+
+.overlay:hover {
+  opacity: 1; }
+
+/*==================== below is old code - from master -- to get mvp out there asap ====================*/
+/*==================== JOURNAL ====================*/
+.post-content {
+  margin-bottom: 5em; }
+  .post-content h1 {
+    margin-bottom: 2em; }
+  .post-content p {
+    margin: 1em 0; }
+
+.post-header p {
+  margin: .25em 0 2em 0; }
+
+.pagination {
+  background: rgba(212, 191, 198, 0.75);
+  margin-top: 2rem;
+  padding: 2.5rem;
+  clear: both;
   text-align: center; }
   .pagination a {
     text-decoration: none;
-    font-family: "effra", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold; }
-
-.hi_there {
-  margin: 0 auto;
-  margin-bottom: 4em; }
+    font-family: "neuzeit-grotesk", sans-serif; }
 
 .post_mama {
   overflow: hidden;
@@ -166,9 +296,8 @@ footer {
   margin-bottom: .75em; }
 
 .post-list li {
-  color: #4d4c4c;
   font-weight: 300;
-  padding: 1em;
+  padding: .5em;
   margin-top: 2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -177,6 +306,7 @@ footer {
   -moz-border-radius: 0px;
   border-radius: 0px; }
 
+<<<<<<< HEAD
 /*==================== PORTFOLIO ====================*/
 .snippets {
   display: block;
@@ -195,67 +325,44 @@ footer {
 .snippets:hover:hover .project_title {
   opacity: 1; }
 
+=======
+>>>>>>> 342a4ab9898d1354c0c4a33cf9e194be4639cd2e
 /*=================== PROJECT ===================*/
-.project_mama {
-  overflow: hidden;
-  max-width: 1100px;
-  width: 90%;
-  margin: 0 auto; }
+.port_mama, .project_mama {
+  margin-bottom: 5rem; }
 
-.project_bubble_right {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  position: relative;
-  background: #f5f68d;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin-bottom: 4em; }
-  .project_bubble_right::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 0 15px 20px;
-    border-color: #f5f68d transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    top: -20px;
-    left: 24%; }
+.main_project_image {
+  margin: 1em 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
 
-.project_bubble_left {
-  position: relative;
-  background: #f5f68d;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin-bottom: 4em; }
-  .project_bubble_left::after {
-    content: '';
-    position: absolute;
-    border-style: solid;
-    border-width: 0 15px 20px;
-    border-color: #f5f68d transparent;
-    display: block;
-    width: 0;
-    z-index: 1;
-    margin-left: -15px;
-    top: -20px;
-    left: 24%; }
+.sub_project_image {
+  margin: 1em 0;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.margin_hack {
+  margin-top: 1em; }
+
+.project_bubble_right p, .project_bubble_left p {
+  margin-bottom: 2em; }
 
 .project_statement {
   clear: both;
   max-width: 700px;
   margin: 0 auto;
-  margin-top: 3em;
-  margin-bottom: 3em; }
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .project_statement li {
+    margin-bottom: 1em; }
 
 .sub_mama {
   margin: 0 auto; }
 
 /*==================== ABOUT ====================*/
+<<<<<<< HEAD
 .about_face {
   max-width: 250px;
   margin: 0 auto; }
@@ -500,11 +607,17 @@ footer p {
   font-style: italic; }
 
 .zen_sub1, .zen_sub2, .fqf_sub1, .fqf_sub2, .fqf_sub3, .fqf_sub4, .fqf_sub5, .abgb_sub1, .abgb_sub2, .sheroe_sub1, .sheroe_sub2, .gr_sub1, .gr_sub2, .gr_sub3 {
+=======
+.about_intro {
+  background: rgba(212, 191, 198, 0.75);
+  padding-top: 4em;
+>>>>>>> 342a4ab9898d1354c0c4a33cf9e194be4639cd2e
   margin-bottom: 2em; }
 
-.project_main, .zen_main, .fqf_main, .abgb_main, .sheroe_main, .jj_main, .br_main {
-  margin-top: 3em; }
+.about_mama p {
+  margin: 2rem 0; }
 
+<<<<<<< HEAD
 .jj_snip {
   background: url(../project_assets/jj_thumbnail.jpg) no-repeat center;
   background-size: cover; }
@@ -608,17 +721,16 @@ footer p {
     width: 75%;
     margin: 0 auto;
     margin-top: 3em; }
+=======
+.about_image {
+  max-width: 450px;
+  margin: 0 auto; }
+>>>>>>> 342a4ab9898d1354c0c4a33cf9e194be4639cd2e
 
-  .zen_sub1, .fqf_sub1, .fqf_sub3, .fqf_sub5, .abgb_sub1, .sheroe_sub1, .jj_sub1, .gr_sub1, .gr_sub3, .br_sub1 {
-    float: left;
-    width: 55%;
-    margin-right: 3%;
-    margin-bottom: 4em; }
+.about_mama {
+  margin-bottom: 5rem;
+  max-width: 800px; }
 
-  .zen_sub2, .fqf_sub2, .fqf_sub4, .abgb_sub2, .sheroe_sub2, .jj_sub2, .gr_sub2, .br_sub2 {
-    float: right;
-    width: 55%;
-    margin-bottom: 4em; } }
 /*! responsive-nav.js 1.0.38 by @viljamis */
 .navmama {
   float: right; }
@@ -658,25 +770,30 @@ footer p {
   -o-user-select: none;
   user-select: none;
   float: right;
+  display: block;
   font-size: 1.5em;
-  font-family: "adelle", serif;
+  font-family: "neuzeit-grotesk", sans-serif;
   text-decoration: none;
-  border-bottom: 3px solid #01049c;
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
 
 @media screen and (min-width: 800px) {
-  /*Below are the "slashes" in the head nav bar- changing color on each page*/
   .navmama {
-    width: 414px; }
+    width: 245px; }
 
   .nav-collapse li {
     float: left;
-    margin-right: 10%;
+    margin-right: 8%;
     padding-bottom: 7px; }
     .nav-collapse li:last-of-type {
       margin-right: 0; }
-    .nav-collapse li:hover {
-      border-bottom: 3px solid #01049c; }
+    .nav-collapse li:nth-child(-n+2):after {
+      content: "";
+      display: inline-block;
+      width: 2px;
+      height: 20px;
+      background-color: #5d5b5a;
+      vertical-align: middle;
+      margin-left: 20px; }
 
   .js .nav-collapse {
     position: relative; }
@@ -686,12 +803,35 @@ footer p {
 
   .nav-toggle {
     display: none; } }
-/*========== medium breakpoint ==========*/
-@media screen and (min-width: 650px) {
-  .hi_there p {
+/*========== portfolio thumbnails ==========*/
+@media screen and (min-width: 600px) {
+  .thumbnails_mama {
+    clear: both;
     overflow: hidden; }
 
-  /*========JOURNAL=======*/
+  .port_thumbnails {
+    float: left;
+    width: 50%; } }
+/*========== medium breakpoint ==========*/
+@media screen and (min-width: 650px) {
+  .foot_nav {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+    clear: none;
+    overflow: hidden; }
+
+  .social_nav {
+    float: right;
+    width: 50%;
+    margin-right: 0; }
+    .social_nav li {
+      float: right;
+      margin-right: 0;
+      margin-left: 35px; }
+
+  /* Below is code for flexbox...still working this out - it's too buggy for now */
+  /*========== journal ==========*/
   .post-list li {
     margin-bottom: 3em;
     height: 200px;
@@ -701,123 +841,70 @@ footer p {
     .post-list li:nth-of-type(2n+2) {
       margin-right: 0; }
 
-  .logo {
-    margin-bottom: 0;
-    float: left; }
+  /*========== about ==========*/
+  .about_intro {
+    overflow: hidden;
+    clear: both;
+    padding-top: 3em; }
 
-  .social {
-    float: left; }
-
-  footer h4 {
-    float: right; }
-
-  .follow {
-    float: none;
-    width: 50%; }
-
-  .about_bubble {
-    width: 45%;
-    float: left;
-    margin-left: 10%; }
-
-  /*======PORTFOLIO=====*/
-  .snippets {
-    width: 45%;
-    float: left;
-    margin-right: 10%; }
-    .snippets:nth-of-type(2n+2) {
-      margin-right: 0; }
-
-  .skills_mama {
-    overflow: hidden; }
-    .skills_mama ul {
-      width: 40%;
-      float: left; }
-      .skills_mama ul:last-of-type {
-        margin-right: 0; }
-
-  .nola_atx {
-    width: 60%; }
-
-  .project_statement li {
+  .about_intro_text {
+    float: right;
     width: 50%;
-    float: left; }
-  .project_statement h2 {
-    clear: both; } }
+    padding-top: 2em; }
+
+  .about_image {
+    float: left;
+    width: 50%; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
-  footer .follow {
-    float: left; }
-  footer .foot_mama .powered {
-    width: 30%;
-    float: right;
-    clear: none; }
+  .wrapper, .includes_wrap {
+    width: 85%; }
 
-  /*======JOURNAL=====*/
-  .post-list li {
-    margin-bottom: em; }
+  /*========== projects ==========*/
+  .project_statement {
+    margin-bottom: 5em; }
 
-  /*======PORTFOLIO=====*/
-  .snippets:nth-of-type(2n+2) {
-    margin-right: 5%; }
+  .sub_project_image {
+    margin: 0; }
 
-  .snippets {
-    width: 30%;
-    float: left;
-    margin-right: 5%; }
-    .snippets:nth-of-type(3n+3) {
-      margin-right: 0; }
+  .sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 5em; }
 
   .project_bubble_right {
+    float: right;
+    width: 45%; }
+
+  .br_sub1, .fqf_sub1, .fqf_sub4, .gr_sub1, .gr_sub3, .sheroe_sub1, .abgb_sub1, .zen_sub1 {
     float: left;
-    width: 40%;
-    margin-left: 1%; }
-    .project_bubble_right::after {
-      content: '';
-      border-width: 15px 20px 15px 0;
-      border-color: transparent #f5f68d;
-      margin-left: 0;
-      margin-top: -15px;
-      left: -20px;
-      top: 24%; }
+    width: 50%; }
 
   .project_bubble_left {
     float: left;
-    width: 40%;
-    margin-left: 1%; }
-    .project_bubble_left::after {
-      content: '';
-      border-width: 15px 0 15px 20px;
-      border-color: transparent #f5f68d;
-      left: 103%;
-      top: 33%; }
+    width: 45%; }
 
-  /*==========ABOUT=========*/
-  .hi_there h1 {
-    text-align: left; }
+  .br_sub2, .fqf_sub2, .fqf_sub5, .gr_sub2, .sheroe_sub2, .abgb_sub2, .zen_sub2 {
+    float: right;
+    width: 50%; }
 
-  .about_face {
+  /*========== journal ==========*/
+  /*========== about ==========*/
+  .about_intro_text {
+    padding-top: 3em; }
+
+  .about_intro {
+    padding-top: 2em; } }
+/*========== portfolio thumbnails ==========*/
+@media screen and (min-width: 1000px) {
+  .port_thumbnails {
     float: left;
-    margin-right: 5%;
-    margin-bottom: 2em; }
+    width: 33.333%; }
 
-  .story {
-    float: left; }
-    .story::after {
-      border-width: 15px 20px 15px 0;
-      border-color: transparent #f5f68d;
-      margin-left: 0;
-      margin-top: -15px;
-      left: -20px;
-      top: 50%; }
-
-  .skills {
-    clear: both;
-    width: 48%;
-    float: left;
-    margin-right: 4%; }
-
-  .side_projects {
-    width: 48%;
-    height: 522px;
-    float: left; } }
+  .post-list li {
+    width: 30%; }
+    .post-list li:nth-of-type(odd) {
+      margin-right: 0; }
+    .post-list li:nth-of-type(3n+2) {
+      margin-right: 5%;
+      margin-left: 5%; } }

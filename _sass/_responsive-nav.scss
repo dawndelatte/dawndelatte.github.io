@@ -12,7 +12,6 @@
 }
 
 .nav-collapse li {
-    // width: 100%;
     display: block;
     margin-bottom: 1em;
     text-align: right;
@@ -43,95 +42,52 @@
     -o-user-select: none;
     user-select: none;
     float: right;
+    display: block;
     font-size: 1.5em;
-    font-family: "adelle", serif;
+    font-family: "neuzeit-grotesk", sans-serif;
     text-decoration: none;
-    border-bottom: 3px solid rgb(1, 4, 156);
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
+
+// #hamburger {
+//     -webkit-touch-callout: none;
+//     -webkit-user-select: none;
+//     -moz-user-select: none;
+//     -ms-user-select: none;
+//     user-select: none;
+//     display: block;
+//     width: 70px;
+//     height: 55px;
+//     float: right;
+//     margin: 0 -2em 1em 0;
+//     text-indent: -9999px;
+//     overflow: hidden;
+//     background: #444 url("https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png") no-repeat 50% 33%;
+// }
+
+
 @media screen and (min-width: 800px) {
-    /*Below are the "slashes" in the head nav bar- changing color on each page*/
 
-    // .journal nav li::after, .post nav li::after, .portfolio nav li::after, .project nav li::after, .about nav li::after, .contact nav li::after {
-    //     content: "";
-    //     display: block;
-    //     width: 5px;
-    //     height: 30px;
-    //     float: right;
-    //     -webkit-transform: skew(-20deg);
-    //     -moz-transform: skew(-20deg);
-    //     transform: skew(-20deg);
-    //     margin: -5px 1em;
-    //     background-color: rgb(1, 4, 156);
-    // }
-    
-    // .post nav li::after {
-    //     content: "";
-    //     display: block;
-    //     width: 5px;
-    //     height: 30px;
-    //     float: right;
-    //     transform: skew(-20deg);
-    //     margin: -5px 1em;
-    //     background-color: rgb(1, 4, 156);
-    // }
-    // .portfolio nav li::after {
-    //     content: "";
-    //     display: block;
-    //     width: 5px;
-    //     height: 30px;
-    //     float: right;
-    //     transform: skew(-20deg);
-    //     margin: -5px 1em;
-    //     background-color: rgb(1, 4, 156);
-    // }
-    // .project nav li::after {
-    //     content: "";
-    //     display: block;
-    //     width: 5px;
-    //     height: 30px;
-    //     float: right;
-    //     transform: skew(-20deg);
-    //     margin: -5px 1em;
-    //     background-color: rgb(1, 4, 156);
-    // }
-    // .about nav li::after {
-    //     content: "";
-    //     display: block;
-    //     width: 5px;
-    //     height: 30px;
-    //     float: right;
-    //     transform: skew(-20deg);
-    //     margin: -5px 1em;
-    //     background-color: rgb(1, 4, 156);
-    // }
-    // .contact nav li::after {
-    //     content: "";
-    //     display: block;
-    //     width: 5px;
-    //     height: 30px;
-    //     float: right;
-    //     transform: skew(-20deg);
-    //     margin: -5px 1em;
-    //     background-color: rgb(1, 4, 156);
-    // }
-
-    .navmama {width: 414px;}
+    .navmama {width: 245px;}
 
     .nav-collapse li {
         float: left;
-        margin-right: 10%;
+        margin-right: 8%;
         padding-bottom: 7px;
+
         &:last-of-type {
             margin-right: 0;
         }
-        // &:nth-of-type(4)::after {
-        //     display: none;
-        // }
 
-        &:hover {
-            border-bottom: 3px solid rgb(1, 4, 156);
+        &:nth-child(-n+2):after {
+            content: "";
+            display: inline-block;
+            width: 2px;
+            height: 20px;
+            background-color: #5d5b5a;
+            vertical-align: middle;
+            margin-left: 20px;
         }
     }
     .js .nav-collapse {
