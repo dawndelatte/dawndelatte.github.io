@@ -94,6 +94,15 @@ p, a {
 .title_links {
   text-align: center; }
 
+.post-meta {
+  font-size: 18px; }
+
+.post-link {
+  font-weight: normal; }
+
+.about_intro_text a {
+  font-weight: 600; }
+
 /*Variables*/
 /*New Variables*/
 /*General*/
@@ -102,8 +111,9 @@ h1, h2, h3, h4, p, li {
 
 a, span {
   color: #34a6ce; }
-  a:hover, span:hover {
-    color: #5db8d8; }
+
+a:hover {
+  color: #5db8d8; }
 
 /*Gettin' specific*/
 .navmama {
@@ -127,6 +137,17 @@ footer p {
     color: #5d5b5a; }
   .description:visited {
     color: #5d5b5a; }
+
+.post-meta {
+  color: #5d5b5a; }
+
+.about_intro_text a {
+  color: #5d5b5a; }
+  .about_intro_text a:hover {
+    color: #848180; }
+
+.pagination a {
+  color: #5d5b5a; }
 
 /*=============== global ===============*/
 body img {
@@ -190,7 +211,7 @@ footer {
 /* Below is code for flexbox...still working this out - it's too buggy for now */
 /*========== portfolio/home page ==========*/
 .thumbnails_mama {
-  margin: 4em 0; }
+  margin: 4rem 0; }
 
 .port_thumbnails {
   display: block;
@@ -240,7 +261,7 @@ footer {
 /*==================== below is old code - from master -- to get mvp out there asap ====================*/
 /*==================== JOURNAL ====================*/
 .post-content {
-  margin-bottom: 3em; }
+  margin-bottom: 5em; }
   .post-content h1 {
     margin-bottom: 2em; }
   .post-content p {
@@ -250,20 +271,14 @@ footer {
   margin: .25em 0 2em 0; }
 
 .pagination {
+  background: rgba(212, 191, 198, 0.75);
+  margin-top: 2rem;
+  padding: 2.5rem;
   clear: both;
-  margin: 0 auto;
-  text-align: center;
-  margin: 1em 0 5em 0; }
+  text-align: center; }
   .pagination a {
     text-decoration: none;
-    font-family: "neuzeit-grotesk", sans-serif;
-    font-weight: 600;
-    padding-bottom: 4px;
-    border-bottom: 2px solid #34a6ce; }
-
-.hi_there {
-  margin: 0 auto;
-  margin-bottom: 4em; }
+    font-family: "neuzeit-grotesk", sans-serif; }
 
 .post_mama {
   overflow: hidden;
@@ -287,6 +302,9 @@ footer {
   border-radius: 0px; }
 
 /*=================== PROJECT ===================*/
+.port_mama, .project_mama {
+  margin-bottom: 5rem; }
+
 .main_project_image {
   margin: 1em 0;
   max-width: 800px;
@@ -320,17 +338,18 @@ footer {
 /*==================== ABOUT ====================*/
 .about_intro {
   background: rgba(212, 191, 198, 0.75);
-  padding-top: 5em;
+  padding-top: 4em;
   margin-bottom: 2em; }
 
 .about_mama p {
-  margin: 2em 0; }
+  margin: 2rem 0; }
 
 .about_image {
   max-width: 450px;
   margin: 0 auto; }
 
 .about_mama {
+  margin-bottom: 5rem;
   max-width: 800px; }
 
 /*! responsive-nav.js 1.0.38 by @viljamis */
@@ -380,7 +399,7 @@ footer {
 
 @media screen and (min-width: 800px) {
   .navmama {
-    width: 228px; }
+    width: 245px; }
 
   .nav-collapse li {
     float: left;
@@ -446,7 +465,8 @@ footer {
   /*========== about ==========*/
   .about_intro {
     overflow: hidden;
-    clear: both; }
+    clear: both;
+    padding-top: 3em; }
 
   .about_intro_text {
     float: right;
@@ -458,10 +478,10 @@ footer {
     width: 50%; } }
 /*==========large breakpoint ==========*/
 @media screen and (min-width: 900px) {
-  /*========== projects ==========*/
-  .wrapper {
+  .wrapper, .includes_wrap {
     width: 85%; }
 
+  /*========== projects ==========*/
   .project_statement {
     margin-bottom: 5em; }
 
@@ -492,7 +512,10 @@ footer {
   /*========== journal ==========*/
   /*========== about ==========*/
   .about_intro_text {
-    padding-top: 4em; } }
+    padding-top: 3em; }
+
+  .about_intro {
+    padding-top: 2em; } }
 /*========== portfolio thumbnails ==========*/
 @media screen and (min-width: 1000px) {
   .port_thumbnails {

@@ -24,9 +24,9 @@ h1, h2, h3, h4, p, li {
 
 a, span {
 	color: $text_highlight;
-
-	&:hover{color: lighten($text_highlight, 10%);}
 }
+
+a:hover {color: lighten($text_highlight, 10%);}
 
 
 
@@ -56,4 +56,19 @@ footer{
 	&:hover{color: $dk_text;}
 	&:visited{color: $dk_text;}
 }
+
+.post-meta { color: $dk_text;}
+
+.about_intro_text a {
+	color: $dk_text;
+
+	&:hover {
+		color: lighten($dk_text, 15%);
+	}
+}
+
+.pagination a {color: $dk_text;}
+
+
+
 
