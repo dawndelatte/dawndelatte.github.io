@@ -200,14 +200,10 @@ footer {
     padding: 2.5rem;
     clear: both;
     text-align: center;
-    // margin-top: 1em;
 
     a {
         text-decoration: none;
         font-family: $primary;
-        // font-weight: 600;
-        // padding-bottom: 4px;
-        // border-bottom: 2px solid $text_highlight;
     }
 }
 
@@ -242,31 +238,6 @@ footer {
 
 /*=================== PROJECT ===================*/
 
-<<<<<<< HEAD
-.project_title {
-    // background: rgb(1, 4, 156);
-    // width: 90%;
-    // position: relative;
-    margin: 0 auto;
-    top: 20px;
-    opacity: 0;
-    transition: opacity 700ms ease;
-
-
- 
-    // &::after {
-    //     content: '';
-    //     position: absolute;
-    //     border-style: solid;
-    //     border-width: 15px 15px 0;
-    //     border-color: rgb(1, 4, 156) transparent;
-    //     display: block;
-    //     width: 0;
-    //     z-index: 1;
-    //     bottom: -15px;
-    //     left: 110px;
-    // }
-  }
 
 .port_mama, .project_mama {
     margin-bottom: 5rem;
