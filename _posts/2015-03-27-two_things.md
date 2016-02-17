@@ -5,7 +5,7 @@ date:   2015-03-27
 tags: tiy, graduation, pixel, perfection, photoshop, design
 permalink: /twothings/
 ---
-###One. 
+### One. 
 
 Today was demo-day for the Front End Engineering and Ruby on Rails classes at The Iron Yard. It has been a weird week leading up to it. Everyone has been hustling to get projects finished and teachers were busy takin’ care of business, but it all came together today and it was great. I cannot believe 12 weeks has gone by already for them. We were all babies in the beginning of the year and I am so impressed at what they can do now. So. damn. impressed. 
 
@@ -16,7 +16,7 @@ We also got some really great advice from [Jason Weaver](http://jasonweaver.name
 Now it's my turn... We get our final project assignment this coming week. I'll have more to say about that later I'm sure, for now, one day at a time.
 
 
-###Two.
+### Two.
 
 This week's project—GoodReads web app redesign. Holy Moly this has been a tedious project. After a lot of research and feedback from other users, I opened up Photoshop to create my Style Tiles/Element Collages/Comps and haven't closed it since. Three days of [Pixel Perfect Precision](http://cdn.ustwo.com/PPP/PP3.pdf) and I'm still going. It's been a pain staking process, but surprising enjoyable (and enlightening). 
 

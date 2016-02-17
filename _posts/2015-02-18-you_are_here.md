@@ -6,7 +6,7 @@ tags: tiy, layouts, responsive, design, rwd, grids, journey, brain, function
 permalink: /you_are_here/
 ---
 
-###Week. Four. 
+### Week. Four. 
 
 I'm having **all the feelings**. I've been coding and coding, and sketching, and reading, and refactoring, and repositioning, and rethinking, and re... everything. Truthfully, when we are assigned a coding project, my initial reaction is _overwhelmed_ and a little _confused_. And then things slooowwwwly start to happen on the page, and confidence is regained, and eventually the assignment is complete. It's a total rollercoaster, but I love it. It's really important for me to refocus and stay positive.  
 

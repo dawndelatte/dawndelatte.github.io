@@ -5,7 +5,7 @@ date:   2015-03-10 13:03:47
 tags: tiy, typography, exploring, design
 permalink: /morphological/
 ---
-###Wowza!
+### Wowza!
 
 It's been 3.5 weeks since I've written a blog post. In Iron Yard time that likes 2 light years? All the things have happened/been learned. Let me list a few before jumping into what I like to call the morphological mind maze of logo design.
 
