@@ -1,4 +1,7 @@
 /*=============== global ===============*/
+html {
+    font-size: 16px;
+}
 
 body {
     img {
@@ -32,11 +35,11 @@ body {
 
 .head_mama {
     overflow: hidden;
-    padding: 2em 0;
+    padding: 2rem 0;
 
     .logo {
         float: left;
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
         width: 40px;
     }
 
@@ -59,12 +62,12 @@ footer {
 .foot_mama {
     overflow: hidden;
     clear: both;
-    padding: 5em 0;
+    padding: 5rem 0;
 }
 
 .social_nav {
     overflow: hidden;
-    padding-bottom: 4em;
+    padding-bottom: 4rem;
         
         li {
             float: left;
@@ -180,18 +183,18 @@ footer {
 
 .post-content {
 
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 
     h1 {
-        margin-bottom: 2em;
+        margin-bottom: 2rem;
     }
     p {
-        margin: 1em 0;
+        margin: 1rem 0;
     }
 }
 
 .post-header p {
-    margin: .25em 0 2em 0;
+    margin: .25rem 0 2rem 0;
 }
 
 .pagination {
@@ -211,7 +214,7 @@ footer {
 .post_mama {
     overflow: hidden;
     clear: both;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
 
 }
 
@@ -219,14 +222,14 @@ footer {
     img {
         width: 100%;
         max-width: 100%;
-        margin-bottom: .75em;
+        margin-bottom: .75rem;
     }
 }
 
 .post-list li {
     font-weight: 300;
-    padding: .5em;
-    margin-top: 2em;
+    padding: .5rem;
+    margin-top: 2rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     position: relative;
@@ -244,21 +247,21 @@ footer {
 }
 
 .main_project_image {
-    margin: 1em 0; 
+    margin: 1rem 0; 
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .sub_project_image {
-    margin: 1em 0;
+    margin: 1rem 0;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .margin_hack {
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 .project_bubble_right p, .project_bubble_left p {margin-bottom: 2em;}
@@ -267,11 +270,11 @@ footer {
     clear: both;
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
     li {
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
 }
 
@@ -283,8 +286,8 @@ footer {
 
 .about_intro {
     background: rgba(212,191,198,.75);
-    padding-top: 4em;
-    margin-bottom: 2em;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .about_mama p{

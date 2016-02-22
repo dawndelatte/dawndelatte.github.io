@@ -6,7 +6,7 @@
 
 * Let content reflect personal design goals, problem solving, and "big-picture" understanding.
 
-* Visual Assets–Finished products in projects pages and process in journal. Simple illustrations for devices and 	  some use of photography (in context) *in project snippets and pages*.
+* Visual Assets–Finished products in projects pages and process in journal. Simple illustrations for devices and some use of photography (in context) *in project snippets and pages*.
 
 ## About Page
 
