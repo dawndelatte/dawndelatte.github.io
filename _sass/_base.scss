@@ -1,9 +1,19 @@
-/*=============== global ===============*/
-html {
-    font-size: 16px;
-}
+/*Color Variables*/
 
+$block_highlight: rgb(212, 191, 198);
+$text_highlight: rgb(52, 166, 206);
+
+$lt_text: rgb(255, 255, 255);
+$dk_text: rgb(93, 91, 90);
+
+/*Type Variables*/
+
+$primary: "neuzeit-grotesk", sans-serif;
+
+/*=============== global ===============*/
 body {
+
+
     img {
         max-width: 100%;
     }
@@ -177,9 +187,9 @@ footer {
   opacity: 1;
 }
 
-/*==================== below is old code - from master -- to get mvp out there asap ====================*/
+/*========== below is old code - from master -- to get mvp out there asap ==========*/
 
-/*==================== JOURNAL ====================*/
+/*=============== JOURNAL ===============*/
 
 .post-content {
 
@@ -239,7 +249,7 @@ footer {
 }
 
 
-/*=================== PROJECT ===================*/
+/*============ PROJECT ==============*/
 
 
 .port_mama, .project_mama {
@@ -282,7 +292,7 @@ footer {
     margin: 0 auto;
 }
 
-/*==================== ABOUT ====================*/
+/*========== ABOUT ============*/
 
 .about_intro {
     background: rgba(212,191,198,.75);

@@ -1,7 +1,7 @@
 
-/*Variables*/
+// /*Variables*/
 
-$primary: "neuzeit-grotesk", sans-serif;
+// $primary: "neuzeit-grotesk", sans-serif;
 
 /*=====font families=====*/
 
@@ -14,14 +14,16 @@ a, li {
 
 /*=====font size=====*/
 
+body {font-size: 62.5%;}
+
 h1 {
-	font-size: 3.2rem;
+	font-size: 52px; font-size: 3.25rem;
 	line-height: 1.25;
 	font-weight: 900;
 }
 
 h2 {
-	font-size: 2.2rem;
+	font-size: 2.25rem;
 	line-height: 1.25;
 	font-weight: 900;
 }

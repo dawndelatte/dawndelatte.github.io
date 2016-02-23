@@ -45,133 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* Mixin */
-/*Variables*/
-/*Variables*/
-/*=====font families=====*/
-h1, h2, h3, h4, p, a, span, li {
-  font-family: "neuzeit-grotesk", sans-serif; }
-
-a, li {
-  text-decoration: none;
-  font-size: 1.25rem; }
-
-/*=====font size=====*/
-h1 {
-  font-size: 3.2rem;
-  line-height: 1.25;
-  font-weight: 900; }
-
-h2 {
-  font-size: 2.2rem;
-  line-height: 1.25;
-  font-weight: 900; }
-
-h3 {
-  font-size: 2rem;
-  line-height: 1.15;
-  font-weight: 600; }
-
-p, a {
-  font-size: 1.25rem;
-  line-height: 1.6; }
-
-.foot_mama p, .foot_mama a {
-  font-size: 16px;
-  font-weight: 300; }
-.foot_mama h3 {
-  font-size: 1.5rem;
-  margin: .5em 0; }
-.foot_mama a {
-  text-decoration: none; }
-
-.post-content p {
-  margin-bottom: 1em; }
-.post-content h3 {
-  margin-bottom: .5rem;
-  margin-top: 1rem; }
-
-.post-meta {
-  font-size: 1rem; }
-
-.project_title h3 {
-  line-height: 1.25;
-  text-align: center;
-  padding: 3.2em 1em; }
-
-.title {
-  padding-top: 110px;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1em;
-  text-align: center; }
-
-.description {
-  display: block;
-  font-size: 20px;
-  font-weight: 300; }
-
-.title_links {
-  text-align: center; }
-
-.post-meta {
-  font-size: 18px; }
-
-.post-link {
-  font-weight: normal; }
-
-.about_intro_text a {
-  font-weight: 600; }
-
-/*Variables*/
-/*General*/
-h1, h2, h3, h4, p, li {
-  color: #5d5b5a; }
-
-a, span {
-  color: #34a6ce; }
-
-a:hover {
-  color: #5db8d8; }
-
-/*Gettin' specific*/
-.navmama {
-  color: #5d5b5a; }
-  .navmama a {
-    color: #5d5b5a; }
-    .navmama a:visited {
-      color: #5d5b5a; }
-    .navmama a:hover {
-      color: #848180; }
-
-footer p {
-  color: white; }
-
-.title {
-  color: white; }
-
-.description {
-  color: #5d5b5a; }
-  .description:hover {
-    color: #5d5b5a; }
-  .description:visited {
-    color: #5d5b5a; }
-
-.post-meta {
-  color: #5d5b5a; }
-
-.about_intro_text a {
-  color: #5d5b5a; }
-  .about_intro_text a:hover {
-    color: #848180; }
-
-.pagination a {
-  color: #5d5b5a; }
-
+/*Color Variables*/
+/*Type Variables*/
 /*=============== global ===============*/
-html {
-  font-size: 16px; }
-
 body img {
   max-width: 100%; }
 
@@ -280,8 +156,8 @@ footer {
 .overlay:hover {
   opacity: 1; }
 
-/*==================== below is old code - from master -- to get mvp out there asap ====================*/
-/*==================== JOURNAL ====================*/
+/*========== below is old code - from master -- to get mvp out there asap ==========*/
+/*=============== JOURNAL ===============*/
 .post-content {
   margin-bottom: 5rem; }
   .post-content h1 {
@@ -323,7 +199,7 @@ footer {
   -moz-border-radius: 0px;
   border-radius: 0px; }
 
-/*=================== PROJECT ===================*/
+/*============ PROJECT ==============*/
 .port_mama, .project_mama {
   margin-bottom: 5rem; }
 
@@ -357,7 +233,7 @@ footer {
 .sub_mama {
   margin: 0 auto; }
 
-/*==================== ABOUT ====================*/
+/*========== ABOUT ============*/
 .about_intro {
   background: rgba(212, 191, 198, 0.75);
   padding-top: 4rem;
@@ -374,6 +250,129 @@ footer {
   margin-bottom: 5rem;
   max-width: 800px; }
 
+/*=====font families=====*/
+h1, h2, h3, h4, p, a, span, li {
+  font-family: "neuzeit-grotesk", sans-serif; }
+
+a, li {
+  text-decoration: none;
+  font-size: 1.25rem; }
+
+/*=====font size=====*/
+body {
+  font-size: 62.5%; }
+
+h1 {
+  font-size: 52px;
+  font-size: 3.25rem;
+  line-height: 1.25;
+  font-weight: 900; }
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.25;
+  font-weight: 900; }
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.15;
+  font-weight: 600; }
+
+p, a {
+  font-size: 1.25rem;
+  line-height: 1.6; }
+
+.foot_mama p, .foot_mama a {
+  font-size: 16px;
+  font-weight: 300; }
+.foot_mama h3 {
+  font-size: 1.5rem;
+  margin: .5em 0; }
+.foot_mama a {
+  text-decoration: none; }
+
+.post-content p {
+  margin-bottom: 1em; }
+.post-content h3 {
+  margin-bottom: .5rem;
+  margin-top: 1rem; }
+
+.post-meta {
+  font-size: 1rem; }
+
+.project_title h3 {
+  line-height: 1.25;
+  text-align: center;
+  padding: 3.2em 1em; }
+
+.title {
+  padding-top: 110px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1em;
+  text-align: center; }
+
+.description {
+  display: block;
+  font-size: 20px;
+  font-weight: 300; }
+
+.title_links {
+  text-align: center; }
+
+.post-meta {
+  font-size: 18px; }
+
+.post-link {
+  font-weight: normal; }
+
+.about_intro_text a {
+  font-weight: 600; }
+
+/*General*/
+h1, h2, h3, h4, p, li {
+  color: #5d5b5a; }
+
+a, span {
+  color: #34a6ce; }
+
+a:hover {
+  color: #5db8d8; }
+
+/*Gettin' specific*/
+.navmama {
+  color: #5d5b5a; }
+  .navmama a {
+    color: #5d5b5a; }
+    .navmama a:visited {
+      color: #5d5b5a; }
+    .navmama a:hover {
+      color: #848180; }
+
+footer p {
+  color: white; }
+
+.title {
+  color: white; }
+
+.description {
+  color: #5d5b5a; }
+  .description:hover {
+    color: #5d5b5a; }
+  .description:visited {
+    color: #5d5b5a; }
+
+.post-meta {
+  color: #5d5b5a; }
+
+.about_intro_text a {
+  color: #5d5b5a; }
+  .about_intro_text a:hover {
+    color: #848180; }
+
+.pagination a {
+  color: #5d5b5a; }
+
 /*! responsive-nav.js 1.0.38 by @viljamis */
 .navmama {
   float: right; }
@@ -387,7 +386,7 @@ footer {
 
 .nav-collapse li {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   text-align: right; }
   .nav-collapse li:last-of-type {
     margin-right: 0px; }
@@ -414,10 +413,10 @@ footer {
   user-select: none;
   float: right;
   display: block;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-family: "neuzeit-grotesk", sans-serif;
   text-decoration: none;
-  margin-bottom: 1.5em; }
+  margin-bottom: 24px; }
 
 @media screen and (min-width: 800px) {
   .navmama {
