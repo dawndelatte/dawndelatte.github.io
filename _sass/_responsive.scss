@@ -57,6 +57,21 @@
 // }
 // }
 
+/*========== projects ==========*/
+
+.project_statement li {
+    width: 50%;
+    float: left;
+}
+
+.project_statement ul, .project_statement h2 {
+    clear: both;
+}
+
+.sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
+    margin-bottom: 6rem;
+}
+
 /*========== journal ==========*/
 
 .post-list li {
@@ -114,7 +129,7 @@
 .sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
     clear:both;
     overflow: hidden;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 .project_bubble_right {
@@ -129,6 +144,7 @@
 .project_bubble_left {
     float: left;
     width: 45%;
+
 }
 .br_sub2, .fqf_sub2, .fqf_sub5, .gr_sub2, .sheroe_sub2, .abgb_sub2, .zen_sub2  {
     float: right;

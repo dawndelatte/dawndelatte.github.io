@@ -151,7 +151,8 @@ footer {
   -webkit-transition: opacity 500ms ease;
   -moz-transition: opacity 500ms ease;
   -o-transition: opacity 500ms ease;
-  transition: opacity 500ms ease; }
+  transition: opacity 500ms ease;
+  overflow: hidden; }
 
 .overlay:hover {
   opacity: 1; }
@@ -227,15 +228,25 @@ footer {
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+  .project_statement ul {
+    overflow: hidden;
+    margin: 2rem 0 4rem 0; }
   .project_statement li {
-    margin-bottom: 1rem; }
+    margin-bottom: 1.2rem;
+    list-style-type: disc;
+    list-style-position: inside; }
+  .project_statement h2 {
+    margin-bottom: 1.5rem; }
 
 .sub_mama {
   margin: 0 auto; }
 
+.sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
+  margin-bottom: 4rem; }
+
 /*========== ABOUT ============*/
 .about_intro {
-  background: rgba(212, 191, 198, 0.75);
+  background: rgba(212, 191, 198, 0.85);
   padding-top: 4rem;
   margin-bottom: 2rem; }
 
@@ -306,16 +317,16 @@ p, a {
   padding: 3.2em 1em; }
 
 .title {
-  padding-top: 110px;
-  font-size: 2rem;
+  padding: 190px 10px 0 35px;
+  font-size: 1.85rem;
   font-weight: 600;
-  line-height: 1em;
-  text-align: center; }
+  line-height: 1.25em; }
 
 .description {
   display: block;
-  font-size: 20px;
-  font-weight: 300; }
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.25em; }
 
 .title_links {
   text-align: center; }
@@ -473,6 +484,17 @@ footer p {
       margin-left: 35px; }
 
   /* Below is code for flexbox...still working this out - it's too buggy for now */
+  /*========== projects ==========*/
+  .project_statement li {
+    width: 50%;
+    float: left; }
+
+  .project_statement ul, .project_statement h2 {
+    clear: both; }
+
+  .sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
+    margin-bottom: 6rem; }
+
   /*========== journal ==========*/
   .post-list li {
     margin-bottom: 3em;
@@ -512,7 +534,7 @@ footer p {
   .sub_mama1, .sub_mama2, .sub_mama3, .sub_mama4 {
     clear: both;
     overflow: hidden;
-    margin-bottom: 5em; }
+    margin-bottom: 8em; }
 
   .project_bubble_right {
     float: right;
