@@ -30,7 +30,7 @@ body {
 .about_wrap {
     width: 90%;
     margin: 0 auto;
-    max-width: 760px;
+    max-width: 800px;
 }
 
 .post_wrap {
@@ -84,15 +84,15 @@ footer {
 .social_nav {
     overflow: hidden;
     padding-bottom: 4rem;
-        
+
         li {
             float: left;
             width: 100%;
             max-width: 35px;
             margin-right: 35px;
-    
+
             &:last-of-type {margin-right: 0;}
-    
+
             a{display: block;}
         }
 }
@@ -100,35 +100,6 @@ footer {
 .foot_nav {
     clear:both;
 }
-
-/* Below is code for flexbox...still working this out - it's too buggy for now */
-
-// .foot_mama {
-//   overflow: hidden;
-//   clear: both;
-//   padding: 5em 0;
-//   display: flex;
-//   flex-direction: column;
-//   max-width: 90%;
-//   margin-right: auto;
-//   margin-left: auto;
-// }
-
-// .social_nav {
-//     padding-bottom: 4em;
-
-//   ul {
-//     display: flex;
-//     justify-content: flex-start;
-//     li {
-//       flex: 0 0 35px;
-//       margin-right: 35px;
-//       &:last-of-type{
-//         margin-right: 0;
-//       }
-//     }
-//   }
-// }
 
 
 
@@ -264,7 +235,7 @@ footer {
 }
 
 .main_project_image {
-    margin: 1rem 0; 
+    margin: 1rem 0;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -290,7 +261,7 @@ footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
 
-    ul { 
+    ul {
 
         overflow: hidden;
         margin: 2rem 0 4rem 0;
@@ -319,7 +290,7 @@ footer {
 
 .about_intro {
     background: rgba(212,191,198,.85);
-    padding-top: 4rem;
+    padding: 3rem 0;
     margin-bottom: 2rem;
 }
 
@@ -345,7 +316,7 @@ footer {
     margin: 0 auto;
     max-width: 100%;
     padding-bottom: 2em;
-    
+
 }
 
 .spiceworld, .reports_web, .ads_emails, .events {
@@ -355,13 +326,3 @@ footer {
             margin-bottom: 1em;
         }
 }
-
-
-
-
-
-
-
-
-
-

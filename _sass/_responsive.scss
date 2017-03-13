@@ -38,25 +38,6 @@
         }
     }
 
-/* Below is code for flexbox...still working this out - it's too buggy for now */
-
-//   .foot_mama {
-//     flex-direction: row-reverse;
-//     justify-content: space-around;
-//   }
-
-//   .social_nav {
-//   ul {
-//     li {
-//       flex: 0 0 35px;
-//       margin-right: 35px;
-//       &:last-of-type{
-//         margin-right: 0;
-//       }
-//   }
-// }
-// }
-
 /*========== projects ==========*/
 
 .project_statement li {
@@ -86,25 +67,6 @@
     }
 
 /*========== about ==========*/
-
-.about_intro{
-    overflow: hidden;
-    clear: both;
-    padding-top: 3em;
-}
-
-.about_intro_text {
-    float: right;
-    width: 50%;
-    padding-top: 2em;
-}
-
-.about_image {
-    float: left;
-    width: 50%;
-}
-
-
 
 }
 
@@ -149,21 +111,6 @@
 .br_sub2, .fqf_sub2, .fqf_sub5, .gr_sub2, .sheroe_sub2, .abgb_sub2, .zen_sub2  {
     float: right;
     width: 50%;
-}
-
-/*========== journal ==========*/
-
-
-/*========== about ==========*/
-
-.about_intro_text {
-    padding-top: 3em;
-
-}
-
-.about_intro {
-    padding-top: 2em;
-
 }
 
 }
