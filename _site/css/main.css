@@ -48,8 +48,14 @@ table {
 /*Color Variables*/
 /*Type Variables*/
 /*=============== global ===============*/
-body img {
-  max-width: 100%; }
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: white;
+  background: linear-gradient(180deg, white 0%, #fff0f0 50%); }
+  body img {
+    max-width: 100%; }
 
 /*========== wrappers ==========*/
 .includes_wrap, .wrapper {
@@ -86,9 +92,8 @@ body img {
 
 /*========== footer ==========*/
 footer {
-  background-color: #5d5b5a;
-  overflow: hidden;
-  clear: both; }
+  background-color: black;
+  flex-shrink: 0; }
 
 .foot_mama {
   overflow: hidden;
@@ -181,7 +186,7 @@ footer {
   text-align: center; }
   .pagination a {
     text-decoration: none;
-    font-family: "neuzeit-grotesk", sans-serif; }
+    font-family: "Noto Serif", serif; }
 
 .post_mama {
   overflow: hidden;
@@ -206,7 +211,8 @@ footer {
 
 /*============ PROJECT ==============*/
 .port_mama, .project_mama {
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  flex: 1 0 auto; }
 
 .main_project_image {
   margin: 1rem 0;
@@ -250,9 +256,7 @@ footer {
 
 /*========== ABOUT ============*/
 .about_intro {
-  background: rgba(212, 191, 198, 0.85);
-  padding: 3rem 0;
-  margin-bottom: 2rem; }
+  padding: 3rem 0 0rem 1rem; }
 
 .about_mama p {
   margin: 2rem 0; }
@@ -278,8 +282,11 @@ footer {
     margin-bottom: 1em; }
 
 /*=====font families=====*/
-h1, h2, h3, h4, p, a, span, li {
-  font-family: "neuzeit-grotesk", sans-serif; }
+h1, h2, h3, h4 {
+  font-family: "Noto Serif", serif; }
+
+p, a, span, li {
+  font-family: "Noto Sans", sans-serif; }
 
 a, li {
   text-decoration: none;
@@ -296,7 +303,7 @@ h1 {
   font-weight: 900; }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 3rem;
   line-height: 1.25;
   font-weight: 900; }
 
@@ -306,7 +313,7 @@ h3 {
   font-weight: 600; }
 
 p, a {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 1.6; }
 
 .foot_mama p, .foot_mama a {
@@ -353,18 +360,18 @@ p, a {
 .post-link {
   font-weight: normal; }
 
-.about_intro_text a {
-  font-weight: 600; }
+.about_intro_text h2 {
+  margin-bottom: 1em; }
 
 /*General*/
 h1, h2, h3, h4, p, li {
-  color: #5d5b5a; }
+  color: black; }
 
 a, span {
-  color: #34a6ce; }
+  color: #e48c8c; }
 
 a:hover {
-  color: #5db8d8; }
+  color: #da6363; }
 
 /*Gettin' specific*/
 .navmama {
@@ -391,11 +398,6 @@ footer p {
 
 .post-meta {
   color: #5d5b5a; }
-
-.about_intro_text a {
-  color: #5d5b5a; }
-  .about_intro_text a:hover {
-    color: #848180; }
 
 .pagination a {
   color: #5d5b5a; }
@@ -431,7 +433,7 @@ footer p {
   max-height: 9999px; }
 
 .nav-toggle {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;

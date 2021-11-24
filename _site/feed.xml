@@ -3,40 +3,40 @@
   <channel>
     <title>Dawn Delatte</title>
     <description></description>
-    <link>dawndelatte.github.io/</link>
-    <atom:link href="dawndelatte.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Mar 2017 19:45:47 -0500</pubDate>
-    <lastBuildDate>Sun, 12 Mar 2017 19:45:47 -0500</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 23 Nov 2021 22:18:33 -0600</pubDate>
+    <lastBuildDate>Tue, 23 Nov 2021 22:18:33 -0600</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Lion Mind</title>
         <description>&lt;h3 id=&quot;big-picturing&quot;&gt;Big Picturing.&lt;/h3&gt;
 
-&lt;p&gt;A lot of things have happened in the last year. I mean, I guess everyone can say that right? But I’m not going to list off all of my experiences and the things I’ve learned. Nope, not in this post. In this post, I’m going to share a story I heard today. It’s a short one, but it’s great.  &lt;/p&gt;
+&lt;p&gt;A lot of things have happened in the last year. I mean, I guess everyone can say that right? But I’m not going to list off all of my experiences and the things I’ve learned. Nope, not in this post. In this post, I’m going to share a story I heard today. It’s a short one, but it’s great.&lt;/p&gt;
 
 &lt;p&gt;So, imagine there’s a dog sitting in front of you. You’ve got a bone, and you’re waiving it around. Naturally, the dog can’t take his eye’s off of this bone. He/She follows it closely, and when you throw the bone across the room, the dog quickly runs for it. So far so good?&lt;/p&gt;
 
 &lt;p&gt;Ok, now imagine there’s a big lion in front of you. There you are, with the bone, waiving it around. But the lion isn’t interested in the bone. The lion has his eyes on you (big bag of bones, basically). So you throw the bone, and the lion looks at it, but he brings his attention right back to you…&lt;/p&gt;
 
-&lt;p&gt;Now here’s &lt;strike&gt;the&lt;/strike&gt; a metaphor… The dog runs after every bone, every little thing, every little distraction. The lion may notice the bone, but he keeps his eyes on the human, &lt;em&gt;the big picture&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;Now here’s &lt;strike&gt;the&lt;/strike&gt; a metaphor… The dog runs after every bone, every little thing, every little distraction. The lion may notice the bone, but he keeps his eyes on the human, &lt;em&gt;the big picture&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Workin’ on that lion mind. &lt;/p&gt;
+&lt;p&gt;Workin’ on that lion mind.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../journal_assets/lion_mind.jpg&quot; alt=&quot;computer and post it notes&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;And there’s my collection of post-it reminders and insights from throughout the day. Here’s a little story behind the story. I use this app called &lt;a href=&quot;http://stopbreathethink.org/&quot;&gt;Stop, Breath &amp;amp; Think&lt;/a&gt;. They recently updated some features and added a few new experiences. That’s where I heard the lion mind vs. dog mind story and I highly recommend it.  &lt;/p&gt;
+&lt;p&gt;And there’s my collection of post-it reminders and insights from throughout the day. Here’s a little story behind the story. I use this app called &lt;a href=&quot;http://stopbreathethink.org/&quot;&gt;Stop, Breath &amp;amp; Think&lt;/a&gt;. They recently updated some features and added a few new experiences. That’s where I heard the lion mind vs. dog mind story and I highly recommend it.&lt;/p&gt;
 
-&lt;p&gt;From a design perspective, I think it has great UI and usability, which is one of the things that drew me to the app in the first place. &lt;/p&gt;
+&lt;p&gt;From a design perspective, I think it has great UI and usability, which is one of the things that drew me to the app in the first place.&lt;/p&gt;
 
-&lt;p&gt;From a human perspective, it is an incredible (simple) tool that I can use at any point in my day or week to help me relax, clear my mind, and focus on my goals or gain new perspectives. &lt;/p&gt;
+&lt;p&gt;From a human perspective, it is an incredible (simple) tool that I can use at any point in my day or week to help me relax, clear my mind, and focus on my goals or gain new perspectives.&lt;/p&gt;
 
-&lt;p&gt;Here’s to more of that! And more writing. &lt;/p&gt;
+&lt;p&gt;Here’s to more of that! And more writing.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 26 Apr 2016 00:00:00 -0500</pubDate>
-        <link>dawndelatte.github.io/lion_mind/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/lion_mind/</guid>
+        <link>http://localhost:4000/lion_mind/</link>
+        <guid isPermaLink="true">http://localhost:4000/lion_mind/</guid>
         
         <category>design,</category>
         
@@ -47,7 +47,7 @@
     
       <item>
         <title>Bagel is french for Bagel</title>
-        <description>&lt;p&gt;I was trying to come up with a clever title for this entry, but it turns out bagel in French…is just “bagel”. &lt;/p&gt;
+        <description>&lt;p&gt;I was trying to come up with a clever title for this entry, but it turns out bagel in French…is just “bagel”.&lt;/p&gt;
 
 &lt;p&gt;In the weeks after graduating from The Iron Yard, life has been full of peaks and valleys, sharpening of skills, shameless self-promotion, and a couple of awesome freelance opportunities. I had the pleasure of working with &lt;a href=&quot;http://jrocca.com/&quot;&gt;Joe&lt;/a&gt;, a graduating Mobile Engineering student in Orlando, on his final project for TIY. He built a game called “Bagel Runner” in which a little toaster has to dodge a bunch of bagels hurdling toward him. I contributed the toaster, bagels, background, and main page/logo illustrations for the game. This project was as much fun to work on as it is to play. You can check out the App Store link and more about the process &lt;a href=&quot;http://dawndelatte.com/portfolio/bagelrunner.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -56,11 +56,11 @@
 
 &lt;p&gt;I’ve been thinking about doing a bit of a redesign for my site. Adding more &lt;span class=&quot;em&quot;&gt;jeuje&lt;/span&gt;, as one might say. I find myself sitting up in bed, much to late, drooling over the sites on &lt;a href=&quot;http://www.awwwards.com/&quot;&gt;awwwards.com&lt;/a&gt;. Recently I came across &lt;a href=&quot;http://jardins-poudriere.ch/points-forts-promotion-orbe/&quot;&gt;jardins-poudriere&lt;/a&gt;, a French website for a luxury property development project. I’ll give you a moment to soak that in…&lt;/p&gt;
 
-&lt;p&gt;I have an entire bookmarks folder filled with visually stunning and playfully interactive sites like &lt;a href=&quot;http://residence-mixte.com/&quot;&gt;this&lt;/a&gt;, that I still visit after months of discovering. Ooo la la, I can’t wait to dive in and see how everything I’m learning will transform the design. Stay tuned! &lt;/p&gt;
+&lt;p&gt;I have an entire bookmarks folder filled with visually stunning and playfully interactive sites like &lt;a href=&quot;http://residence-mixte.com/&quot;&gt;this&lt;/a&gt;, that I still visit after months of discovering. Ooo la la, I can’t wait to dive in and see how everything I’m learning will transform the design. Stay tuned!&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
-        <link>dawndelatte.github.io/bagel/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/bagel/</guid>
+        <link>http://localhost:4000/bagel/</link>
+        <guid isPermaLink="true">http://localhost:4000/bagel/</guid>
         
         <category>tiy,</category>
         
@@ -85,7 +85,7 @@
         <title>The Iron Yard Experience</title>
         <description>&lt;h3 id=&quot;i-made-it&quot;&gt;I made it.&lt;/h3&gt;
 
-&lt;p&gt;It’s all over, but it’s only just the beginning. 3 months ago I quit my job and walked into The Iron Yard, with some art and design fundamentals under my belt from college, but very little knowledge of code. There are so many things I learned from my experience at The Iron Yard. I mean, there are all the &lt;a href=&quot;http://dawndelatte.com/about.html&quot;&gt;skills I gained&lt;/a&gt;, but beyond that… so much I learned about myself and my ability to move through really difficult problems in code, design, and self-assessment. I also learned about the importance of vulnerability and collaboration. Willingness to open up and talk to my teachers and peers when I was stuck or unsure was a huge part of my growth. I felt wide-eyed and full of wonder there, watching so many people learn and grow and build amazing, beautiful apps and websites. It was magic. 3 months ago, I didn’t know a thing compared to what I know now. I can design and build a fully functional website, in a surprisingly short amount of time! I can do that. And 3 months from now, I will be able to do so much more. And 3 months after THAT…you get the point. It’s hard to find all the words and things to say when reflecting on an experience like this. So I’ll just show a few pictures for now.  &lt;/p&gt;
+&lt;p&gt;It’s all over, but it’s only just the beginning. 3 months ago I quit my job and walked into The Iron Yard, with some art and design fundamentals under my belt from college, but very little knowledge of code. There are so many things I learned from my experience at The Iron Yard. I mean, there are all the &lt;a href=&quot;http://dawndelatte.com/about.html&quot;&gt;skills I gained&lt;/a&gt;, but beyond that… so much I learned about myself and my ability to move through really difficult problems in code, design, and self-assessment. I also learned about the importance of vulnerability and collaboration. Willingness to open up and talk to my teachers and peers when I was stuck or unsure was a huge part of my growth. I felt wide-eyed and full of wonder there, watching so many people learn and grow and build amazing, beautiful apps and websites. It was magic. 3 months ago, I didn’t know a thing compared to what I know now. I can design and build a fully functional website, in a surprisingly short amount of time! I can do that. And 3 months from now, I will be able to do so much more. And 3 months after THAT…you get the point. It’s hard to find all the words and things to say when reflecting on an experience like this. So I’ll just show a few pictures for now.&lt;/p&gt;
 
 &lt;p&gt;Some really great achievements right here. My certificate from TIY, “Best App” medal for &lt;a href=&quot;http://dawndelatte.com/portfolio/tiy_hackathon.html&quot;&gt;this group project&lt;/a&gt;, first-day-of-school letter from my husband, and my “most likely to break out into a rap song” trophy.&lt;/p&gt;
 
@@ -95,7 +95,7 @@
 
 &lt;p&gt;&lt;img src=&quot;../journal_assets/postits.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This was Jesse’s first time to ride the big city bus, headed downtown to our field trip at &lt;a href=&quot;http://www.razorfish.com/&quot;&gt;Razorfish&lt;/a&gt;. She was elated, as you can see. &lt;/p&gt;
+&lt;p&gt;This was Jesse’s first time to ride the big city bus, headed downtown to our field trip at &lt;a href=&quot;http://www.razorfish.com/&quot;&gt;Razorfish&lt;/a&gt;. She was elated, as you can see.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../journal_assets/jesse_bus.jpg&quot; /&gt;&lt;/p&gt;
 
@@ -129,8 +129,8 @@
 
 </description>
         <pubDate>Mon, 27 Apr 2015 00:00:00 -0500</pubDate>
-        <link>dawndelatte.github.io/tiy_experience/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/tiy_experience/</guid>
+        <link>http://localhost:4000/tiy_experience/</link>
+        <guid isPermaLink="true">http://localhost:4000/tiy_experience/</guid>
         
         <category>tiy,</category>
         
@@ -151,9 +151,9 @@
         <title>Two Things</title>
         <description>&lt;h3 id=&quot;one&quot;&gt;One.&lt;/h3&gt;
 
-&lt;p&gt;Today was demo-day for the Front End Engineering and Ruby on Rails classes at The Iron Yard. It has been a weird week leading up to it. Everyone has been hustling to get projects finished and teachers were busy takin’ care of business, but it all came together today and it was great. I cannot believe 12 weeks has gone by already for them. We were all babies in the beginning of the year and I am so impressed at what they can do now. So. damn. impressed. &lt;/p&gt;
+&lt;p&gt;Today was demo-day for the Front End Engineering and Ruby on Rails classes at The Iron Yard. It has been a weird week leading up to it. Everyone has been hustling to get projects finished and teachers were busy takin’ care of business, but it all came together today and it was great. I cannot believe 12 weeks has gone by already for them. We were all babies in the beginning of the year and I am so impressed at what they can do now. So. damn. impressed.&lt;/p&gt;
 
-&lt;p&gt;Seeing those two classes working together and getting their apps working AND looking beautiful was amazing. Being there while they shared all of their anxieties about graduation and demo day was a little terrifying but I’ve gained some perspective and I’m looking forward to that experience myself. &lt;/p&gt;
+&lt;p&gt;Seeing those two classes working together and getting their apps working AND looking beautiful was amazing. Being there while they shared all of their anxieties about graduation and demo day was a little terrifying but I’ve gained some perspective and I’m looking forward to that experience myself.&lt;/p&gt;
 
 &lt;p&gt;We also got some really great advice from &lt;a href=&quot;http://jasonweaver.name/blog/talking-to-industry-students&quot;&gt;Jason Weaver&lt;/a&gt; on work-life balance, always challenging yourself, and never selling yourself short. I’m thankful to be amongst such great developers and designers.&lt;/p&gt;
 
@@ -161,16 +161,16 @@
 
 &lt;h3 id=&quot;two&quot;&gt;Two.&lt;/h3&gt;
 
-&lt;p&gt;This week’s project—GoodReads web app redesign. Holy Moly this has been a tedious project. After a lot of research and feedback from other users, I opened up Photoshop to create my Style Tiles/Element Collages/Comps and haven’t closed it since. Three days of &lt;a href=&quot;http://cdn.ustwo.com/PPP/PP3.pdf&quot;&gt;Pixel Perfect Precision&lt;/a&gt; and I’m still going. It’s been a pain staking process, but surprising enjoyable (and enlightening). &lt;/p&gt;
+&lt;p&gt;This week’s project—GoodReads web app redesign. Holy Moly this has been a tedious project. After a lot of research and feedback from other users, I opened up Photoshop to create my Style Tiles/Element Collages/Comps and haven’t closed it since. Three days of &lt;a href=&quot;http://cdn.ustwo.com/PPP/PP3.pdf&quot;&gt;Pixel Perfect Precision&lt;/a&gt; and I’m still going. It’s been a pain staking process, but surprising enjoyable (and enlightening).&lt;/p&gt;
 
-&lt;p&gt;But Oh the glory of being able to listen to music and podcasts while working again. I was never able to do that while coding. Next up—getting all my stuff portfolio-ready over the weekend, so stay tuned! &lt;/p&gt;
+&lt;p&gt;But Oh the glory of being able to listen to music and podcasts while working again. I was never able to do that while coding. Next up—getting all my stuff portfolio-ready over the weekend, so stay tuned!&lt;/p&gt;
 
-&lt;p&gt;It’s crunch time y’all. &lt;/p&gt;
+&lt;p&gt;It’s crunch time y’all.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 27 Mar 2015 00:00:00 -0500</pubDate>
-        <link>dawndelatte.github.io/twothings/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/twothings/</guid>
+        <link>http://localhost:4000/twothings/</link>
+        <guid isPermaLink="true">http://localhost:4000/twothings/</guid>
         
         <category>tiy,</category>
         
@@ -219,11 +219,11 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
 
 &lt;p&gt;A fantastic bonus about this process was the fact that I was able to listen to music while working. I haven’t been able to do that since a lot of my work has been reading and coding. Music is good for the soul.&lt;/p&gt;
 
-&lt;p&gt;I’m so excited to start using Illustrator and see what these sketches can really do. &lt;/p&gt;
+&lt;p&gt;I’m so excited to start using Illustrator and see what these sketches can really do.&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 Mar 2015 08:03:47 -0500</pubDate>
-        <link>dawndelatte.github.io/morphological/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/morphological/</guid>
+        <link>http://localhost:4000/morphological/</link>
+        <guid isPermaLink="true">http://localhost:4000/morphological/</guid>
         
         <category>tiy,</category>
         
@@ -240,16 +240,16 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
         <title>Typography 201</title>
         <description>&lt;h3 id=&quot;typography-201&quot;&gt;Typography 201&lt;/h3&gt;
 
-&lt;p&gt;This weekend we dove into using &lt;a href=&quot;http://typecast.com&quot;&gt;typecast&lt;/a&gt; to make some type specimens for an upcomming restuarant redesign project. I know I’m supposed to like it, but I’ve been so incredibly frustrated with it. I wanted so badly to layout some divs for my text so that I could get a good idea of how it will actaully look on the page. But that proved to be nearly impossible for me. I decided to leave positioning behind and refocus on the type and colors (which is what I was supposed to be doing anyway). Of course, once I was done with all 10 projects, typecast decided to delete one of them mid-save and I had to start over on it. But I prevailed! I hope. &lt;/p&gt;
+&lt;p&gt;This weekend we dove into using &lt;a href=&quot;http://typecast.com&quot;&gt;typecast&lt;/a&gt; to make some type specimens for an upcomming restuarant redesign project. I know I’m supposed to like it, but I’ve been so incredibly frustrated with it. I wanted so badly to layout some divs for my text so that I could get a good idea of how it will actaully look on the page. But that proved to be nearly impossible for me. I decided to leave positioning behind and refocus on the type and colors (which is what I was supposed to be doing anyway). Of course, once I was done with all 10 projects, typecast decided to delete one of them mid-save and I had to start over on it. But I prevailed! I hope.&lt;/p&gt;
 
-&lt;p&gt;I chose to redesign &lt;a href=&quot;http://www.theabgb.com&quot;&gt;Austin Beer Garden Brewery&lt;/a&gt; website. I started by making a list of words, phrases, and memories from my experiences there, as well as asking a couple of other people I know who frequent ABGB. I even worked up the nerve to email ABGB for some input! (Still waiting to hear back..) From there, I chose some key words and concepts and decided on some typeface and colors I thought would represent them. &lt;/p&gt;
+&lt;p&gt;I chose to redesign &lt;a href=&quot;http://www.theabgb.com&quot;&gt;Austin Beer Garden Brewery&lt;/a&gt; website. I started by making a list of words, phrases, and memories from my experiences there, as well as asking a couple of other people I know who frequent ABGB. I even worked up the nerve to email ABGB for some input! (Still waiting to hear back..) From there, I chose some key words and concepts and decided on some typeface and colors I thought would represent them.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/journal_assets/type201.JPG&quot; /&gt;
 &lt;img src=&quot;/journal_assets/type201-2.JPG&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I used the content from ABGB’s beer + food page and made a basic layout with h1-h3, p, a, and a few menu items to see how the font’s would look and feel next to each other. Once I got my typefaces down, I added a photo or two that represented a bit of the color theme I had decided on. I chose a few different elements to use the background colors on, as I don’t know exactly how they’ll fit into the layout quiet yet. &lt;/p&gt;
+&lt;p&gt;I used the content from ABGB’s beer + food page and made a basic layout with h1-h3, p, a, and a few menu items to see how the font’s would look and feel next to each other. Once I got my typefaces down, I added a photo or two that represented a bit of the color theme I had decided on. I chose a few different elements to use the background colors on, as I don’t know exactly how they’ll fit into the layout quiet yet.&lt;/p&gt;
 
-&lt;p&gt;These are rough drafts and although I’m a little anxious about sharing, I know it’s important — and also required! Some of the type and color themes are repeating throughout the 10 specimens but in no particular order. I tried to label each one with an indicator of what the inspiration basis was (food, community, or beer for instance). &lt;/p&gt;
+&lt;p&gt;These are rough drafts and although I’m a little anxious about sharing, I know it’s important — and also required! Some of the type and color themes are repeating throughout the 10 specimens but in no particular order. I tried to label each one with an indicator of what the inspiration basis was (food, community, or beer for instance).&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://typecast.com/3XPBgVFYVz/share/e19e5d063ae4aa66bbf80d77428d4baa0ad98bead&quot;&gt;abgb one&lt;/a&gt;&lt;/p&gt;
 
@@ -275,8 +275,8 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
 
 </description>
         <pubDate>Sun, 22 Feb 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/typography201/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/typography201/</guid>
+        <link>http://localhost:4000/typography201/</link>
+        <guid isPermaLink="true">http://localhost:4000/typography201/</guid>
         
         <category>tiy,</category>
         
@@ -294,9 +294,9 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
         <description>&lt;h3 id=&quot;negative-space&quot;&gt;Negative Space.&lt;/h3&gt;
 
 &lt;p&gt;I’ve missed hearing those words. So much can be said about negative space, in art, in music, in typography.
-“Positive” and “negative” space are equally important when creating or choosing a typeface. I could eat this stuff up all day. Good thing Sam is a little obsessed with it and doesn’t shy away from talking typography and design theory in general. &lt;/p&gt;
+“Positive” and “negative” space are equally important when creating or choosing a typeface. I could eat this stuff up all day. Good thing Sam is a little obsessed with it and doesn’t shy away from talking typography and design theory in general.&lt;/p&gt;
 
-&lt;p&gt;We were given an assignment to read through &lt;a href=&quot;http://www.designishistory.com/&quot;&gt;Design in History&lt;/a&gt; (&lt;em&gt;bookmarked!&lt;/em&gt;) and come up with simple CodePens exploring google fonts and talking about things that inspired us about this site and these facilitators of great design. &lt;/p&gt;
+&lt;p&gt;We were given an assignment to read through &lt;a href=&quot;http://www.designishistory.com/&quot;&gt;Design in History&lt;/a&gt; (&lt;em&gt;bookmarked!&lt;/em&gt;) and come up with simple CodePens exploring google fonts and talking about things that inspired us about this site and these facilitators of great design.&lt;/p&gt;
 
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;dPmgYb&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/dPmgYb/&quot;&gt;Exploring Typography&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
@@ -317,8 +317,8 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
 
 </description>
         <pubDate>Thu, 19 Feb 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/typography101/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/typography101/</guid>
+        <link>http://localhost:4000/typography101/</link>
+        <guid isPermaLink="true">http://localhost:4000/typography101/</guid>
         
         <category>tiy,</category>
         
@@ -335,27 +335,27 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
         <title>You are Here</title>
         <description>&lt;h3 id=&quot;week-four&quot;&gt;Week. Four.&lt;/h3&gt;
 
-&lt;p&gt;I’m having &lt;strong&gt;all the feelings&lt;/strong&gt;. I’ve been coding and coding, and sketching, and reading, and refactoring, and repositioning, and rethinking, and re… everything. Truthfully, when we are assigned a coding project, my initial reaction is &lt;em&gt;overwhelmed&lt;/em&gt; and a little &lt;em&gt;confused&lt;/em&gt;. And then things slooowwwwly start to happen on the page, and confidence is regained, and eventually the assignment is complete. It’s a total rollercoaster, but I love it. It’s really important for me to refocus and stay positive.  &lt;/p&gt;
+&lt;p&gt;I’m having &lt;strong&gt;all the feelings&lt;/strong&gt;. I’ve been coding and coding, and sketching, and reading, and refactoring, and repositioning, and rethinking, and re… everything. Truthfully, when we are assigned a coding project, my initial reaction is &lt;em&gt;overwhelmed&lt;/em&gt; and a little &lt;em&gt;confused&lt;/em&gt;. And then things slooowwwwly start to happen on the page, and confidence is regained, and eventually the assignment is complete. It’s a total rollercoaster, but I love it. It’s really important for me to refocus and stay positive.&lt;/p&gt;
 
-&lt;p&gt;We responsified (not a word) Surf &amp;amp; Paddle.. Again, &lt;strong&gt;all the feelings&lt;/strong&gt;. “Retrofitting” a site I had done weeks earlier on a PIXEL PERFECT map… I mean?! There was a lot of absolute positions, amoung a multitude of other css I had to scrap. But that’s ok. &lt;/p&gt;
+&lt;p&gt;We responsified (not a word) Surf &amp;amp; Paddle.. Again, &lt;strong&gt;all the feelings&lt;/strong&gt;. “Retrofitting” a site I had done weeks earlier on a PIXEL PERFECT map… I mean?! There was a lot of absolute positions, amoung a multitude of other css I had to scrap. But that’s ok.&lt;/p&gt;
 
-&lt;p&gt;We are talking design now. I feel like Sam &lt;em&gt;retrofit&lt;/em&gt; me back into art school. From critiques to design philosophy, I’m starting to feel like all this coding, all this cramming, and all this left brain action is taking form. They have meaning and purpose when I shift into a design perspective/mindset. &lt;/p&gt;
+&lt;p&gt;We are talking design now. I feel like Sam &lt;em&gt;retrofit&lt;/em&gt; me back into art school. From critiques to design philosophy, I’m starting to feel like all this coding, all this cramming, and all this left brain action is taking form. They have meaning and purpose when I shift into a design perspective/mindset.&lt;/p&gt;
 
-&lt;p&gt;I want to make sure I get this stuff. I want to keep practicing the code and find ways to wrap my mind around positioning content, because that’s been the hardest part for me. This is why I love CodePen. It’s like a sketchbook for code. It’s amazing! All of my pens are simple and even ugly, but they help. Here’s one I did today while working on using my &lt;a href=&quot;dawndelatte.github.io/grids/&quot;&gt;grid formula&lt;/a&gt; with media queries. &lt;/p&gt;
+&lt;p&gt;I want to make sure I get this stuff. I want to keep practicing the code and find ways to wrap my mind around positioning content, because that’s been the hardest part for me. This is why I love CodePen. It’s like a sketchbook for code. It’s amazing! All of my pens are simple and even ugly, but they help. Here’s one I did today while working on using my &lt;a href=&quot;dawndelatte.github.io/grids/&quot;&gt;grid formula&lt;/a&gt; with media queries.&lt;/p&gt;
 
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;12242&quot; data-slug-hash=&quot;GgxExX&quot; data-default-tab=&quot;result&quot; data-user=&quot;dawndelatte&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/dawndelatte/pen/GgxExX/&quot;&gt;RWD + Grids&lt;/a&gt; by Dawn Delatte (&lt;a href=&quot;http://codepen.io/dawndelatte&quot;&gt;@dawndelatte&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;-Edit in CodePen to see the responsiveness at work-&lt;/p&gt;
 
-&lt;p&gt;It was not as complicated as I was making it out to be in my mind. Math does that to me.. I just waited to introduce the grid formula until the largest media query, and thouhgt about my small and medium queries in percentages and bigger columns. Not everything has to fit into an elaborate grid to maintain consistancy, it’s just a guide that helps when simple percentages (like dividing the site into 2s or 3s) can’t! &lt;/p&gt;
+&lt;p&gt;It was not as complicated as I was making it out to be in my mind. Math does that to me.. I just waited to introduce the grid formula until the largest media query, and thouhgt about my small and medium queries in percentages and bigger columns. Not everything has to fit into an elaborate grid to maintain consistancy, it’s just a guide that helps when simple percentages (like dividing the site into 2s or 3s) can’t!&lt;/p&gt;
 
 &lt;p&gt;And as a sort of sign-off I’ll leave you with this…. “If you like it then you should have put a grid on it” - BeyonCSS&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 18 Feb 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/you_are_here/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/you_are_here/</guid>
+        <link>http://localhost:4000/you_are_here/</link>
+        <guid isPermaLink="true">http://localhost:4000/you_are_here/</guid>
         
         <category>tiy,</category>
         
@@ -405,8 +405,8 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
 &lt;p&gt;Looks like plain ole’ primary color boxes I know.. but for me learning RWD is a whole new great big world. I’m looking foward to diving in and becoming a responsible-responsive-designer.&lt;/p&gt;
 </description>
         <pubDate>Sun, 15 Feb 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/rwd/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/rwd/</guid>
+        <link>http://localhost:4000/rwd/</link>
+        <guid isPermaLink="true">http://localhost:4000/rwd/</guid>
         
         <category>tiy,</category>
         
@@ -438,14 +438,14 @@ Just kidding, you don’t have a choice. Welcome to the morphological matrix…&
 &lt;img src=&quot;/journal_assets/grid2.jpg&quot; /&gt;
 &lt;img src=&quot;/journal_assets/grid3.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I started “coloring outside the lines” if you will. I wouldn’t say I’m a perfectionist by any stretch of the imagination but this was &lt;strong&gt;hard&lt;/strong&gt;. What should have taken about 2 hours, took me 6 and it was the first time I was rushing to “complete” an assignment minutes before class started. Commiting to &lt;em&gt;those&lt;/em&gt; lines with &lt;em&gt;that&lt;/em&gt; pen made html look like strawberry cupcakes. &lt;/p&gt;
+&lt;p&gt;I started “coloring outside the lines” if you will. I wouldn’t say I’m a perfectionist by any stretch of the imagination but this was &lt;strong&gt;hard&lt;/strong&gt;. What should have taken about 2 hours, took me 6 and it was the first time I was rushing to “complete” an assignment minutes before class started. Commiting to &lt;em&gt;those&lt;/em&gt; lines with &lt;em&gt;that&lt;/em&gt; pen made html look like strawberry cupcakes.&lt;/p&gt;
 
-&lt;p&gt;Mmmm cupcakes. &lt;/p&gt;
+&lt;p&gt;Mmmm cupcakes.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 11 Feb 2015 07:03:47 -0600</pubDate>
-        <link>dawndelatte.github.io/grids/</link>
-        <guid isPermaLink="true">dawndelatte.github.io/grids/</guid>
+        <link>http://localhost:4000/grids/</link>
+        <guid isPermaLink="true">http://localhost:4000/grids/</guid>
         
         <category>tiy,</category>
         

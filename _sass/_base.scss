@@ -8,11 +8,16 @@ $dk_text: rgb(93, 91, 90);
 
 /*Type Variables*/
 
-$primary: "neuzeit-grotesk", sans-serif;
+$primary: 'Noto Serif', serif;
+$secondary: 'Noto Sans', sans-serif;
 
 /*=============== global ===============*/
 body {
-
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,240,240,1) 50%);
 
     img {
         max-width: 100%;
@@ -69,10 +74,8 @@ body {
 /*========== footer ==========*/
 
 footer {
-    background-color: #5d5b5a;
-    overflow: hidden;
-    clear: both;
-    // margin-top: 5rem;
+    background-color: black;
+    flex-shrink: 0;
 }
 
 .foot_mama {
@@ -232,6 +235,7 @@ footer {
 
 .port_mama, .project_mama {
     margin-bottom: 5rem;
+    flex: 1 0 auto;
 }
 
 .main_project_image {

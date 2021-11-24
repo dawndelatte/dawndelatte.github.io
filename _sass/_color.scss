@@ -10,14 +10,14 @@
 /*General*/
 
 h1, h2, h3, h4, p, li {
-	color: $dk_text;
+	color: black;
 }
 
 a, span {
-	color: $text_highlight;
+	color: rgb(228, 140, 140);
 }
 
-a:hover {color: lighten($text_highlight, 10%);}
+a:hover {color: darken(rgb(228, 140, 140), 10%);}
 
 
 
@@ -32,7 +32,7 @@ a:hover {color: lighten($text_highlight, 10%);}
 	}
 }
 
-footer{ 
+footer{
 
 	p {color: $lt_text;}
 }
@@ -52,16 +52,12 @@ footer{
 
 .post-meta { color: $dk_text;}
 
-.about_intro_text a {
-	color: $dk_text;
-
-	&:hover {
-		color: lighten($dk_text, 15%);
-	}
-}
+// .about_intro_text a {
+// 	color: $dk_text;
+//
+// 	&:hover {
+// 		color: lighten($dk_text, 15%);
+// 	}
+// }
 
 .pagination a {color: $dk_text;}
-
-
-
-
